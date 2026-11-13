@@ -25,7 +25,7 @@ from . import config
 
 log = logging.getLogger(__name__)
 
-RENDER_VERSION = "html-1"   # bump when the layout changes so existing PDFs are re-rendered
+RENDER_VERSION = "html-4"   # bump when the layout changes so existing PDFs are re-rendered
 FONT_FILES = {
     ("Bricolage Grotesque", 400, "normal"): "BricolageGrotesque-Regular.ttf",
     ("Bricolage Grotesque", 600, "normal"): "BricolageGrotesque-SemiBold.ttf",
@@ -140,7 +140,7 @@ def _cover(issue: dict) -> str:
     note = ('<p class="note">Built from source archives when the service started, so news-outlet coverage is '
             'thinner than in later editions.</p>' if issue.get("backfilled") else "")
     return f'''
-<section class="page cover">
+<section class="page cover"><div class="body">
   <header class="mast">
     <div><div class="brand">Gen <span>AI</span> Pulse</div><div class="brand-sub">AIT GLOBAL <em>/</em> AI TECHNOLOGY BRIEFING</div></div>
     <div class="mast-r"><div class="badge">ISSUE #{issue.get("issue_no", 1)} <em>/</em> {e(issue["title"].upper())}</div>
@@ -159,7 +159,7 @@ def _cover(issue: dict) -> str:
       <li><a href="#top"><b style="background:#5B3DF5">&#9733;</b>Top stories</a></li>{toc}
       <li><a href="#trends"><b style="background:#0F1A3A">&#8599;</b>Trends and sources</a></li></ol></aside>
   </div>
-  <div class="kpis">{kpis}</div>
+  <div class="kpis">{kpis}</div></div>
   {_footer(f"{kind.upper()} EDITION / {issue['title'].upper()}")}
 </section>'''
 
@@ -175,14 +175,14 @@ def _top_page(issue: dict, page: int) -> str:
       <div class="dev-foot">{_tags(a)}</div></div></article>''' for a in tops[1:5])
     return f'''
 <section class="page" id="top">
-  {_header(page)}
+  {_header(page)}<div class="body">
   {_banner("THE BIG PICTURE", "Top stories", "The most significant technology developments, ranked by source authority, independent coverage and real-world availability.", "#5B3DF5", "★")}
   <article class="feature glass" style="--c:{_cat(f["cats"][0])["color"]}">{_thumb(f, "feat-img")}
     <div class="feat-body"><span class="chip">{e(_cat(f["cats"][0])["name"])}</span>
       <h3><a href="{e(f["url"])}">{e(f["title"])}</a></h3>
       <div class="meta">{e(_src(f["source"]))}, {_d(f["date"])}</div><p>{e(f.get("summary", ""))}</p>
       <div class="dev-foot">{_tags(f)}</div>{_also(f)}</div></article>
-  <div class="ts-grid">{rest}</div>
+  <div class="ts-grid">{rest}</div></div>
   {_footer("TOP STORIES")}
 </section>'''
 
@@ -203,12 +203,10 @@ def _chapter_page(ch: dict, page: int, unit: str) -> str:
                  f'<p class="box-sub">Nothing in this chapter is generally available yet. These are worth tracking.</p>'
                  f'<ul class="more">{more}</ul></div>')
     actions = "".join(f"<li>{e(x)}</li>" for x in ch["actions"])
-    lead_summary = ch["items"][0].get("summary", "") if ch["items"] else ""
     return f'''
 <section class="page" id="ch-{ch["number"]}">
-  {_header(page)}
+  {_header(page)}<div class="body">
   {_banner(f"CHAPTER {ch['number']:02d} / {ch['name'].upper()}", ch["kicker"], ch["intro"], ch["color"], f"{ch['number']:02d}")}
-  <p class="lede" style="--c:{ch["color"]}">{e(lead_summary)}</p>
   <div class="dev-grid">{"".join(_dev_card(a) for a in ch["items"])}</div>
   <div class="boxes">
     <div class="box glass"><div class="box-h" style="--c:{ch["color"]}">QUICK STATS <em>/</em> THIS {unit.upper()}</div>
@@ -216,7 +214,7 @@ def _chapter_page(ch: dict, page: int, unit: str) -> str:
     {ready_box}
   </div>
   <div class="callout"><div class="ico">&#10148;</div><div><h4>WHAT THIS MEANS FOR AIT GLOBAL</h4>
-    <p>{e(ch["advice"])}</p>{f"<ul>{actions}</ul>" if actions else ""}</div></div>
+    <p>{e(ch["advice"])}</p>{f"<ul>{actions}</ul>" if actions else ""}</div></div></div>
   {_footer(f"CHAPTER {ch['number']:02d} / {ch['kicker'].upper()}")}
 </section>'''
 
@@ -234,15 +232,16 @@ def _trends_page(issue: dict, page: int) -> str:
         f'<b>{100 * c["count"] / total:.0f}%</b></div>' for c in issue["category_share"])
     months = ""
     if issue.get("months"):
-        mm = max(m["stories"] for m in issue["months"]) or 1
-        months = ('<div class="box glass"><div class="box-h">STORIES BY MONTH</div><div class="months">' +
-                  "".join(f'<div><i style="height:{80 * m["stories"] / mm:.0f}px"></i><b>{m["stories"]}</b>'
-                          f'<span>{e(m["label"])}</span></div>' for m in issue["months"]) + "</div></div>")
+        cols = "".join(
+            f'<div class="mcol"><div class="mhead"><b>{e(m["label"])}</b><span>{m["stories"]} stories</span></div><ol>' +
+            "".join(f'<li><a href="{e(a["url"])}">{e(a["title"])}</a><span>{e(_src(a["source"]))}</span></li>'
+                    for a in m.get("highlights", [])) + "</ol></div>" for m in issue["months"])
+        months = f'<div class="box glass"><div class="box-h">MONTH BY MONTH</div><div class="mgrid">{cols}</div></div>' 
     srcs = "".join(f'<li><a href="{e(config.SOURCE_BY_ID[s["id"]]["home"])}">{e(s["name"])}</a>'
                    f'<span>{e(config.TIERS[s["tier"]]["label"])}</span><b>{s["count"]}</b></li>' for s in issue["sources"][:26])
     return f'''
 <section class="page" id="trends">
-  {_header(page)}
+  {_header(page)}<div class="body">
   {_banner("SIGNALS", "Trends and sources", "What the coverage was about, what changed against the previous period, and where this edition comes from.", "#0F1A3A", "↗")}
   <div class="trend-grid">
     <div class="box glass"><div class="box-h">MOST DISCUSSED TOPICS</div>
@@ -254,7 +253,7 @@ def _trends_page(issue: dict, page: int) -> str:
     <p class="method">Collected automatically from official AI company blogs, research groups, Hugging Face Daily Papers, arXiv
     and established technology publications. Stories about people, politics, lawsuits or money are left out. Duplicates are merged and
     each story is categorised by a local language model with a domain vocabulary. Summaries are the publishers&#8217; own words;
-    recommendations are generated from what shipped. Check the original source before relying on a detail.</p></div>
+    recommendations are generated from what shipped. Check the original source before relying on a detail.</p></div></div>
   {_footer("TRENDS AND SOURCES")}
 </section>'''
 
@@ -272,7 +271,7 @@ def build_html(issue: dict) -> str:
     pages.append(_trends_page(issue, n))
     title = f"AIT Global | Gen AI Pulse | Issue #{issue.get('issue_no', 1)} | {issue['title']}"
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{e(title)}</title>
-<style>{_fonts_css()}{CSS}</style></head><body>{"".join(pages)}</body></html>'''
+<style>{_fonts_css()}{CSS}</style></head><body>{"".join(pages)}<script>{FIT_JS}</script></body></html>'''
 
 
 IMG_CACHE = config.ROOT / ".cache" / "pdf-images"
@@ -364,6 +363,34 @@ def render_pdf_html(issue: dict, path: Path) -> bool:
     return True
 
 
+# Shrinks content that would spill past a page's content area, least important first.
+# Nothing is ever allowed to run into the footer or off the page.
+FIT_JS = r"""
+(function () {
+  const fits = (b) => b.scrollHeight <= b.clientHeight + 1;
+  const drop = (sel, min) => (b) => { const n = b.querySelectorAll(sel); if (n.length > min) { n[n.length - 1].remove(); return true; } return false; };
+  // Remove from whichever column currently has the most items, so every month keeps its share.
+  const dropEven = (col, item, min) => (b) => { let best = null, n = min;
+      b.querySelectorAll(col).forEach((c) => { const k = c.querySelectorAll(item).length; if (k > n) { n = k; best = c; } });
+      if (!best) return false; const items = best.querySelectorAll(item); items[items.length - 1].remove(); return true; };
+  const clamp = (sel, lines) => (b) => { let c = false; b.querySelectorAll(sel).forEach((el) => {
+      if (el.dataset.clamp !== String(lines)) { el.style.webkitLineClamp = lines; el.dataset.clamp = lines; c = true; } }); return c; };
+  const steps = [drop(".more li", 2), drop(".ready li", 3), drop(".callout li", 1), clamp(".dev p", 3), drop(".srcs li", 16),
+                 drop(".more li", 1), drop(".ready li", 2), clamp(".dev p", 2), drop(".callout li", 0), clamp(".ts p", 1),
+                 drop(".whatsnew p", 3), drop(".srcs li", 12), drop(".tt tbody tr", 6), drop(".srcs li", 8),
+                 dropEven(".mcol", "li", 2), dropEven(".mcol", "li", 1), clamp(".dev p", 1), drop(".ready li", 1), drop(".more li", 0)];
+  function fit() {
+    document.querySelectorAll(".page .body").forEach((b) => {
+      for (const step of steps) { let guard = 0; while (!fits(b) && guard++ < 40 && step(b)) {} if (fits(b)) break; }
+      b.dataset.fit = fits(b) ? "ok" : "overflow";
+    });
+  }
+  fit();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+  window.addEventListener("load", fit);
+})();
+"""
+
 LOGO = _data_uri(Path(__file__).resolve().parent / "assets" / "ait-global-mark.png", "image/png")
 
 NETWORK_SVG = '''<svg class="net" viewBox="0 0 600 200" preserveAspectRatio="none" aria-hidden="true"><g stroke="rgba(255,255,255,.35)" stroke-width="1" fill="none"><path d="M20 160 L110 40 L230 120 L330 30 L450 110 L580 50"/><path d="M110 40 L170 180 L330 30"/><path d="M230 120 L400 190 L450 110"/><path d="M450 110 L520 180"/></g><g fill="rgba(255,255,255,.75)"><circle cx="20" cy="160" r="3"/><circle cx="110" cy="40" r="4"/><circle cx="230" cy="120" r="3"/><circle cx="330" cy="30" r="5"/><circle cx="450" cy="110" r="4"/><circle cx="580" cy="50" r="3"/><circle cx="170" cy="180" r="3"/><circle cx="400" cy="190" r="3"/><circle cx="520" cy="180" r="3"/></g></svg>'''
@@ -376,7 +403,7 @@ body { font-family: 'Bricolage Grotesque', Arial, sans-serif; color: #0F1A3A; fo
 a { color: inherit; text-decoration: none; }
 em { font-style: normal; opacity: .55; padding: 0 2px; }
 .page { position: relative; width: 210mm; height: 297mm; overflow: hidden; page-break-after: always; break-after: page;
-  padding: 13mm 14mm 16mm; display: flex; flex-direction: column; gap: 4.2mm;
+  padding: 13mm 14mm 8mm; display: flex; flex-direction: column; gap: 4.2mm;
   background: radial-gradient(60% 40% at 100% 0%, #E6EEFF 0%, transparent 70%),
               radial-gradient(50% 35% at 0% 100%, #F1E9FF 0%, transparent 70%),
               radial-gradient(40% 30% at 100% 100%, #FFF1E2 0%, transparent 70%), #FBFCFF; }
@@ -391,7 +418,8 @@ em { font-style: normal; opacity: .55; padding: 0 2px; }
 .logo.big img { height: 30px; } .logo.big b { font-size: 12.5pt; }
 .run-r { font-size: 7.5pt; letter-spacing: .14em; color: #7A84A3; font-weight: 600; display: flex; align-items: center; gap: 6px; }
 .run-r i { width: 14px; height: 2px; background: #5B3DF5; display: inline-block; }
-.run-f { position: absolute; left: 14mm; right: 14mm; bottom: 8mm; display: flex; justify-content: space-between;
+.body { flex: 1; min-height: 0; overflow: hidden; display: flex; flex-direction: column; gap: 4.2mm; }
+.run-f { flex: none; display: flex; justify-content: space-between;
   border-top: 1px solid #E3E7F2; padding-top: 3mm; font-size: 7pt; letter-spacing: .14em; color: #8A93AD; font-weight: 600; }
 .run-f i { display: inline-block; width: 16px; height: 2px; background: linear-gradient(90deg,#1E88F0,#5B3DF5); margin-right: 6px; vertical-align: 2px; }
 
@@ -427,7 +455,7 @@ em { font-style: normal; opacity: .55; padding: 0 2px; }
 .toc ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 2.2mm; }
 .toc a { display: flex; align-items: center; gap: 8px; font-size: 8.6pt; color: #2D3757; }
 .toc b { flex: none; width: 20px; height: 20px; border-radius: 5px; color: #fff; font-size: 7.5pt; display: grid; place-items: center; }
-.kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm; margin-bottom: 9mm; }
+.kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm; }
 .kpi { border-radius: 14px; padding: 4.5mm 5mm; color: #fff; box-shadow: 0 12px 24px -14px rgba(37,48,110,.6); }
 .kpi b { display: block; font-family: 'Literata', Georgia, serif; font-size: 22pt; line-height: 1; font-weight: 600; }
 .kpi span { font-size: 7.5pt; letter-spacing: .08em; font-weight: 700; text-transform: uppercase; opacity: .92; }
@@ -486,13 +514,20 @@ em { font-style: normal; opacity: .55; padding: 0 2px; }
 .more li span { color: #8A93AD; font-size: 7pt; }
 .ready li { display: flex; gap: 6px; align-items: baseline; font-size: 8pt; line-height: 1.3; }
 .ready .tag { flex: none; }
-.callout { display: grid; grid-template-columns: 11mm 1fr; gap: 4mm; align-items: start; border-radius: 14px; padding: 4mm 5mm;
+.callout { margin-top: auto; display: grid; grid-template-columns: 11mm 1fr; gap: 4mm; align-items: start; border-radius: 14px; padding: 4mm 5mm;
   background: linear-gradient(120deg, #F1EDFF, #EAF3FF); border: 1px solid #DCD3FF; }
 .callout .ico { width: 11mm; height: 11mm; border-radius: 10px; display: grid; place-items: center; color: #fff; font-size: 13pt;
   background: linear-gradient(135deg,#5B3DF5,#1E88F0); }
 .callout h4 { margin: 0 0 1mm; font-size: 8pt; letter-spacing: .16em; color: #5B3DF5; font-weight: 800; }
 .callout p { margin: 0; font-size: 8.8pt; color: #2D3757; }
 .callout ul { margin: 1.5mm 0 0; padding-left: 4mm; font-size: 8.2pt; color: #2D3757; }
+.callout li { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.more li, .ready li a { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.mgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; }
+.mhead { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid #5B3DF5; padding-bottom: 1.5mm; margin-bottom: 2mm; }
+.mhead b { font-family: 'Literata', Georgia, serif; font-size: 11pt; } .mhead span { font-size: 7.4pt; color: #7A84A3; }
+.mcol ol { margin: 0; padding-left: 4mm; display: grid; gap: 2mm; font-size: 8pt; line-height: 1.3; }
+.mcol li span { display: block; font-size: 7pt; color: #8A93AD; }
 
 /* top stories */
 .feature { display: grid; grid-template-columns: 78mm 1fr; overflow: hidden; border-top: 3px solid var(--c); }
@@ -503,7 +538,7 @@ em { font-style: normal; opacity: .55; padding: 0 2px; }
 .chip { align-self: flex-start; font-size: 7pt; font-weight: 700; padding: 2px 8px; border-radius: 999px; color: var(--c);
   background: color-mix(in srgb, var(--c) 12%, white); }
 .also { font-size: 7.4pt; color: #7A84A3; } .also a { color: #1F4FD8; }
-.ts-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; flex: 1; min-height: 0; margin-bottom: 8mm; }
+.ts-grid { display: grid; grid-template-columns: 1fr 1fr; grid-auto-rows: 1fr; gap: 4mm; flex: 1; min-height: 0; }
 .ts { overflow: hidden; display: grid; grid-template-rows: 27mm 1fr; border-top: 3px solid var(--c); }
 .ts-img { border-radius: 0; }
 .ts > div:last-child { padding: 3mm 4mm; display: flex; flex-direction: column; gap: 1.4mm; }

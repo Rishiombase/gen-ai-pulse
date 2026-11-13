@@ -99,9 +99,29 @@ def _rank(a: dict) -> tuple:
     return (-a["score"], -parse_iso(a["published"]).timestamp(), a["id"])
 
 
+def _spread(arts: list[dict], key=_rank) -> list[dict]:
+    """Rank articles, then interleave calendar months so a quarter is covered evenly.
+
+    Takes each month's best story, then each month's second best, and so on. For a
+    single month this is simply the ranking. Without it, equal scores favour the newest
+    stories and a quarterly edition collapses into a copy of its latest month.
+    """
+    by_month: dict[str, list[dict]] = defaultdict(list)
+    for a in sorted(arts, key=key):
+        by_month[a["published"][:7]].append(a)
+    if len(by_month) <= 1:
+        return sorted(arts, key=key)
+    out, i = [], 0
+    while len(out) < len(arts):
+        layer = [m[i] for m in by_month.values() if i < len(m)]
+        out += sorted(layer, key=key)
+        i += 1
+    return out
+
+
 def _pick_top(news: list[dict], n: int) -> list[dict]:
     picked, per_org = [], Counter()
-    for a in sorted(news, key=_rank):
+    for a in _spread(news):
         if per_org[_org(a["source_id"])] >= MAX_TOP_PER_ORG:
             continue
         picked.append(a)
@@ -142,21 +162,33 @@ def _actions(name: str, arts: list[dict]) -> list[str]:
         return "; ".join(f"\u201c{h}\u201d" for h in hits)
     acts = []
     if names("Available now"):
-        acts.append(f"Ready to pilot now: {names('Available now')}.")
+        acts.append(f"Ready to pilot now: {names('Available now', 1)}.")
     if names("Open source"):
-        acts.append(f"Open source to evaluate in-house: {names('Open source')}.")
-    if names("API") and not acts:
-        acts.append(f"Available through an API: {names('API')}.")
-    if names("Preview"):
+        acts.append(f"Open source to evaluate in-house: {names('Open source', 1)}.")
+    if names("API") and len(acts) < 2:
+        acts.append(f"Available through an API: {names('API', 1)}.")
+    if names("Preview") and len(acts) < 2:
         acts.append(f"Request early access to assess fit: {names('Preview', 1)}.")
-    return acts[:3]
+    return acts[:2]
 
 
 def _chapter(cid: str, arts: list[dict], used: set, unit: str) -> dict:
+    """One themed chapter. `used` holds the ids already shown (top stories), so nothing repeats."""
     cat = config.CATEGORY_BY_ID[cid]
     kicker, advice = CHAPTER_COPY.get(cid, (cat["name"], ""))
-    fresh = [a for a in arts if a["id"] not in used]
-    key, more = fresh[:CHAPTER_ITEMS], fresh[CHAPTER_ITEMS: CHAPTER_ITEMS + CHAPTER_MORE]
+    ordered = _spread(arts)
+    fresh = [a for a in ordered if a["id"] not in used]
+    key = fresh[:CHAPTER_ITEMS]
+    shown = used | {a["id"] for a in key}
+    rest = [a for a in ordered if a["id"] not in shown]
+    more = rest[:CHAPTER_MORE]
+    # "Ready to use": prefer items not already on the page, then the cards themselves.
+    ready = _ready([a for a in rest if a["id"] not in {m["id"] for m in more}]) + _ready(rest) + _ready(key)
+    seen_ready, ready_out = set(), []
+    for r_ in ready:
+        if r_["url"] not in seen_ready:
+            seen_ready.add(r_["url"])
+            ready_out.append(r_)
     sources = {a["source_id"] for a in arts}
     avail = sum(1 for a in arts if "Available now" in a.get("tags", []))
     oss = sum(1 for a in arts if "Open source" in a.get("tags", []))
@@ -166,9 +198,9 @@ def _chapter(cid: str, arts: list[dict], used: set, unit: str) -> dict:
     return {
         "id": cid, "name": cat["name"], "kicker": kicker, "color": cat["color"], "intro": intro,
         "items": [compact(a) for a in key], "more": [compact(a) for a in more],
-        "ready": _ready(arts)[:CHAPTER_READY],
+        "ready": ready_out[:CHAPTER_READY],
         "stats": {"stories": len(arts), "sources": len(sources), "available": avail, "open_source": oss},
-        "actions": _actions(cat["name"], arts), "advice": advice,
+        "actions": _actions(cat["name"], ordered), "advice": advice,
     }
 
 
@@ -236,7 +268,7 @@ def build_issue(period: dict, articles: list[dict], state: dict, now: datetime) 
 
     top = _pick_top([a for a in news if a["score"] >= 25], sizes["top"])
     used = {a["id"] for a in top}
-    top_papers = sorted(papers, key=lambda p: (-p.get("extra", {}).get("upvotes", 0),) + _rank(p))[: sizes["papers"]]
+    top_papers = _spread(papers, key=lambda p: (-p.get("extra", {}).get("upvotes", 0),) + _rank(p))[: sizes["papers"]]
     unit = "month" if period["type"] == "monthly" else "quarter"
 
     by_cat = defaultdict(list)
@@ -245,7 +277,7 @@ def build_issue(period: dict, articles: list[dict], state: dict, now: datetime) 
     ranked_cats = sorted((c for c in by_cat if c not in ("research", config.FALLBACK_CATEGORY) and len(by_cat[c]) >= 3),
                          key=lambda c: (-len(by_cat[c]), c))
     chapters = [_chapter(cid, by_cat[cid], used, unit) for cid in ranked_cats[: sizes["chapters"]]]
-    research_news = [a for a in by_cat.get("research", []) if a["id"] not in used][:2]
+    research_news = [a for a in _spread(by_cat.get("research", [])) if a["id"] not in used][:2]
     chapters.append(_research_chapter(research_news, top_papers, by_cat.get("research", []), papers, unit))
     for i, ch in enumerate(chapters, 1):
         ch["number"] = i
@@ -280,8 +312,10 @@ def build_issue(period: dict, articles: list[dict], state: dict, now: datetime) 
                      "count": n} for s, n in sorted(src_counts.items(), key=lambda kv: (-kv[1], kv[0]))],
     }
     if period["type"] == "quarterly":
-        issue["months"] = [{"month": m, "label": datetime.strptime(m, "%Y-%m").strftime("%B"), "stories": n}
-                           for m, n in sorted(Counter(a["published"][:7] for a in news).items())]
+        issue["months"] = [
+            {"month": m, "label": datetime.strptime(m, "%Y-%m").strftime("%B"), "stories": n,
+             "highlights": [compact(a) for a in _pick_top([x for x in news if x["published"].startswith(m)], 3)]}
+            for m, n in sorted(Counter(a["published"][:7] for a in news).items())]
     issue["brief"] = _brief(issue, news, papers, top, cat_counts, rising)
     issue["headline"] = top[0]["title"] if top else f"The AI technology that shipped in {period['title']}"
     issue["pills"] = [r["topic"] for r in rising[:4]]

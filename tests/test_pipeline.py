@@ -200,3 +200,12 @@ def test_papers_are_always_technical():
 def test_usage_tags():
     a = art("Mistral releases open-weights model with an API, now available", summary="")
     assert usage_tags(a) == ["Open source", "API", "Available now"]
+
+
+def test_quarterly_selection_spreads_across_months():
+    from pipeline.newsletter import _spread
+    oct_items = [dict(art(f"October story {i}", days_ago=30 + i), score=40.0) for i in range(5)]
+    nov_items = [dict(art(f"November story {i}", days_ago=1 + i), score=40.0) for i in range(5)]
+    first_four = _spread(oct_items + nov_items)[:4]
+    months = {a["published"][:7] for a in first_four}
+    assert len(months) == 2, "equal scores must not let the newest month crowd out the others"
