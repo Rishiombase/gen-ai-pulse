@@ -6957,14 +6957,14 @@
    "github": "https://github.com/NVlabs/DVSM",
    "hf_url": "https://huggingface.co/papers/2611.17331",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17331.png",
-   "upvotes": 2
+   "upvotes": 12
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "f741b330c4b3",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 35.5,
+  "score": 48.2,
   "source_id": "hf-papers",
   "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality.",
   "tags": [
@@ -7059,14 +7059,14 @@
    "github": "https://github.com/DAGroup-PKU/PhysLoop",
    "hf_url": "https://huggingface.co/papers/2611.16748",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16748.png",
-   "upvotes": 12
+   "upvotes": 19
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
   "id": "adfd7cf196cc",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 48.2,
+  "score": 51.9,
   "source_id": "hf-papers",
   "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain.",
   "tags": [
@@ -7099,14 +7099,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.16517",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16517.png",
-   "upvotes": 7
+   "upvotes": 8
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
   "id": "9bc50b65722b",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 42.0,
+  "score": 43.0,
   "source_id": "hf-papers",
   "summary": "We present UniSpark-9B, a unified multimodal model that investigates hybrid attention for visual understanding and generation. Built on a Mixture-of-Transformer-Experts backbone with approximately 9B parameters in each branch, UniSpark combines full attention for explicit token interactions with GatedDeltaNet linear attention for compact context propagation.",
   "tags": [
@@ -7359,14 +7359,14 @@
    "github": "https://github.com/ZJU-REAL/decision-agents",
    "hf_url": "https://huggingface.co/papers/2611.17167",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17167.png",
-   "upvotes": 13
+   "upvotes": 15
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
   "id": "2190decebe33",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 48.8,
+  "score": 50.0,
   "source_id": "hf-papers",
   "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act.",
   "tags": [
@@ -15154,14 +15154,14 @@
    "github": "https://github.com/holdrain/SO-Arena",
    "hf_url": "https://huggingface.co/papers/2611.15777",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15777.png",
-   "upvotes": 20
+   "upvotes": 31
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
   "id": "cafe4a03e39d",
   "kind": "paper",
   "published": "2026-11-11T00:00:00Z",
-  "score": 52.4,
+  "score": 56.0,
   "source_id": "hf-papers",
   "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions.",
   "tags": [
@@ -17981,14 +17981,14 @@
    "github": "https://github.com/moeinheidari7829/P2Echo",
    "hf_url": "https://huggingface.co/papers/2611.13425",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13425.png",
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "f4729026ce18",
   "kind": "paper",
   "published": "2026-11-10T00:00:00Z",
-  "score": 35.5,
+  "score": 38.0,
   "source_id": "hf-papers",
   "summary": "Automated segmentation in multi-view echocardiography is essential for comprehensive cardiac assessment, yet remains challenging due to substantial anatomical and appearance variability across standard acoustic windows.",
   "tags": [
@@ -18021,7 +18021,7 @@
    "github": "https://github.com/yukyeongleee/wikitrace",
    "hf_url": "https://huggingface.co/papers/2611.14320",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14320.png",
-   "upvotes": 63
+   "upvotes": 64
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
@@ -18341,6 +18341,47 @@
   ],
   "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
   "url": "https://arxiv.org/abs/2611.13410"
+ },
+ {
+  "categories": [
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.908,
+   "computer-vision": 0.314,
+   "genai-llm": 0.411,
+   "mlops": 0.366,
+   "open-source": 0.422,
+   "research": 0.923,
+   "security": 0.408
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Chenlong Wei",
+    "Hanling Wang",
+    "Chong Zhang",
+    "Qinkai Yu",
+    "Fangyu Wu",
+    "Xiaobo Jin"
+   ],
+   "hf_url": "https://huggingface.co/papers/2611.14046",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14046.png",
+   "upvotes": 1
+  },
+  "fetched": "2026-11-13T08:41:02Z",
+  "focus": "tech",
+  "id": "9bd5e22181eb",
+  "kind": "paper",
+  "published": "2026-11-10T00:00:00Z",
+  "score": 30.0,
+  "source_id": "hf-papers",
+  "summary": "Adversarial training is often plagued by \"pseudo-attacks\", perturbations that significantly increase the loss value but fail to truly alter the model's confidence structure. To address this, we propose two complementary approaches to directly attack and defend against confidence structure deformation.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Structured Confidence Perturbation via Fisher Geometry for Adversarial Training",
+  "url": "https://arxiv.org/abs/2611.14046"
  },
  {
   "categories": [
@@ -21879,14 +21920,14 @@
    "github": "https://github.com/DAGroup-PKU/G-STAR",
    "hf_url": "https://huggingface.co/papers/2611.13004",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13004.png",
-   "upvotes": 10
+   "upvotes": 24
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "88177097345d",
   "kind": "paper",
   "published": "2026-11-08T00:00:00Z",
-  "score": 44.8,
+  "score": 51.9,
   "source_id": "hf-papers",
   "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity.",
   "tags": [
@@ -25244,14 +25285,14 @@
    "github": "https://github.com/ZJU-REAL/Agent-R2",
    "hf_url": "https://huggingface.co/papers/2611.08219",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08219.png",
-   "upvotes": 0
+   "upvotes": 1
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "6aa2075d69c1",
   "kind": "paper",
   "published": "2026-11-05T00:00:00Z",
-  "score": 26.0,
+  "score": 32.0,
   "source_id": "hf-papers",
   "summary": "Large language models have made rapid progress in agentic reasoning and tool use, raising expectations for agents that can take over realistic productivity work from humans. However, current agents still struggle to finish such tasks, where success requires following long-horizon professional workflows, understanding heterogeneous file contexts, and producing usable deliverables under fine-grained requirements.",
   "tags": [
