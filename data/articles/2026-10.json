@@ -1646,14 +1646,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.00428",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.00428.png",
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
   "id": "2f69fd45cd9c",
   "kind": "paper",
   "published": "2026-10-30T00:00:00Z",
-  "score": 35.5,
+  "score": 38.0,
   "source_id": "hf-papers",
   "summary": "A spectrum can be given to a model as a table in nanometers or as a plot in photon energy, and the decision should not depend on which one it sees. When the data needed for an answer are missing, the model should say so. We test representation invariance and abstention on measured optical spectra of silicon metasurfaces (MOCLIP) and gold nanoparticles, with labels computed from the data.",
   "tags": [
@@ -3784,7 +3784,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2610.40394",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.40394.png",
-   "upvotes": 43
+   "upvotes": 44
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
@@ -4034,14 +4034,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2610.39671",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.39671.png",
-   "upvotes": 30
+   "upvotes": 31
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "10f55558e870",
   "kind": "paper",
   "published": "2026-10-29T00:00:00Z",
-  "score": 55.7,
+  "score": 56.0,
   "source_id": "hf-papers",
   "summary": "Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-intensive tasks. Yet problem solving in unfamiliar domains calls for tightly coupled knowledge acquisition and reasoning, beyond factual retrieval and aggregation or learning solely from a preassembled context.",
   "tags": [
