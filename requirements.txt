@@ -1,0 +1,8 @@
+# Runtime (all free and open source)
+feedparser>=6.0,<7        # RSS / Atom parsing
+requests>=2.31,<3         # HTTP
+reportlab>=4.0,<6         # PDF newsletters
+fastembed>=0.7,<1         # local ONNX sentence embeddings for categorisation (optional; pipeline falls back without it)
+
+# Development
+pytest>=8

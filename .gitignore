@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Embedding model cache (downloaded on first run; cached separately in CI)
+.cache/
+
+# Generated build output. CI rebuilds these from data/ on every run and deploys them.
+site/data/
+site/newsletters/
+
+.DS_Store

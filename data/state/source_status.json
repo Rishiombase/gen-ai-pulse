@@ -1,0 +1,212 @@
+{
+ "anthropic": {
+  "checked": "2026-11-13T08:19:41Z",
+  "items": 0,
+  "last_success": "2026-11-13T08:19:41Z",
+  "ok": true,
+  "seconds": 0.4
+ },
+ "apple-ml": {
+  "checked": "2026-11-13T08:19:41Z",
+  "items": 0,
+  "last_success": "2026-11-13T08:19:41Z",
+  "ok": true,
+  "seconds": 0.2
+ },
+ "ars": {
+  "checked": "2026-11-13T08:19:43Z",
+  "items": 20,
+  "last_success": "2026-11-13T08:19:43Z",
+  "ok": true,
+  "seconds": 1.8
+ },
+ "arxiv": {
+  "checked": "2026-11-13T08:20:18Z",
+  "items": 180,
+  "last_success": "2026-11-13T08:20:18Z",
+  "ok": true,
+  "seconds": 35.9
+ },
+ "aws-ml": {
+  "checked": "2026-11-13T08:19:42Z",
+  "items": 0,
+  "last_success": "2026-11-13T08:19:42Z",
+  "ok": true,
+  "seconds": 0.4
+ },
+ "bair": {
+  "checked": "2026-11-13T08:19:42Z",
+  "items": 10,
+  "last_success": "2026-11-13T08:19:42Z",
+  "ok": true,
+  "seconds": 1.6
+ },
+ "decoder": {
+  "checked": "2026-11-13T08:19:43Z",
+  "items": 0,
+  "last_success": "2026-11-13T08:19:43Z",
+  "ok": true,
+  "seconds": 1.1
+ },
+ "deepmind": {
+  "checked": "2026-11-13T08:19:41Z",
+  "items": 100,
+  "last_success": "2026-11-13T08:19:41Z",
+  "ok": true,
+  "seconds": 0.7
+ },
+ "github-ai": {
+  "checked": "2026-11-13T08:19:41Z",
+  "items": 0,
+  "last_success": "2026-11-13T08:19:41Z",
+  "ok": true,
+  "seconds": 0.2
+ },
+ "google-ai": {
+  "checked": "2026-11-13T08:19:41Z",
+  "items": 20,
+  "last_success": "2026-11-13T08:19:41Z",
+  "ok": true,
+  "seconds": 0.5
+ },
+ "google-research": {
+  "checked": "2026-11-13T08:19:42Z",
+  "items": 100,
+  "last_success": "2026-11-13T08:19:42Z",
+  "ok": true,
+  "seconds": 1.2
+ },
+ "hf-papers": {
+  "checked": "2026-11-13T08:19:42Z",
+  "items": 78,
+  "last_success": "2026-11-13T08:19:42Z",
+  "ok": true,
+  "seconds": 0.9
+ },
+ "huggingface": {
+  "checked": "2026-11-13T08:19:41Z",
+  "items": 0,
+  "last_success": "2026-11-13T08:19:41Z",
+  "ok": true,
+  "seconds": 0.3
+ },
+ "ieee": {
+  "checked": "2026-11-13T08:19:42Z",
+  "items": 0,
+  "last_success": "2026-11-13T08:19:42Z",
+  "ok": true,
+  "seconds": 0.6
+ },
+ "import-ai": {
+  "checked": "2026-11-13T08:19:42Z",
+  "items": 20,
+  "last_success": "2026-11-13T08:19:42Z",
+  "ok": true,
+  "seconds": 0.3
+ },
+ "last-week-ai": {
+  "checked": "2026-11-13T08:19:42Z",
+  "items": 20,
+  "last_success": "2026-11-13T08:19:42Z",
+  "ok": true,
+  "seconds": 0.4
+ },
+ "marktechpost": {
+  "checked": "2026-11-13T08:19:42Z",
+  "items": 0,
+  "last_success": "2026-11-13T08:19:42Z",
+  "ok": true,
+  "seconds": 0.2
+ },
+ "meta-eng": {
+  "checked": "2026-11-13T08:19:40Z",
+  "items": 0,
+  "last_success": "2026-11-13T08:19:40Z",
+  "ok": true,
+  "seconds": 0.1
+ },
+ "microsoft-ai": {
+  "checked": "2026-11-13T08:19:41Z",
+  "items": 0,
+  "last_success": "2026-11-13T08:19:41Z",
+  "ok": true,
+  "seconds": 0.3
+ },
+ "mit-news-ai": {
+  "checked": "2026-11-13T08:19:41Z",
+  "items": 50,
+  "last_success": "2026-11-13T08:19:41Z",
+  "ok": true,
+  "seconds": 0.6
+ },
+ "mit-tr": {
+  "checked": "2026-11-13T08:19:41Z",
+  "items": 0,
+  "last_success": "2026-11-13T08:19:41Z",
+  "ok": true,
+  "seconds": 0.2
+ },
+ "msr": {
+  "checked": "2026-11-13T08:19:42Z",
+  "items": 0,
+  "last_success": "2026-11-13T08:19:42Z",
+  "ok": true,
+  "seconds": 1.7
+ },
+ "nvidia": {
+  "checked": "2026-11-13T08:19:40Z",
+  "items": 0,
+  "last_success": "2026-11-13T08:19:40Z",
+  "ok": true,
+  "seconds": 0.1
+ },
+ "nvidia-dev": {
+  "checked": "2026-11-13T08:19:42Z",
+  "items": 0,
+  "last_success": "2026-11-13T08:19:42Z",
+  "ok": true,
+  "seconds": 0.4
+ },
+ "openai": {
+  "checked": "2026-11-13T08:19:41Z",
+  "items": 200,
+  "last_success": "2026-11-13T08:19:41Z",
+  "ok": true,
+  "seconds": 0.3
+ },
+ "pytorch": {
+  "checked": "2026-11-13T08:19:42Z",
+  "items": 10,
+  "last_success": "2026-11-13T08:19:42Z",
+  "ok": true,
+  "seconds": 1.1
+ },
+ "simon-willison": {
+  "checked": "2026-11-13T08:19:42Z",
+  "items": 0,
+  "last_success": "2026-11-13T08:19:42Z",
+  "ok": true,
+  "seconds": 0.5
+ },
+ "techcrunch": {
+  "checked": "2026-11-13T08:19:41Z",
+  "items": 0,
+  "last_success": "2026-11-13T08:19:41Z",
+  "ok": true,
+  "seconds": 0.2
+ },
+ "verge": {
+  "checked": "2026-11-13T08:19:41Z",
+  "items": 0,
+  "last_success": "2026-11-13T08:19:41Z",
+  "ok": true,
+  "seconds": 0.2
+ },
+ "wired": {
+  "checked": "2026-11-13T08:19:41Z",
+  "items": 10,
+  "last_success": "2026-11-13T08:19:41Z",
+  "ok": true,
+  "seconds": 0.2
+ }
+}

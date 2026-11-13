@@ -1,0 +1,397 @@
+[
+ {
+  "categories": [
+   "enterprise",
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.733,
+   "ai-ml": 0.331,
+   "enterprise": 1.0,
+   "genai-llm": 0.333,
+   "mlops": 0.499,
+   "open-source": 0.446,
+   "research": 0.592,
+   "robotics": 0.27,
+   "security": 0.359,
+   "tools-launches": 0.436
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/649c1276a83f996b4191a8f1/iYCwB2Hl8qPTA8DCgDilB.png"
+  },
+  "fetched": "2026-11-13T03:52:26Z",
+  "focus": "tech",
+  "id": "8654826289ec",
+  "kind": "news",
+  "published": "2026-06-30T18:32:50Z",
+  "score": 32.0,
+  "source_id": "huggingface",
+  "summary": "Modernizing enterprise applications is one of the largest and most expensive software engineering activities organizations undertake. Teams migrate applications across frameworks to improve maintainability, cloud readiness, developer productivity, and access to modern capabilities.",
+  "tags": [
+   "Enterprise",
+   "For developers"
+  ],
+  "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+  "url": "https://huggingface.co/blog/ibm-research/scarfbench"
+ },
+ {
+  "categories": [
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.259,
+   "mlops": 0.316,
+   "open-source": 0.259,
+   "research": 0.65
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/Heat-Resilience-1.png"
+  },
+  "fetched": "2026-11-13T03:52:26Z",
+  "focus": "tech",
+  "id": "f04fb5d1978c",
+  "kind": "news",
+  "published": "2026-06-30T17:03:00Z",
+  "score": 24.0,
+  "source_id": "google-research",
+  "summary": "David Fork, Staff Research Scientist, and Jules Kuperminc, Product Manager, Google Research",
+  "tags": [
+   "Research"
+  ],
+  "title": "Expanding our Heat Resilience data to 50+ global cities",
+  "url": "https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities/"
+ },
+ {
+  "categories": [
+   "genai-llm"
+  ],
+  "category_scores": {
+   "ai-ml": 0.267,
+   "computer-vision": 0.578,
+   "genai-llm": 0.983,
+   "mlops": 0.254,
+   "open-source": 0.393,
+   "research": 0.396,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni__keyword_v6.width-1300.png"
+  },
+  "fetched": "2026-11-13T03:52:26Z",
+  "focus": "tech",
+  "id": "f8c0cbef5e2e",
+  "kind": "news",
+  "published": "2026-06-30T16:02:40Z",
+  "score": 34.0,
+  "source_id": "deepmind",
+  "summary": "Scale your ideas with Nano Banana 2 Lite, our fastest, most cost-efficient Gemini Image model, and Gemini Omni Flash for high-quality video and conversational editing.",
+  "tags": [],
+  "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+  "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "agents": 0.394,
+   "ai-ml": 1.0,
+   "enterprise": 0.354,
+   "genai-llm": 0.304,
+   "mlops": 0.301,
+   "open-source": 0.287,
+   "research": 0.438,
+   "robotics": 0.283,
+   "security": 0.38,
+   "tools-launches": 0.305
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/69d815b52c6db28cfdfdd422/Av4v9_l94sEUj-etRFOLb.png"
+  },
+  "fetched": "2026-11-13T03:52:26Z",
+  "focus": "tech",
+  "id": "d7f8db1c666b",
+  "kind": "news",
+  "published": "2026-06-30T14:39:11Z",
+  "score": 30.0,
+  "source_id": "huggingface",
+  "summary": "Those who follow Dharma AI already know that we view specialization as one of the defining principles of effective AI systems, shaping everything from cost and performance to reliability and sovereignty. Few papers have articulated that case as rigorously as the 2026 work by Goldfeder, Wyder, LeCun, and Shwartz-Ziv.",
+  "tags": [],
+  "title": "Why Specialization Is Inevitable",
+  "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable"
+ },
+ {
+  "categories": [
+   "tools-launches",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.436,
+   "genai-llm": 0.725,
+   "mlops": 0.298,
+   "nlp": 0.363,
+   "open-source": 0.449,
+   "research": 0.604,
+   "tools-launches": 0.758
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/TabFM1_Hero.png"
+  },
+  "fetched": "2026-11-13T03:52:26Z",
+  "focus": "tech",
+  "id": "85db14fb2b0c",
+  "kind": "news",
+  "published": "2026-06-30T10:26:00Z",
+  "score": 31.0,
+  "source_id": "google-research",
+  "summary": "We’ve seen a massive shift in how people handle time-series forecasting since we launched TimesFM. Now, we’re bringing that same \"zero-shot\" logic to tabular data.",
+  "tags": [
+   "Available now",
+   "Research"
+  ],
+  "title": "Introducing TabFM: A zero-shot foundation model for tabular data",
+  "url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/"
+ },
+ {
+  "categories": [
+   "security",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.299,
+   "computer-vision": 0.45,
+   "genai-llm": 0.604,
+   "research": 0.367,
+   "security": 0.785
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Igor Itkin"
+   ],
+   "github": "https://github.com/YehudaItkin/temporal-hallucination-detection",
+   "hf_url": "https://huggingface.co/papers/2608.18115",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.18115.png",
+   "upvotes": 3
+  },
+  "fetched": "2026-11-13T03:52:26Z",
+  "focus": "tech",
+  "id": "4f786f25a4b6",
+  "kind": "paper",
+  "published": "2026-06-30T00:00:00Z",
+  "score": 36.0,
+  "source_id": "hf-papers",
+  "summary": "Token-level hallucination detectors score each token independently from a single signal, and fail exactly when the generating model is confidently wrong.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Temporal Multi-Signal Fusion for Token-Level Hallucination Detection",
+  "url": "https://arxiv.org/abs/2608.18115"
+ },
+ {
+  "categories": [
+   "open-source"
+  ],
+  "category_scores": {
+   "open-source": 1.0
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://huggingface.co/blog/assets/eee_commevals/eee_commevals_banner.png"
+  },
+  "fetched": "2026-11-13T03:52:26Z",
+  "focus": "tech",
+  "id": "3f0a56fa7011",
+  "kind": "news",
+  "published": "2026-06-30T00:00:00Z",
+  "score": 32.0,
+  "source_id": "huggingface",
+  "summary": "Every Eval Ever (EEE) and Hugging Face Community Evals are now intercompatible. We enable cross-posting and interpreting evaluation results, while linking to open models, leaderboards, and a unified standardized metadata store.",
+  "tags": [
+   "Open source"
+  ],
+  "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+  "url": "https://huggingface.co/blog/eee-community-evals"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "ai-ml": 0.947,
+   "genai-llm": 0.293,
+   "open-source": 0.294,
+   "research": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/AnOX0pzQm-Hep_CLFOVM7.png"
+  },
+  "fetched": "2026-11-13T03:52:26Z",
+  "focus": "tech",
+  "id": "91d16542fa1f",
+  "kind": "news",
+  "published": "2026-06-29T18:02:48Z",
+  "score": 30.0,
+  "source_id": "huggingface",
+  "summary": "Many problems in machine learning and the sciences come down to the same task: you have a collection of data points and want to recover the distribution they came from—which values are common, and which are rare.",
+  "tags": [],
+  "title": "DiScoFormer: One transformer for density and score, across distributions",
+  "url": "https://huggingface.co/blog/allenai/discoformer"
+ },
+ {
+  "categories": [
+   "robotics",
+   "mlops"
+  ],
+  "category_scores": {
+   "agents": 0.543,
+   "ai-ml": 0.376,
+   "enterprise": 0.316,
+   "genai-llm": 0.335,
+   "mlops": 0.784,
+   "open-source": 0.45,
+   "research": 0.352,
+   "robotics": 0.956,
+   "security": 0.285,
+   "tools-launches": 0.327
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Jack Clark"
+   ],
+   "image": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
+  },
+  "fetched": "2026-11-13T03:52:26Z",
+  "focus": "tech",
+  "id": "4697ae55d3b6",
+  "kind": "news",
+  "published": "2026-06-29T13:03:27Z",
+  "score": 4.0,
+  "source_id": "import-ai",
+  "summary": "NVIDIA sets up a crude self-improvement loop for real world robotics:. What if you could take the best ideas from AI agents and put them into the real world?.",
+  "tags": [],
+  "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+  "url": "https://importai.substack.com/p/import-ai-463-self-improving-robots"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.368,
+   "genai-llm": 1.0,
+   "nlp": 0.433,
+   "research": 0.628
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Jonghyun Song",
+    "Sangjun Song",
+    "Minjae Oh",
+    "Haesung Pyun",
+    "Sungsik Lee",
+    "Yohan Jo"
+   ],
+   "github": "https://github.com/holi-lab/SHAPE-of-CoT",
+   "hf_url": "https://huggingface.co/papers/2608.28600",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.28600.png",
+   "upvotes": 27
+  },
+  "fetched": "2026-11-13T03:52:26Z",
+  "focus": "tech",
+  "id": "19959db28849",
+  "kind": "paper",
+  "published": "2026-06-28T00:00:00Z",
+  "score": 52.8,
+  "source_id": "hf-papers",
+  "summary": "Large language models (LLMs) achieve strong performance on mathematical reasoning benchmarks, yet the mathematically meaningful skills underlying their reasoning remain underexplored.",
+  "tags": [
+   "Research"
+  ],
+  "title": "SHAPE of Chain-of-Thought in Math Reasoning",
+  "url": "https://arxiv.org/abs/2608.28600"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.436,
+   "ai-ml": 0.426,
+   "genai-llm": 1.0,
+   "nlp": 0.616,
+   "research": 0.445,
+   "robotics": 0.292,
+   "security": 0.302
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Pengrui Han",
+    "Jacob Andreas",
+    "Evelina Fedorenko",
+    "Andrea Gregor de Varda"
+   ],
+   "github": "https://github.com/Pengrui-Han/LLM_Modularity",
+   "hf_url": "https://huggingface.co/papers/2608.13567",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.13567.png",
+   "upvotes": 17
+  },
+  "fetched": "2026-11-13T03:52:26Z",
+  "focus": "tech",
+  "id": "6545ec0a4aa6",
+  "kind": "paper",
+  "published": "2026-06-27T01:56:22Z",
+  "score": 51.0,
+  "source_id": "hf-papers",
+  "summary": "The human brain exhibits a striking degree of functional specialization, with distinct networks supporting language, formal reasoning, reasoning about other minds, and reasoning about the physical world. Is this modular organization a fundamental principle of how intelligent systems must be built, or an evolutionary accident specific to biological brains?",
+  "tags": [
+   "Research"
+  ],
+  "title": "Modular Cognitive Architecture Emerges in Large Language Models",
+  "url": "https://arxiv.org/abs/2608.13567"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.421,
+   "computer-vision": 0.295,
+   "genai-llm": 0.919,
+   "mlops": 0.45,
+   "open-source": 0.278,
+   "research": 0.59
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/MTP1_Architecture.png"
+  },
+  "fetched": "2026-11-13T03:52:26Z",
+  "focus": "tech",
+  "id": "2df25c7e91d9",
+  "kind": "news",
+  "published": "2026-06-26T18:30:00Z",
+  "score": 30.0,
+  "source_id": "google-research",
+  "summary": "Eden Cohen, Research Product Manager, and Michelle Ramanovich, Research Manager, Google Platforms and Devices",
+  "tags": [
+   "Research"
+  ],
+  "title": "Accelerating Gemini Nano models on Pixel with frozen Multi-Token Prediction",
+  "url": "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/"
+ }
+]

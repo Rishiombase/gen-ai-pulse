@@ -1,0 +1,83 @@
+name: Update news and deploy
+
+on:
+  schedule:
+    - cron: "23 */3 * * *"   # every 3 hours (off the hour to avoid the busiest runner slots)
+  workflow_dispatch:
+    inputs:
+      reclassify:
+        description: "Re-categorise the whole archive (after editing categories)"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: ["pipeline/**", "site/**", "requirements.txt", ".github/workflows/update.yml"]
+
+permissions:
+  contents: write   # commit the updated archive in data/
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Cache embedding model
+        uses: actions/cache@v4
+        with:
+          path: .cache/fastembed
+          key: fastembed-bge-small-en-v1.5
+
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Run pipeline
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}/
+        run: python -m pipeline.run ${{ inputs.reclassify && '--reclassify' || '' }}
+
+      - name: Run tests
+        run: python -m pytest -q
+
+      - name: Commit archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Archive unchanged."
+          else
+            git commit -m "Update news archive $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+            git push
+          fi
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
