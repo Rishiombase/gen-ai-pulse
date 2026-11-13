@@ -1,6 +1,734 @@
 [
  {
   "categories": [
+   "genai-llm"
+  ],
+  "category_scores": {
+   "agents": 0.423,
+   "ai-ml": 0.875,
+   "enterprise": 0.397,
+   "genai-llm": 0.45,
+   "nlp": 0.263,
+   "open-source": 0.414,
+   "research": 0.296,
+   "security": 0.392,
+   "tools-launches": 0.325
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/aOWdQgZ8ioJcx9Eii4iob.png"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "8400bdfe1e2a",
+  "kind": "news",
+  "published": "2026-11-13T17:02:35Z",
+  "score": 30.0,
+  "source_id": "huggingface",
+  "summary": "Truly useful AI assistants need to be able to help users who ask misguided questions—not just users who ask the right question with the right amount of detail.",
+  "tags": [],
+  "title": "XYBench: Helping with the problem behind the question",
+  "url": "https://huggingface.co/blog/allenai/xybench"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "agents": 0.266,
+   "ai-ml": 0.765,
+   "enterprise": 0.447,
+   "genai-llm": 0.28,
+   "mlops": 0.319,
+   "open-source": 0.45,
+   "research": 0.417,
+   "robotics": 0.385,
+   "security": 0.343,
+   "tools-launches": 0.431
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://engineering.fb.com/wp-content/uploads/2026/11/Cuttlefish-on-Mac-image-1.png"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "6334b4f0dff9",
+  "kind": "news",
+  "published": "2026-11-13T17:00:39Z",
+  "score": 32.0,
+  "source_id": "meta-eng",
+  "summary": "Meta’s Reality Labs builds products such as AI glasses . Emulators provide us with a way to scale development and testing without relying on scarce physical hardware. Testing software for non-phone Android devices depends on how closely a virtual device reproduces the software behavior of the physical product.",
+  "tags": [
+   "For developers"
+  ],
+  "title": "Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon",
+  "url": "https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/"
+ },
+ {
+  "categories": [
+   "robotics"
+  ],
+  "category_scores": {
+   "robotics": 1.0
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "John Malaska"
+   ]
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "a62d6f0e830e",
+  "kind": "news",
+  "published": "2026-11-13T17:00:00Z",
+  "score": 14.0,
+  "source_id": "nvidia-dev",
+  "summary": "Human motion offers roboticists a great starting point for teaching humanoid robots how to move. A human demonstration captures the coordination and timing.",
+  "tags": [],
+  "title": "Adapt Human Motion for Robots with NVIDIA SOMA Retargeter",
+  "url": "https://developer.nvidia.com/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/"
+ },
+ {
+  "categories": [
+   "mlops",
+   "open-source"
+  ],
+  "category_scores": {
+   "genai-llm": 0.282,
+   "mlops": 0.89,
+   "open-source": 0.817,
+   "research": 0.259
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Fatima Fall"
+   ],
+   "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/image3-3-768x432.png"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "8f2daa11c505",
+  "kind": "news",
+  "published": "2026-11-13T17:00:00Z",
+  "score": 14.0,
+  "source_id": "nvidia-dev",
+  "summary": "Running a frontier-scale model locally means keeping all its weights in GPU memory; the largest models no longer fit on one machine. Two NVIDIA DGX Stations.",
+  "tags": [],
+  "title": "When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
+  "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/"
+ },
+ {
+  "categories": [
+   "enterprise",
+   "genai-llm",
+   "robotics"
+  ],
+  "category_scores": {
+   "agents": 0.489,
+   "ai-ml": 0.302,
+   "enterprise": 1.0,
+   "genai-llm": 0.637,
+   "mlops": 0.308,
+   "open-source": 0.409,
+   "research": 0.305,
+   "robotics": 0.621,
+   "security": 0.358,
+   "tools-launches": 0.496
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Manuel Uth"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/claude_for_manufactoring.png"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "6564d3fe1bb0",
+  "kind": "news",
+  "published": "2026-11-13T16:37:01Z",
+  "score": 18.0,
+  "source_id": "decoder",
+  "summary": "Anthropic's new Claude for Manufacturing plugin connects the AI directly to Autodesk Fusion, Oracle NetSuite, and Infor. Its 17 specialized skills let the AI draft quotes, compare suppliers, and place backup orders when deliveries are delayed, all after human approval.",
+  "tags": [],
+  "title": "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
+  "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/"
+ },
+ {
+  "categories": [
+   "open-source"
+  ],
+  "category_scores": {
+   "ai-ml": 0.321,
+   "computer-vision": 0.272,
+   "genai-llm": 0.45,
+   "open-source": 0.862,
+   "research": 0.381,
+   "tools-launches": 0.511
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Asif Razzaq"
+   ],
+   "image": "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-19999-3-scaled.png"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "eb7d7104edac",
+  "kind": "news",
+  "published": "2026-11-13T16:10:02Z",
+  "score": 26.0,
+  "source_id": "marktechpost",
+  "summary": "Perplexity has released pplx-decider-v1.3 and pplx-decider-flash-v1.3 , the latest versions of its open-weight decision models. Perplexity Decider v1.3 is a decision model that returns probabilities, not generated text. It answers yes/no, multiple-choice and score questions about a text or image input.",
+  "tags": [
+   "Open source",
+   "Available now"
+  ],
+  "title": "Perplexity Releases Decider v1.3: Open-Weight Decision Models Add Locate",
+  "url": "https://www.marktechpost.com/2026/11/13/perplexity-decider-v1-3-open-weight-decision-models-locate/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "ai-ml": 0.272,
+   "enterprise": 0.404,
+   "genai-llm": 0.372,
+   "mlops": 0.799,
+   "research": 0.4,
+   "robotics": 0.273,
+   "security": 0.359,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Lauren Goode"
+   ],
+   "image": "https://media.wired.com/photos/6af64d55d057d0b5e841f091/master/pass/Backchannel-Jensen-Business.jpg"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "off",
+  "id": "ce5a306b38b5",
+  "kind": "news",
+  "published": "2026-11-13T16:00:00Z",
+  "score": 20.0,
+  "source_id": "wired",
+  "summary": "The former tech CEO is obsessed with the power of storytelling. But he hasn't spun his way out of his sex scandals.",
+  "tags": [],
+  "title": "Jensen Huang and the End of the Founder Fairy Tale",
+  "url": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/"
+ },
+ {
+  "categories": [
+   "security",
+   "robotics"
+  ],
+  "category_scores": {
+   "agents": 0.373,
+   "ai-ml": 0.388,
+   "enterprise": 0.469,
+   "genai-llm": 0.513,
+   "mlops": 0.302,
+   "open-source": 0.288,
+   "research": 0.26,
+   "robotics": 0.642,
+   "security": 1.0,
+   "tools-launches": 0.284
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Manuel Uth"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/workers_fighting_ai.png"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "off",
+  "id": "bead99654d67",
+  "kind": "news",
+  "published": "2026-11-13T15:53:49Z",
+  "score": 14.0,
+  "source_id": "decoder",
+  "summary": "US public-sector unions are increasingly pushing through protections against AI surveillance and automated firings. In Oakland, a strike vote forced retraining programs instead of layoffs, and a transport union in Ohio won veto power over autonomous vehicles. California banned so-called bossware.",
+  "tags": [],
+  "title": "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
+  "url": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/"
+ },
+ {
+  "categories": [
+   "mlops",
+   "research",
+   "open-source"
+  ],
+  "category_scores": {
+   "ai-ml": 0.359,
+   "genai-llm": 0.295,
+   "mlops": 0.894,
+   "open-source": 0.565,
+   "research": 0.575,
+   "security": 0.351,
+   "tools-launches": 0.267
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Maximilian Schreiner"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/06/china_vs_usa_ai_race.png"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "449fc35486b2",
+  "kind": "news",
+  "published": "2026-11-13T15:21:04Z",
+  "score": 16.0,
+  "source_id": "decoder",
+  "summary": "Former OpenAI researcher Will DePue says he has produced the first technical evidence that DeepSeek, Moonshot AI, MiniMax, and Ant Group are using Nvidia's latest Blackwell GPUs despite US export controls. His forensic method reads characteristic chip signatures directly from published model weights.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models",
+  "url": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "ai-ml": 0.271,
+   "enterprise": 0.301,
+   "open-source": 0.301,
+   "research": 0.445,
+   "robotics": 0.258,
+   "security": 0.287,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Maximilian Schreiner"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/10/Claude-Duet.png"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "off",
+  "id": "a1ffa3194999",
+  "kind": "news",
+  "published": "2026-11-13T15:15:08Z",
+  "score": 14.0,
+  "source_id": "decoder",
+  "summary": "Anthropic is on track for the largest IPO ever, with orders exceeding available shares by a factor of six. The article Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history appeared first on The Decoder .",
+  "tags": [],
+  "title": "Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history",
+  "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/"
+ },
+ {
+  "categories": [
+   "enterprise",
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.802,
+   "ai-ml": 0.436,
+   "enterprise": 1.0,
+   "genai-llm": 0.379,
+   "mlops": 0.263,
+   "open-source": 0.399,
+   "research": 0.254,
+   "security": 0.31,
+   "tools-launches": 0.417
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Maximilian Schreiner"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/10/met_muse_gadget_logo.jpg"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "1bdcb63cc91c",
+  "kind": "news",
+  "published": "2026-11-13T15:12:44Z",
+  "score": 14.0,
+  "source_id": "decoder",
+  "summary": "Meta's AI agent Muse can now call businesses on behalf of paying US subscribers, handling everything from cable providers to restaurants. The agent already has over 10 million users, according to Meta's AI chief Alexandr Wang.",
+  "tags": [],
+  "title": "Meta's Muse now calls businesses for you, but many companies might just hang up on the AI",
+  "url": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/"
+ },
+ {
+  "categories": [
+   "security",
+   "tools-launches"
+  ],
+  "category_scores": {
+   "open-source": 0.296,
+   "research": 0.264,
+   "security": 0.903,
+   "tools-launches": 0.656
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Maximilian Schreiner"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/06/openai_logo_background_dark.png"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "434c7ccbfb9a",
+  "kind": "news",
+  "published": "2026-11-13T15:08:57Z",
+  "score": 14.0,
+  "source_id": "decoder",
+  "summary": "OpenAI has launched two security products under its Daybreak brand. The article OpenAI enters the cybersecurity market with two Daybreak products appeared first on The Decoder .",
+  "tags": [
+   "Available now"
+  ],
+  "title": "OpenAI enters the cybersecurity market with two Daybreak products",
+  "url": "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products/"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "tools-launches",
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.836,
+   "genai-llm": 1.0,
+   "nlp": 0.251,
+   "open-source": 0.372,
+   "research": 0.274,
+   "security": 0.618,
+   "tools-launches": 0.896
+  },
+  "coverage": [
+   {
+    "published": "2026-11-13T16:00:12Z",
+    "source_id": "techcrunch",
+    "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+    "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"
+   }
+  ],
+  "extra": {},
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "5bf4951adbe9",
+  "kind": "news",
+  "published": "2026-11-13T15:00:00Z",
+  "score": 47.0,
+  "source_id": "openai",
+  "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+  "tags": [
+   "Available now"
+  ],
+  "title": "Introducing ChatGPT Wallet",
+  "url": "https://openai.com/index/introducing-chatgpt-wallet"
+ },
+ {
+  "categories": [
+   "enterprise",
+   "tools-launches"
+  ],
+  "category_scores": {
+   "agents": 0.269,
+   "enterprise": 0.878,
+   "genai-llm": 0.45,
+   "nlp": 0.318,
+   "research": 0.34,
+   "tools-launches": 0.606
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Ivan Mehta"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-13-at-7.19.18-PM.jpg?resize=1200,774"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "025a6c711bf8",
+  "kind": "news",
+  "published": "2026-11-13T14:44:48Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
+  "tags": [
+   "Enterprise"
+  ],
+  "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+  "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/"
+ },
+ {
+  "categories": [
+   "open-source",
+   "genai-llm"
+  ],
+  "category_scores": {
+   "agents": 0.289,
+   "enterprise": 0.378,
+   "genai-llm": 0.8,
+   "mlops": 0.558,
+   "open-source": 0.94
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/63148d3b996c52bf0142cdbe/2PgU1GxpJX_LVORaP2RRy.png"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "40e78db6601d",
+  "kind": "news",
+  "published": "2026-11-13T14:05:22Z",
+  "score": 30.0,
+  "source_id": "huggingface",
+  "summary": "llama.cpp makes it possible to run multi-modal LLMs across a wide range of hardware - from consumer-grade local machines to high-end enterprise servers. Through quantization, optimized backends, and a portable C/C++ implementation, we make AI inference accessible at every level of the software stack.",
+  "tags": [
+   "Enterprise"
+  ],
+  "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+  "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+ },
+ {
+  "categories": [
+   "agents",
+   "genai-llm"
+  ],
+  "category_scores": {
+   "agents": 1.0,
+   "ai-ml": 0.288,
+   "enterprise": 0.336,
+   "genai-llm": 0.858,
+   "open-source": 0.351,
+   "research": 0.288,
+   "security": 0.306,
+   "tools-launches": 0.32
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Allison Johnson"
+   ],
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC04398_processed.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "1bd099ba94a3",
+  "kind": "news",
+  "published": "2026-11-13T14:00:00Z",
+  "score": 22.0,
+  "source_id": "verge",
+  "summary": "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple [. ]",
+  "tags": [],
+  "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on"
+ },
+ {
+  "categories": [
+   "enterprise"
+  ],
+  "category_scores": {
+   "agents": 0.298,
+   "ai-ml": 0.464,
+   "enterprise": 1.0,
+   "research": 0.393,
+   "security": 0.285,
+   "tools-launches": 0.349
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "NVIDIA Writers"
+   ],
+   "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Screenshot-2026-11-12-at-9.25.28-AM-scaled.png"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "ece4b84db3e9",
+  "kind": "news",
+  "published": "2026-11-13T13:00:42Z",
+  "score": 30.0,
+  "source_id": "nvidia",
+  "summary": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home.",
+  "tags": [],
+  "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+  "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "ai-ml": 0.882,
+   "enterprise": 0.388,
+   "mlops": 0.376,
+   "open-source": 0.374,
+   "research": 0.372,
+   "security": 0.448,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Anna Heim"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2303769281.jpg?resize=1200,800"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "off",
+  "id": "e00ed907e42f",
+  "kind": "news",
+  "published": "2026-11-13T12:52:19Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
+  "tags": [],
+  "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+  "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "ai-ml": 0.343,
+   "enterprise": 0.275,
+   "genai-llm": 0.344,
+   "mlops": 0.378,
+   "open-source": 0.254,
+   "research": 0.45,
+   "security": 0.375,
+   "tools-launches": 0.345
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Ivan Mehta"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/colette-1920x1920_4d360fa4-e97d-4505-9857-284d03141162-prv-e1794568317250.jpg?resize=1200,676"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "off",
+  "id": "69b43a95305b",
+  "kind": "news",
+  "published": "2026-11-13T12:28:23Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
+  "tags": [],
+  "title": "Jensen Huang didn’t show confidence in his successor, report says",
+  "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "ai-ml": 0.317,
+   "genai-llm": 0.45,
+   "mlops": 0.263,
+   "open-source": 0.427,
+   "research": 0.399,
+   "security": 0.385,
+   "tools-launches": 0.409
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Elizabeth Lopatto"
+   ],
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25835739/STKP210_JENSEN_HUANG_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "off",
+  "id": "f41c719b0c12",
+  "kind": "news",
+  "published": "2026-11-13T12:00:00Z",
+  "score": 20.0,
+  "source_id": "verge",
+  "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singularity. If [. ]",
+  "tags": [],
+  "title": "Let’s talk about Jensen Huang’s many affairs!",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "agents": 0.276,
+   "ai-ml": 0.696,
+   "enterprise": 0.324,
+   "genai-llm": 0.45,
+   "open-source": 0.423,
+   "research": 0.88,
+   "robotics": 0.271,
+   "security": 0.321,
+   "tools-launches": 0.441
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Jason Parham"
+   ],
+   "image": "https://media.wired.com/photos/6af65ba58bac4203b57b5ba0/master/pass/Startup-Betting-on-AI-Microdramas-Culture.jpg"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "f37c9d28309c",
+  "kind": "news",
+  "published": "2026-11-13T11:45:00Z",
+  "score": 20.0,
+  "source_id": "wired",
+  "summary": "Mansa says its AI microdramas can serve as proofs of concept for what Black audiences want. Critics say the studio is selling out.",
+  "tags": [],
+  "title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
+  "url": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/"
+ },
+ {
+  "categories": [
+   "mlops",
+   "open-source"
+  ],
+  "category_scores": {
+   "genai-llm": 0.257,
+   "mlops": 0.94,
+   "open-source": 0.85,
+   "research": 0.339,
+   "tools-launches": 0.471
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Michal Sutter"
+   ],
+   "image": "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-19999-2-scaled.png"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "b465eed2f9de",
+  "kind": "news",
+  "published": "2026-11-13T10:32:26Z",
+  "score": 24.0,
+  "source_id": "marktechpost",
+  "summary": "Google Cloud has released TPU Sync , an open-source C++ library for moving KV caches and model weights on Cloud TPUs. The Google TPU Sync KV cache transfer library treats TPU HBM, host DRAM, shared storage and the data center network as one memory hierarchy.",
+  "tags": [
+   "Open source",
+   "Available now",
+   "For developers"
+  ],
+  "title": "Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs",
+  "url": "https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library/"
+ },
+ {
+  "categories": [
    "robotics"
   ],
   "category_scores": {
@@ -817,6 +1545,12 @@
     "source_id": "decoder",
     "title": "Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch",
     "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/"
+   },
+   {
+    "published": "2026-11-13T09:45:48Z",
+    "source_id": "marktechpost",
+    "title": "Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash",
+    "url": "https://www.marktechpost.com/2026/11/13/google-gemini-4-hydrogen/"
    }
   ],
   "extra": {
@@ -830,7 +1564,7 @@
   "id": "a67e1509e9c0",
   "kind": "news",
   "published": "2026-11-12T19:23:03Z",
-  "score": 41.0,
+  "score": 48.0,
   "source_id": "ars",
   "summary": "Google is continuing its elemental AI naming scheme with the new Gemini 4 Hydrogen . These names are less descriptive than the Pro/Flash monikers of earlier releases, but Hydrogen's purpose is clear: It replaces the faster, more economical Flash models most people in Google's ecosystem use.",
   "tags": [
@@ -992,14 +1726,15 @@
     "Shang-Wen Li",
     "Mike Lewis",
     "Marjan Ghazvininejad"
-   ]
+   ],
+   "upvotes": 2
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "ef255ee76f67",
   "kind": "paper",
   "published": "2026-11-12T18:59:54Z",
-  "score": 8.0,
+  "score": 17.5,
   "source_id": "arxiv",
   "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely.",
   "tags": [
@@ -6957,14 +7692,14 @@
    "github": "https://github.com/NVlabs/DVSM",
    "hf_url": "https://huggingface.co/papers/2611.17331",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17331.png",
-   "upvotes": 17
+   "upvotes": 19
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "f741b330c4b3",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 51.0,
+  "score": 51.9,
   "source_id": "hf-papers",
   "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality.",
   "tags": [
@@ -7059,14 +7794,14 @@
    "github": "https://github.com/DAGroup-PKU/PhysLoop",
    "hf_url": "https://huggingface.co/papers/2611.16748",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16748.png",
-   "upvotes": 22
+   "upvotes": 40
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
   "id": "adfd7cf196cc",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 53.1,
+  "score": 56.0,
   "source_id": "hf-papers",
   "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain.",
   "tags": [
@@ -7099,14 +7834,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.16517",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16517.png",
-   "upvotes": 8
+   "upvotes": 12
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
   "id": "9bc50b65722b",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 43.0,
+  "score": 46.2,
   "source_id": "hf-papers",
   "summary": "We present UniSpark-9B, a unified multimodal model that investigates hybrid attention for visual understanding and generation. Built on a Mixture-of-Transformer-Experts backbone with approximately 9B parameters in each branch, UniSpark combines full attention for explicit token interactions with GatedDeltaNet linear attention for compact context propagation.",
   "tags": [
@@ -7133,14 +7868,14 @@
    "github": "https://github.com/minhkks/NestOne",
    "hf_url": "https://huggingface.co/papers/2611.16321",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16321.png",
-   "upvotes": 1
+   "upvotes": 2
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
   "id": "89e1d9d80f7b",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 32.0,
+  "score": 35.5,
   "source_id": "hf-papers",
   "summary": "Transferring LLMs into System One decision models typically replaces the language modeling head with a decision head while retaining the full backbone, making every decision pay for all layers. Yet it remains unclear how much depth such decisions require.",
   "tags": [
@@ -7181,14 +7916,14 @@
    "github": "https://github.com/Ropedia/Ropedia-Xperience-2",
    "hf_url": "https://huggingface.co/papers/2611.17060",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17060.png",
-   "upvotes": 14
+   "upvotes": 25
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "8685833bc258",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 47.4,
+  "score": 52.2,
   "source_id": "hf-papers",
   "summary": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments.",
   "tags": [
@@ -7278,14 +8013,14 @@
    "github": "https://github.com/KevinHuge/WorldDraft",
    "hf_url": "https://huggingface.co/papers/2611.16217",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16217.png",
-   "upvotes": 12
+   "upvotes": 14
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
   "id": "4f01543cf76c",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 48.2,
+  "score": 49.4,
   "source_id": "hf-papers",
   "summary": "Multimodal coding agents decouple 4D world construction from visual generation, repurposing video models from world generators toward generative renderers. This division of labor raises a fundamental question: if code builds the world, can video models just render it?",
   "tags": [
@@ -7318,14 +8053,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2607.13920",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.13920.png",
-   "upvotes": 0
+   "upvotes": 3
   },
   "fetched": "2026-11-13T09:26:01Z",
   "focus": "tech",
   "id": "3cd24f43d3c4",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 26.0,
+  "score": 38.0,
   "source_id": "hf-papers",
   "summary": "While search agents demonstrate impressive capabilities in multi-step question answering, their robustness to poor-quality evidence remains under-explored. Such evidence is rare in benchmark corpora, and resulting failures are hard to reproduce. We propose DeepStress, a dynamic stress-testing framework that subjects agents to degraded evidence at controlled rates.",
   "tags": [
@@ -7359,14 +8094,14 @@
    "github": "https://github.com/naver-ai/foam",
    "hf_url": "https://huggingface.co/papers/2611.16905",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16905.png",
-   "upvotes": 10
+   "upvotes": 12
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
   "id": "28f099f5330a",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 44.8,
+  "score": 46.2,
   "source_id": "hf-papers",
   "summary": "Second-order optimizers (e.g., Shampoo, SOAP) have emerged as compelling alternatives to Adam/AdamW and promise faster per-step convergence than AdamW in transformer training. However, they still remain costly in practice, and even SOAP still pays substantial optimizer-state memory and eigendecomposition overhead. We ask whether the benefits of SOAP can be retained at nearly the efficiency of AdamW.",
   "tags": [
@@ -7400,14 +8135,14 @@
    "github": "https://github.com/ZJU-REAL/decision-agents",
    "hf_url": "https://huggingface.co/papers/2611.17167",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17167.png",
-   "upvotes": 21
+   "upvotes": 29
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
   "id": "2190decebe33",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 52.8,
+  "score": 55.4,
   "source_id": "hf-papers",
   "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act.",
   "tags": [
@@ -7415,6 +8150,45 @@
   ],
   "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
   "url": "https://arxiv.org/abs/2611.17167"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "agents",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.795,
+   "ai-ml": 0.739,
+   "genai-llm": 0.958,
+   "nlp": 0.288
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Doyoung Kim",
+    "Byeongguk Jeon",
+    "Kailin Zhang",
+    "Sherry Yang"
+   ],
+   "github": "https://github.com/doyoungkim-ml/ehrl",
+   "hf_url": "https://huggingface.co/papers/2611.16409",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16409.png",
+   "upvotes": 1
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "1b74118948fc",
+  "kind": "paper",
+  "published": "2026-11-12T00:00:00Z",
+  "score": 30.0,
+  "source_id": "hf-papers",
+  "summary": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards. However, this throws away the fine-grained information about the environment that the agent experienced during the trial (e.g., error logs).",
+  "tags": [
+   "Research"
+  ],
+  "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+  "url": "https://arxiv.org/abs/2611.16409"
  },
  {
   "categories": [
@@ -15195,7 +15969,7 @@
    "github": "https://github.com/holdrain/SO-Arena",
    "hf_url": "https://huggingface.co/papers/2611.15777",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15777.png",
-   "upvotes": 40
+   "upvotes": 71
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
@@ -15235,14 +16009,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.15131",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15131.png",
-   "upvotes": 26
+   "upvotes": 34
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "bdc7bca3c70f",
   "kind": "paper",
   "published": "2026-11-11T00:00:00Z",
-  "score": 54.5,
+  "score": 56.0,
   "source_id": "hf-papers",
   "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world.",
   "tags": [
@@ -15277,6 +16051,129 @@
   "tags": [],
   "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
   "url": "https://openai.com/index/jiostar-vijay-seshadri"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 1.0,
+   "genai-llm": 0.739,
+   "security": 0.414
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Arpit Jadon",
+    "Valentinos Pariza",
+    "Jona Ruthardt",
+    "Ryousuke Yamada",
+    "A. Sophia Koepke",
+    "Andrei Bursuc"
+   ],
+   "github": "https://github.com/OpenVisionBanana/OpenVisionBanana",
+   "hf_url": "https://huggingface.co/papers/2611.15844",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15844.png",
+   "upvotes": 25
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "6318c1a9c635",
+  "kind": "paper",
+  "published": "2026-11-11T00:00:00Z",
+  "score": 52.2,
+  "source_id": "hf-papers",
+  "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
+  "url": "https://arxiv.org/abs/2611.15844"
+ },
+ {
+  "categories": [
+   "robotics",
+   "agents",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.818,
+   "genai-llm": 0.666,
+   "open-source": 0.302,
+   "research": 0.495,
+   "robotics": 1.0,
+   "security": 0.298
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Zefan Wang",
+    "Yufan Dang",
+    "Xuanwei Shi",
+    "Mingqi Gao",
+    "Cheng Yin",
+    "SikYuen Tam"
+   ],
+   "github": "https://github.com/ZefanW/JustRUA",
+   "hf_url": "https://huggingface.co/papers/2611.16009",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16009.png",
+   "upvotes": 3
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "472f6c53fd63",
+  "kind": "paper",
+  "published": "2026-11-11T00:00:00Z",
+  "score": 42.0,
+  "source_id": "hf-papers",
+  "summary": "GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo have risen quickly since. Reported systems differ in harness and test subset and often change several designs at once, so it is hard to tell which choices produce the gains.",
+  "tags": [
+   "Research"
+  ],
+  "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
+  "url": "https://arxiv.org/abs/2611.16009"
+ },
+ {
+  "categories": [
+   "enterprise",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.874,
+   "computer-vision": 0.515,
+   "enterprise": 0.689,
+   "research": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Chenhui Zhao",
+    "Akshay Rao",
+    "Akhil Kondepudi",
+    "Yiwei Lyu",
+    "Xinhai Hou",
+    "Rikhil Seshadri"
+   ],
+   "github": "https://github.com/MLNeurosurg/neuro-vl",
+   "hf_url": "https://huggingface.co/papers/2611.15094",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15094.png",
+   "upvotes": 0
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "061a5fe077d0",
+  "kind": "paper",
+  "published": "2026-11-11T00:00:00Z",
+  "score": 24.0,
+  "source_id": "hf-papers",
+  "summary": "Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time. Although artificial intelligence has advanced image interpretation, existing medical models often address restricted tasks, while general-purpose proprietary models lack access to private clinical imaging required to achieve medical expertise.",
+  "tags": [
+   "Research"
+  ],
+  "title": "A frontier machine intelligence for human neuroimaging",
+  "url": "https://arxiv.org/abs/2611.15094"
  },
  {
   "categories": [
@@ -17678,6 +18575,37 @@
  },
  {
   "categories": [
+   "open-source",
+   "mlops",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.949,
+   "genai-llm": 0.27,
+   "mlops": 0.408,
+   "open-source": 0.45,
+   "research": 0.315
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://lh3.googleusercontent.com/ggsqfaBnOayx-i7z9Kj8AeZruz8BSo0N7tsnqwH8Z3REnHcDKBt-QSA3DR4UUM8lcwklWihSARoEN2AyQFhoRFGFlk2-0-xGuKt_rtGoFwpJg8LHVQ=w528-h297-n-nu-rw-lo"
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "cd88f6cf71e0",
+  "kind": "news",
+  "published": "2026-11-10T11:13:04Z",
+  "score": 32.0,
+  "source_id": "deepmind",
+  "summary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Opening the datasets behind our AI weather models",
+  "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/"
+ },
+ {
+  "categories": [
    "genai-llm",
    "tools-launches",
    "enterprise"
@@ -18062,7 +18990,7 @@
    "github": "https://github.com/yukyeongleee/wikitrace",
    "hf_url": "https://huggingface.co/papers/2611.14320",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14320.png",
-   "upvotes": 64
+   "upvotes": 65
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
@@ -18408,14 +19336,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.14046",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14046.png",
-   "upvotes": 1
+   "upvotes": 2
   },
   "fetched": "2026-11-13T08:41:02Z",
   "focus": "tech",
   "id": "9bd5e22181eb",
   "kind": "paper",
   "published": "2026-11-10T00:00:00Z",
-  "score": 30.0,
+  "score": 33.5,
   "source_id": "hf-papers",
   "summary": "Adversarial training is often plagued by \"pseudo-attacks\", perturbations that significantly increase the loss value but fail to truly alter the model's confidence structure. To address this, we propose two complementary approaches to directly attack and defend against confidence structure deformation.",
   "tags": [
@@ -18603,6 +19531,40 @@
   "tags": [],
   "title": "Pay for Hugging Face Hub with your Google Cloud Account",
   "url": "https://huggingface.co/blog/hub-gcp-marketplace"
+ },
+ {
+  "categories": [
+   "agents",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 1.0,
+   "genai-llm": 0.654
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Jingjing Jiang"
+   ],
+   "github": "https://github.com/jingjing12110/SE-MMAgents",
+   "hf_url": "https://huggingface.co/papers/2611.14256",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14256.png",
+   "upvotes": 1
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "67e1d3f3c687",
+  "kind": "paper",
+  "published": "2026-11-10T00:00:00Z",
+  "score": 32.0,
+  "source_id": "hf-papers",
+  "summary": "Recent work shows that multimodal agents increasingly self-improve without recurring human annotation. However, each self-improvement mechanism is designed and evaluated within a single scenario, leaving its preconditions unverified under cross-scenario transfer.",
+  "tags": [
+   "Research"
+  ],
+  "title": "A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents",
+  "url": "https://arxiv.org/abs/2611.14256"
  },
  {
   "categories": [
@@ -19028,7 +19990,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.14815",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14815.png",
-   "upvotes": 36
+   "upvotes": 44
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
@@ -19167,14 +20129,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.13560",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13560.png",
-   "upvotes": 4
+   "upvotes": 5
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "05d198b7bb80",
   "kind": "paper",
   "published": "2026-11-10T00:00:00Z",
-  "score": 37.9,
+  "score": 39.5,
   "source_id": "hf-papers",
   "summary": "RLVR trains language models to reason by rewarding correct final answers. A widely used algorithm, group-relative policy optimization (GRPO), gives every token of a solution the same credit, so dense process rewards have been proposed to credit intermediate steps, for example with a Monte-Carlo reward that scores each step by sampling continuations from it.",
   "tags": [
@@ -20854,14 +21816,14 @@
    "github": "https://github.com/ViktorAxelsen/HiVe-Mem",
    "hf_url": "https://huggingface.co/papers/2611.12872",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12872.png",
-   "upvotes": 1
+   "upvotes": 3
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "cb19e2862333",
   "kind": "paper",
   "published": "2026-11-09T00:00:00Z",
-  "score": 32.0,
+  "score": 38.0,
   "source_id": "hf-papers",
   "summary": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typically rely on semantic retrieval over compressed memories and expose predefined representations, which may miss relevant memories and overlook heterogeneous evidence needs across queries.",
   "tags": [
@@ -21216,6 +22178,43 @@
   ],
   "title": "Creative Priming: Decoupling Process from Product to Escape the Creative Paradox",
   "url": "https://arxiv.org/abs/2611.11740"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.27,
+   "genai-llm": 1.0,
+   "nlp": 0.607
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Nikhil Sharma",
+    "Kelly Marchisio",
+    "Kenton Murray",
+    "Ziang Xiao"
+   ],
+   "github": "https://github.com/isle-dev/Narrative-Bench-NeurIPS-2026",
+   "hf_url": "https://huggingface.co/papers/2611.12750",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12750.png",
+   "upvotes": 0
+  },
+  "fetched": "2026-11-13T17:16:48Z",
+  "focus": "tech",
+  "id": "774e333563cb",
+  "kind": "paper",
+  "published": "2026-11-09T00:00:00Z",
+  "score": 24.0,
+  "source_id": "hf-papers",
+  "summary": "Large language models (LLMs) increasingly mediate how people seek and consume information, including accounts that differ across languages and regions, especially on contested topics. Supporting diverse information seeking requires models to help users navigate competing narratives across languages and information streams.",
+  "tags": [
+   "Research"
+  ],
+  "title": "The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?",
+  "url": "https://arxiv.org/abs/2611.12750"
  },
  {
   "categories": [
@@ -21961,7 +22960,7 @@
    "github": "https://github.com/DAGroup-PKU/G-STAR",
    "hf_url": "https://huggingface.co/papers/2611.13004",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13004.png",
-   "upvotes": 35
+   "upvotes": 40
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
@@ -22481,14 +23480,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2608.22237",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.22237.png",
-   "upvotes": 19
+   "upvotes": 21
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "14ab5ae0bf3b",
   "kind": "paper",
   "published": "2026-11-07T00:00:00Z",
-  "score": 51.9,
+  "score": 52.8,
   "source_id": "hf-papers",
   "summary": "Web-facing AI agents repeatedly access webpages, documents, repositories, and tool responses, yet reading interfaces often expose entire objects when only sparse evidence is needed. This over-reading increases token and latency costs and can dilute relevant evidence. We present SparseRead, a reusable reading control layer that governs content admission without modifying the agent model.",
   "tags": [
@@ -25188,14 +26187,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.08318",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08318.png",
-   "upvotes": 2
+   "upvotes": 5
   },
   "fetched": "2026-11-13T09:26:01Z",
   "focus": "tech",
   "id": "8c97a33ec8de",
   "kind": "paper",
   "published": "2026-11-05T00:00:00Z",
-  "score": 33.5,
+  "score": 39.5,
   "source_id": "hf-papers",
   "summary": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE).",
   "tags": [
@@ -25367,14 +26366,14 @@
    "github": "https://github.com/ZJU-REAL/Agent-R2",
    "hf_url": "https://huggingface.co/papers/2611.08219",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08219.png",
-   "upvotes": 1
+   "upvotes": 3
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "6aa2075d69c1",
   "kind": "paper",
   "published": "2026-11-05T00:00:00Z",
-  "score": 32.0,
+  "score": 38.0,
   "source_id": "hf-papers",
   "summary": "Large language models have made rapid progress in agentic reasoning and tool use, raising expectations for agents that can take over realistic productivity work from humans. However, current agents still struggle to finish such tasks, where success requires following long-horizon professional workflows, understanding heterogeneous file contexts, and producing usable deliverables under fine-grained requirements.",
   "tags": [
@@ -25574,14 +26573,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.07464",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.07464.png",
-   "upvotes": 25
+   "upvotes": 26
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "188b70230048",
   "kind": "paper",
   "published": "2026-11-05T00:00:00Z",
-  "score": 54.2,
+  "score": 54.5,
   "source_id": "hf-papers",
   "summary": "Language agents increasingly work for users on the open Web, and finance is where trusting them is hardest. The data must come from the Web, the strategy lives in the user's head, and correctness depends on time, so an agent can fail silently: a strategy the user never asked for, unverified data, or a backtest that uses the future yields a report as convincing as a correct one.",
   "tags": [
@@ -26843,14 +27842,14 @@
    "github": "https://github.com/aHapBean/SimpleHC",
    "hf_url": "https://huggingface.co/papers/2611.05984",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.05984.png",
-   "upvotes": 22
+   "upvotes": 26
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "9be320beeefa",
   "kind": "paper",
   "published": "2026-11-04T00:00:00Z",
-  "score": 51.1,
+  "score": 52.5,
   "source_id": "hf-papers",
   "summary": "Hyper-Connections (HC) architectures are increasingly adopted in frontier language models, yet their components remain insufficiently understood and introduce non-negligible training overhead. In this work, we systematically study the HC architecture to understand its components and identify simpler, more efficient designs.",
   "tags": [
