@@ -1210,14 +1210,14 @@
    "github": "https://github.com/dengzhe-hou/WMIP",
    "hf_url": "https://huggingface.co/papers/2603.27343",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.27343.png",
-   "upvotes": 4
+   "upvotes": 5
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "c5fd33aea05d",
   "kind": "paper",
   "published": "2026-10-30T00:00:00Z",
-  "score": 39.9,
+  "score": 41.5,
   "source_id": "hf-papers",
   "summary": "Human working memory lets people maintain and update information. Large language models (LLMs) face a related demand when tracking updates within a single prompt without writing out intermediate states, yet existing tests differ in their constraints on written steps.",
   "tags": [
@@ -3784,7 +3784,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2610.40394",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.40394.png",
-   "upvotes": 44
+   "upvotes": 45
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
@@ -4034,7 +4034,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2610.39671",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.39671.png",
-   "upvotes": 31
+   "upvotes": 33
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",

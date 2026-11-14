@@ -1,6 +1,32 @@
 [
  {
   "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Stevie Bonifield"
+   ],
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/acastro_STK103__03.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+  },
+  "fetched": "2026-11-14T06:39:54Z",
+  "focus": "tech",
+  "id": "43a8bca0b077",
+  "kind": "news",
+  "published": "2026-11-13T23:49:11Z",
+  "score": 20.0,
+  "source_id": "verge",
+  "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters.",
+  "tags": [],
+  "title": "Amazon has a plan to index the world’s online shopping data",
+  "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
+ },
+ {
+  "categories": [
    "mlops"
   ],
   "category_scores": {
@@ -1447,6 +1473,32 @@
  },
  {
   "categories": [
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.896,
+   "enterprise": 0.381,
+   "open-source": 0.431,
+   "research": 0.313,
+   "security": 0.426,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {},
+  "fetched": "2026-11-14T06:39:54Z",
+  "focus": "tech",
+  "id": "d1318183fe17",
+  "kind": "news",
+  "published": "2026-11-13T08:00:00Z",
+  "score": 30.0,
+  "source_id": "openai",
+  "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+  "tags": [],
+  "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+  "url": "https://openai.com/business/customer-stories/shield"
+ },
+ {
+  "categories": [
    "robotics"
   ],
   "category_scores": {
@@ -1511,6 +1563,30 @@
   "tags": [],
   "title": "New AI “copilot” helps engineers design better structures",
   "url": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113"
+ },
+ {
+  "categories": [
+   "security"
+  ],
+  "category_scores": {
+   "research": 0.315,
+   "security": 1.0
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://assets.claude.com/04a298be2efa241bd5a4a810b97c62bb8ef257dc.jpg"
+  },
+  "fetched": "2026-11-14T06:39:54Z",
+  "focus": "tech",
+  "id": "914024328dfe",
+  "kind": "news",
+  "published": "2026-11-13T00:00:00Z",
+  "score": 30.0,
+  "source_id": "anthropic",
+  "summary": "Recommendations for designing, running, and reporting safety evaluations, based on our own experiences.",
+  "tags": [],
+  "title": "Building strong safety evaluations",
+  "url": "https://www.anthropic.com/research/building-strong-safety-evaluations"
  },
  {
   "categories": [
@@ -2408,14 +2484,14 @@
     "Nan Liu",
     "Desai Xie"
    ],
-   "upvotes": 1
+   "upvotes": 2
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "2eeb15f24271",
   "kind": "paper",
   "published": "2026-11-12T18:59:55Z",
-  "score": 14.0,
+  "score": 17.5,
   "source_id": "arxiv",
   "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than individual ones, and each response must wait for the rest of its multi-frame block.",
   "tags": [
@@ -2446,14 +2522,14 @@
     "Mike Lewis",
     "Marjan Ghazvininejad"
    ],
-   "upvotes": 8
+   "upvotes": 13
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "ef255ee76f67",
   "kind": "paper",
   "published": "2026-11-12T18:59:54Z",
-  "score": 27.0,
+  "score": 30.8,
   "source_id": "arxiv",
   "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely.",
   "tags": [
@@ -4278,14 +4354,14 @@
     "Robert Fonod",
     "Nikolas Geroliminis"
    ],
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "e9940fb11db5",
   "kind": "paper",
   "published": "2026-11-12T17:55:06Z",
-  "score": 20.5,
+  "score": 23.0,
   "source_id": "arxiv",
   "summary": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object positions comparable. The registration pipelines it relies on are selected on feature-matching benchmarks in which only the camera moves.",
   "tags": [
@@ -7446,14 +7522,15 @@
     "Shangtao Li",
     "Zhenlong Fang",
     "Revanth Krishna Senthilkumaran"
-   ]
+   ],
+   "upvotes": 1
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "3966540c4126",
   "kind": "paper",
   "published": "2026-11-12T12:40:24Z",
-  "score": 8.0,
+  "score": 14.0,
   "source_id": "arxiv",
   "summary": "Generalist manipulation policies can benefit from the complementary experience of humans, real robots, and simulated agents. However, differences in morphology, sensing, and control interfaces make it difficult to learn effectively from their combined demonstrations.",
   "tags": [
@@ -8419,14 +8496,14 @@
    "github": "https://github.com/NVlabs/DVSM",
    "hf_url": "https://huggingface.co/papers/2611.17331",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17331.png",
-   "upvotes": 19
+   "upvotes": 21
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "f741b330c4b3",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 51.9,
+  "score": 52.8,
   "source_id": "hf-papers",
   "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality.",
   "tags": [
@@ -8491,14 +8568,14 @@
    "github": "https://github.com/zhengxuyu/HDM-code",
    "hf_url": "https://huggingface.co/papers/2611.16961",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16961.png",
-   "upvotes": 1
+   "upvotes": 2
   },
   "fetched": "2026-11-13T23:39:45Z",
   "focus": "tech",
   "id": "d83a734d81f7",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 32.0,
+  "score": 35.5,
   "source_id": "hf-papers",
   "summary": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; either way the answer is still written out token by token.",
   "tags": [
@@ -8562,7 +8639,7 @@
    "github": "https://github.com/DAGroup-PKU/PhysLoop",
    "hf_url": "https://huggingface.co/papers/2611.16748",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16748.png",
-   "upvotes": 42
+   "upvotes": 44
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
@@ -8684,14 +8761,14 @@
    "github": "https://github.com/Ropedia/Ropedia-Xperience-2",
    "hf_url": "https://huggingface.co/papers/2611.17060",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17060.png",
-   "upvotes": 25
+   "upvotes": 26
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "8685833bc258",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 52.2,
+  "score": 52.5,
   "source_id": "hf-papers",
   "summary": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments.",
   "tags": [
@@ -8903,14 +8980,14 @@
    "github": "https://github.com/ZJU-REAL/decision-agents",
    "hf_url": "https://huggingface.co/papers/2611.17167",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17167.png",
-   "upvotes": 29
+   "upvotes": 30
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
   "id": "2190decebe33",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 55.4,
+  "score": 55.7,
   "source_id": "hf-papers",
   "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act.",
   "tags": [
@@ -8942,14 +9019,14 @@
    "github": "https://github.com/doyoungkim-ml/ehrl",
    "hf_url": "https://huggingface.co/papers/2611.16409",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16409.png",
-   "upvotes": 1
+   "upvotes": 2
   },
   "fetched": "2026-11-13T17:16:48Z",
   "focus": "tech",
   "id": "1b74118948fc",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 30.0,
+  "score": 33.5,
   "source_id": "hf-papers",
   "summary": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards. However, this throws away the fine-grained information about the environment that the agent experienced during the trial (e.g., error logs).",
   "tags": [
@@ -16737,7 +16814,7 @@
    "github": "https://github.com/holdrain/SO-Arena",
    "hf_url": "https://huggingface.co/papers/2611.15777",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15777.png",
-   "upvotes": 73
+   "upvotes": 82
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
@@ -16777,7 +16854,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.15131",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15131.png",
-   "upvotes": 35
+   "upvotes": 38
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
@@ -16844,14 +16921,14 @@
    "github": "https://github.com/OpenVisionBanana/OpenVisionBanana",
    "hf_url": "https://huggingface.co/papers/2611.15844",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15844.png",
-   "upvotes": 29
+   "upvotes": 32
   },
   "fetched": "2026-11-13T17:16:48Z",
   "focus": "tech",
   "id": "6318c1a9c635",
   "kind": "paper",
   "published": "2026-11-11T00:00:00Z",
-  "score": 53.4,
+  "score": 54.0,
   "source_id": "hf-papers",
   "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public.",
   "tags": [
@@ -16927,14 +17004,14 @@
    "github": "https://github.com/MLNeurosurg/neuro-vl",
    "hf_url": "https://huggingface.co/papers/2611.15094",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15094.png",
-   "upvotes": 0
+   "upvotes": 1
   },
   "fetched": "2026-11-13T17:16:48Z",
   "focus": "tech",
   "id": "061a5fe077d0",
   "kind": "paper",
   "published": "2026-11-11T00:00:00Z",
-  "score": 24.0,
+  "score": 30.0,
   "source_id": "hf-papers",
   "summary": "Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time. Although artificial intelligence has advanced image interpretation, existing medical models often address restricted tasks, while general-purpose proprietary models lack access to private clinical imaging required to achieve medical expertise.",
   "tags": [
@@ -20758,7 +20835,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.14815",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14815.png",
-   "upvotes": 46
+   "upvotes": 48
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
@@ -22968,14 +23045,14 @@
    "github": "https://github.com/isle-dev/Narrative-Bench-NeurIPS-2026",
    "hf_url": "https://huggingface.co/papers/2611.12750",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12750.png",
-   "upvotes": 0
+   "upvotes": 2
   },
   "fetched": "2026-11-13T17:16:48Z",
   "focus": "tech",
   "id": "774e333563cb",
   "kind": "paper",
   "published": "2026-11-09T00:00:00Z",
-  "score": 24.0,
+  "score": 33.5,
   "source_id": "hf-papers",
   "summary": "Large language models (LLMs) increasingly mediate how people seek and consume information, including accounts that differ across languages and regions, especially on contested topics. Supporting diverse information seeking requires models to help users navigate competing narratives across languages and information streams.",
   "tags": [
@@ -23728,7 +23805,7 @@
    "github": "https://github.com/DAGroup-PKU/G-STAR",
    "hf_url": "https://huggingface.co/papers/2611.13004",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13004.png",
-   "upvotes": 40
+   "upvotes": 41
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
@@ -24263,6 +24340,42 @@
   ],
   "title": "Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents",
   "url": "https://arxiv.org/abs/2608.22237"
+ },
+ {
+  "categories": [
+   "agents",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 1.0,
+   "genai-llm": 0.458
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Yunzhe Wang",
+    "Mesut Erhan Unal",
+    "Sheng Zhang",
+    "Shabnam Ghadar",
+    "Peng Tang"
+   ],
+   "hf_url": "https://huggingface.co/papers/2611.10439",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.10439.png",
+   "upvotes": 5
+  },
+  "fetched": "2026-11-14T06:39:54Z",
+  "focus": "tech",
+  "id": "0cf57875206a",
+  "kind": "paper",
+  "published": "2026-11-07T00:00:00Z",
+  "score": 41.5,
+  "source_id": "hf-papers",
+  "summary": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM, and group-evolving agents go further by sharing these lessons across agents. Yet most such systems overlook that sharing across users and heterogeneous agents requires deciding who can benefit from each lesson and what information must remain private.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
+  "url": "https://arxiv.org/abs/2611.10439"
  },
  {
   "categories": [
@@ -25006,14 +25119,14 @@
    "github": "https://github.com/itsakk/TurtLES",
    "hf_url": "https://huggingface.co/papers/2611.09567",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.09567.png",
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-13T23:39:45Z",
   "focus": "tech",
   "id": "c816fa53367f",
   "kind": "paper",
   "published": "2026-11-06T00:00:00Z",
-  "score": 39.0,
+  "score": 40.9,
   "source_id": "hf-papers",
   "summary": "Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited by the lack of benchmarks capturing realistic, time-dependent turbulent flows. We introduce TurtLES, a 14 TB dataset of 3D turbulent cylinder wakes in the shear-layer transition regime, computed via high-fidelity implicit large-eddy simulations.",
   "tags": [
@@ -25123,14 +25236,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.10193",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.10193.png",
-   "upvotes": 14
+   "upvotes": 15
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "86a5ed94ec86",
   "kind": "paper",
   "published": "2026-11-06T00:00:00Z",
-  "score": 47.4,
+  "score": 48.0,
   "source_id": "hf-papers",
   "summary": "Large language models (LLMs) increasingly support Web-based services that must balance response quality and inference cost across heterogeneous requests. Conventional routing selects one model per prompt, while fixed ensembles cannot adapt their composition and cost to individual requests. We introduce PISA, a prompt-adaptive, cost-aware single-model router, and PISA-E, its extension to ensemble routing.",
   "tags": [
@@ -26995,14 +27108,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.08318",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08318.png",
-   "upvotes": 6
+   "upvotes": 15
   },
   "fetched": "2026-11-13T09:26:01Z",
   "focus": "tech",
   "id": "8c97a33ec8de",
   "kind": "paper",
   "published": "2026-11-05T00:00:00Z",
-  "score": 40.8,
+  "score": 48.0,
   "source_id": "hf-papers",
   "summary": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE).",
   "tags": [
