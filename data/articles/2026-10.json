@@ -1021,14 +1021,14 @@
    "github": "https://github.com/dengzhe-hou/CogBattery",
    "hf_url": "https://huggingface.co/papers/2607.24999",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.24999.png",
-   "upvotes": 4
+   "upvotes": 5
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "fea4e839fe68",
   "kind": "paper",
   "published": "2026-10-30T00:00:00Z",
-  "score": 39.9,
+  "score": 41.5,
   "source_id": "hf-papers",
   "summary": "Human cognitive tasks let us compare language models with humans under controlled conditions. Yet a model can reproduce the direction of a human effect while making different errors. CogBattery evaluates 54 open-weight language models on text adaptations of 13 cognitive paradigms, comparing each with human data from its source study.",
   "tags": [
@@ -1210,14 +1210,14 @@
    "github": "https://github.com/dengzhe-hou/WMIP",
    "hf_url": "https://huggingface.co/papers/2603.27343",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.27343.png",
-   "upvotes": 5
+   "upvotes": 6
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "c5fd33aea05d",
   "kind": "paper",
   "published": "2026-10-30T00:00:00Z",
-  "score": 41.5,
+  "score": 42.8,
   "source_id": "hf-papers",
   "summary": "Human working memory lets people maintain and update information. Large language models (LLMs) face a related demand when tracking updates within a single prompt without writing out intermediate states, yet existing tests differ in their constraints on written steps.",
   "tags": [
@@ -1525,14 +1525,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.00359",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.00359.png",
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
   "id": "44f5a3c06efe",
   "kind": "paper",
   "published": "2026-10-30T00:00:00Z",
-  "score": 33.5,
+  "score": 36.0,
   "source_id": "hf-papers",
   "summary": "AI \"humanizers\" rewrite machine-generated text so that detectors classify it as human-written. Public leaderboards score evasion and embedding similarity, but not whether checkable details survive. We check whether numbers, dates, person and organization names, and quoted spans survive each rewrite, using a rule-based checker validated by two AI annotators (precision 0.84-1.00, recall 0.93-0.95; no human annotation).",
   "tags": [
@@ -3784,7 +3784,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2610.40394",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.40394.png",
-   "upvotes": 45
+   "upvotes": 47
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
@@ -4034,7 +4034,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2610.39671",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.39671.png",
-   "upvotes": 33
+   "upvotes": 35
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",

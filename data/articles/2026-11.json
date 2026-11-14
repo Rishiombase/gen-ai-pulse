@@ -1,6 +1,288 @@
 [
  {
   "categories": [
+   "enterprise"
+  ],
+  "category_scores": {
+   "agents": 0.373,
+   "ai-ml": 0.654,
+   "enterprise": 0.887,
+   "genai-llm": 0.312,
+   "mlops": 0.314,
+   "open-source": 0.355,
+   "research": 0.381,
+   "robotics": 0.29,
+   "security": 0.45,
+   "tools-launches": 0.44
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Matt Burgess, Lily Hay Newman"
+   ]
+  },
+  "fetched": "2026-11-14T15:52:23Z",
+  "focus": "tech",
+  "id": "1a55776cd7f3",
+  "kind": "news",
+  "published": "2026-11-14T13:00:00Z",
+  "score": 20.0,
+  "source_id": "wired",
+  "summary": "Fully automated ransomware hasn’t arrived—yet. But seemingly unsophisticated attackers are using AI tools to wreak havoc.",
+  "tags": [],
+  "title": "Beware the New AI-Fueled Ransomware Boom",
+  "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "enterprise": 0.307,
+   "mlops": 0.285,
+   "research": 0.331,
+   "security": 0.253,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Sean Hollister"
+   ],
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2194622930.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+  },
+  "fetched": "2026-11-14T15:52:23Z",
+  "focus": "off",
+  "id": "c46863c30810",
+  "kind": "news",
+  "published": "2026-11-14T12:00:00Z",
+  "score": 20.0,
+  "source_id": "verge",
+  "summary": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that [. ]",
+  "tags": [],
+  "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+  "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo"
+ },
+ {
+  "categories": [
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.352,
+   "ai-ml": 0.434,
+   "enterprise": 0.283,
+   "genai-llm": 0.47,
+   "open-source": 0.45,
+   "research": 0.562,
+   "robotics": 0.869,
+   "security": 0.331,
+   "tools-launches": 0.268
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Matthias Bastian"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/09/openai_robot_arms.png"
+  },
+  "fetched": "2026-11-14T15:52:23Z",
+  "focus": "tech",
+  "id": "3fecc6a9d4a0",
+  "kind": "news",
+  "published": "2026-11-14T11:40:51Z",
+  "score": 16.0,
+  "source_id": "decoder",
+  "summary": "OpenAI is dissolving its standalone robotics team for the second time, but not because it lacks data. General-purpose models like GPT-6 Astra can apparently control robots directly, making a dedicated unit unnecessary.",
+  "tags": [
+   "Research"
+  ],
+  "title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
+  "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/"
+ },
+ {
+  "categories": [
+   "research",
+   "mlops"
+  ],
+  "category_scores": {
+   "ai-ml": 0.328,
+   "enterprise": 0.307,
+   "genai-llm": 0.256,
+   "mlops": 0.839,
+   "open-source": 0.359,
+   "research": 1.0,
+   "security": 0.274,
+   "tools-launches": 0.355
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Matthias Bastian"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/09/claude_laser.png"
+  },
+  "fetched": "2026-11-14T15:52:23Z",
+  "focus": "tech",
+  "id": "938a8fdebfb4",
+  "kind": "news",
+  "published": "2026-11-14T11:21:41Z",
+  "score": 14.0,
+  "source_id": "decoder",
+  "summary": "Former OpenAI and Anthropic researcher Jacob Coxon points to a slide from Anthropic's IPO roadshow as a reason he left, saying it shows the company's algorithms are improving not just quickly but at an accelerating rate.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon",
+  "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/"
+ },
+ {
+  "categories": [
+   "security"
+  ],
+  "category_scores": {
+   "agents": 0.399,
+   "ai-ml": 0.91,
+   "enterprise": 0.395,
+   "genai-llm": 0.276,
+   "mlops": 0.295,
+   "open-source": 0.29,
+   "research": 0.362,
+   "robotics": 0.411,
+   "security": 0.45,
+   "tools-launches": 0.324
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Jeff Wise"
+   ],
+   "image": "https://media.wired.com/photos/6af209fa2480549f4d787257/191:100/w_1280,c_limit/ai_aviation.jpg"
+  },
+  "fetched": "2026-11-14T15:52:23Z",
+  "focus": "tech",
+  "id": "4cb83f2a3259",
+  "kind": "news",
+  "published": "2026-11-14T11:00:00Z",
+  "score": 20.0,
+  "source_id": "wired",
+  "summary": "Normally, aviation is slow to embrace new technology—but AI has come for the skies.",
+  "tags": [],
+  "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+  "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "open-source"
+  ],
+  "category_scores": {
+   "genai-llm": 1.0,
+   "mlops": 0.251,
+   "nlp": 0.369,
+   "open-source": 0.672,
+   "research": 0.514,
+   "tools-launches": 0.287
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Asif Razzaq"
+   ],
+   "image": "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-19999-5-scaled.png"
+  },
+  "fetched": "2026-11-14T15:52:23Z",
+  "focus": "tech",
+  "id": "c0bbffee7458",
+  "kind": "news",
+  "published": "2026-11-14T10:21:21Z",
+  "score": 14.0,
+  "source_id": "marktechpost",
+  "summary": "Stanford researchers have released Memorilla , an open-source memory system for LLMs. The Memorilla memory system reads a whole document collection and hands a frozen LLM just 16 memory tokens. On FactKG, a frozen Qwen3-8B scored 84.33% with Memorilla, against 80.43% with every document in context .",
+  "tags": [
+   "Open source",
+   "Available now"
+  ],
+  "title": "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs",
+  "url": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens/"
+ },
+ {
+  "categories": [
+   "open-source"
+  ],
+  "category_scores": {
+   "agents": 0.257,
+   "ai-ml": 0.306,
+   "computer-vision": 0.27,
+   "enterprise": 0.267,
+   "genai-llm": 0.275,
+   "mlops": 0.269,
+   "open-source": 1.0,
+   "research": 0.311,
+   "robotics": 0.564,
+   "tools-launches": 0.362
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Tomislav Bezmalinović"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/Runway-Praxis-1.jpg"
+  },
+  "fetched": "2026-11-14T15:52:23Z",
+  "focus": "tech",
+  "id": "7bfee235c168",
+  "kind": "news",
+  "published": "2026-11-14T09:45:45Z",
+  "score": 19.0,
+  "source_id": "decoder",
+  "summary": "Runway releases its robotics model Praxis-1 with open weights and source code under the Apache 2.0 license. The model uses knowledge from video training for robot control and leads the World Action Model category on Nvidia's RoboLab-120 benchmark. It can't yet plan complex action sequences on its own, though.",
+  "tags": [
+   "Open source",
+   "Available now"
+  ],
+  "title": "Runway's open-source Praxis-1 turns video AI into a robot controller",
+  "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/"
+ },
+ {
+  "categories": [
+   "agents",
+   "tools-launches",
+   "open-source"
+  ],
+  "category_scores": {
+   "agents": 0.888,
+   "enterprise": 0.336,
+   "genai-llm": 0.407,
+   "open-source": 0.613,
+   "security": 0.328,
+   "tools-launches": 0.748
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Michal Sutter"
+   ],
+   "image": "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-19999-1-2-scaled.png"
+  },
+  "fetched": "2026-11-14T15:52:23Z",
+  "focus": "tech",
+  "id": "056664ac5847",
+  "kind": "news",
+  "published": "2026-11-14T06:38:14Z",
+  "score": 24.0,
+  "source_id": "marktechpost",
+  "summary": "Vercel Labs has released UI SDK , an open-source beta library of interface behaviors built for coding agents. Vercel UI SDK is a headless library that ships behaviors, not finished components. Agents combine those behaviors into accessible components for React, Vue, Svelte, Solid and Web Components.",
+  "tags": [
+   "Open source",
+   "API",
+   "Preview"
+  ],
+  "title": "Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents",
+  "url": "https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors/"
+ },
+ {
+  "categories": [
    "ai-ml"
   ],
   "category_scores": {
@@ -2484,14 +2766,14 @@
     "Nan Liu",
     "Desai Xie"
    ],
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "2eeb15f24271",
   "kind": "paper",
   "published": "2026-11-12T18:59:55Z",
-  "score": 17.5,
+  "score": 20.0,
   "source_id": "arxiv",
   "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than individual ones, and each response must wait for the rest of its multi-frame block.",
   "tags": [
@@ -2522,14 +2804,14 @@
     "Mike Lewis",
     "Marjan Ghazvininejad"
    ],
-   "upvotes": 13
+   "upvotes": 14
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "ef255ee76f67",
   "kind": "paper",
   "published": "2026-11-12T18:59:54Z",
-  "score": 30.8,
+  "score": 31.4,
   "source_id": "arxiv",
   "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely.",
   "tags": [
@@ -8496,14 +8778,14 @@
    "github": "https://github.com/NVlabs/DVSM",
    "hf_url": "https://huggingface.co/papers/2611.17331",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17331.png",
-   "upvotes": 21
+   "upvotes": 22
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "f741b330c4b3",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 52.8,
+  "score": 53.1,
   "source_id": "hf-papers",
   "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality.",
   "tags": [
@@ -8639,7 +8921,7 @@
    "github": "https://github.com/DAGroup-PKU/PhysLoop",
    "hf_url": "https://huggingface.co/papers/2611.16748",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16748.png",
-   "upvotes": 44
+   "upvotes": 45
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
@@ -8858,14 +9140,14 @@
    "github": "https://github.com/KevinHuge/WorldDraft",
    "hf_url": "https://huggingface.co/papers/2611.16217",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16217.png",
-   "upvotes": 14
+   "upvotes": 16
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
   "id": "4f01543cf76c",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 49.4,
+  "score": 50.5,
   "source_id": "hf-papers",
   "summary": "Multimodal coding agents decouple 4D world construction from visual generation, repurposing video models from world generators toward generative renderers. This division of labor raises a fundamental question: if code builds the world, can video models just render it?",
   "tags": [
@@ -8898,14 +9180,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2607.13920",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.13920.png",
-   "upvotes": 3
+   "upvotes": 5
   },
   "fetched": "2026-11-13T09:26:01Z",
   "focus": "tech",
   "id": "3cd24f43d3c4",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 38.0,
+  "score": 41.5,
   "source_id": "hf-papers",
   "summary": "While search agents demonstrate impressive capabilities in multi-step question answering, their robustness to poor-quality evidence remains under-explored. Such evidence is rare in benchmark corpora, and resulting failures are hard to reproduce. We propose DeepStress, a dynamic stress-testing framework that subjects agents to degraded evidence at controlled rates.",
   "tags": [
@@ -8980,14 +9262,14 @@
    "github": "https://github.com/ZJU-REAL/decision-agents",
    "hf_url": "https://huggingface.co/papers/2611.17167",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17167.png",
-   "upvotes": 30
+   "upvotes": 32
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
   "id": "2190decebe33",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 55.7,
+  "score": 56.0,
   "source_id": "hf-papers",
   "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act.",
   "tags": [
@@ -9019,14 +9301,14 @@
    "github": "https://github.com/doyoungkim-ml/ehrl",
    "hf_url": "https://huggingface.co/papers/2611.16409",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16409.png",
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-13T17:16:48Z",
   "focus": "tech",
   "id": "1b74118948fc",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 33.5,
+  "score": 36.0,
   "source_id": "hf-papers",
   "summary": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards. However, this throws away the fine-grained information about the environment that the agent experienced during the trial (e.g., error logs).",
   "tags": [
@@ -16814,7 +17096,7 @@
    "github": "https://github.com/holdrain/SO-Arena",
    "hf_url": "https://huggingface.co/papers/2611.15777",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15777.png",
-   "upvotes": 82
+   "upvotes": 90
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
@@ -16854,7 +17136,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.15131",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15131.png",
-   "upvotes": 38
+   "upvotes": 39
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
@@ -16964,14 +17246,14 @@
    "github": "https://github.com/ZefanW/JustRUA",
    "hf_url": "https://huggingface.co/papers/2611.16009",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16009.png",
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-13T17:16:48Z",
   "focus": "tech",
   "id": "472f6c53fd63",
   "kind": "paper",
   "published": "2026-11-11T00:00:00Z",
-  "score": 42.0,
+  "score": 43.9,
   "source_id": "hf-papers",
   "summary": "GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo have risen quickly since. Reported systems differ in harness and test subset and often change several designs at once, so it is hard to tell which choices produce the gains.",
   "tags": [
@@ -20140,7 +20422,7 @@
    "github": "https://github.com/air-embodied-brain/SteerDistill",
    "hf_url": "https://huggingface.co/papers/2611.13410",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13410.png",
-   "upvotes": 35
+   "upvotes": 36
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
@@ -20395,14 +20677,14 @@
    "github": "https://github.com/jingjing12110/SE-MMAgents",
    "hf_url": "https://huggingface.co/papers/2611.14256",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14256.png",
-   "upvotes": 1
+   "upvotes": 2
   },
   "fetched": "2026-11-13T17:16:48Z",
   "focus": "tech",
   "id": "67e1d3f3c687",
   "kind": "paper",
   "published": "2026-11-10T00:00:00Z",
-  "score": 32.0,
+  "score": 35.5,
   "source_id": "hf-papers",
   "summary": "Recent work shows that multimodal agents increasingly self-improve without recurring human annotation. However, each self-improvement mechanism is designed and evaluated within a single scenario, leaving its preconditions unverified under cross-scenario transfer.",
   "tags": [
@@ -20835,7 +21117,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.14815",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14815.png",
-   "upvotes": 48
+   "upvotes": 49
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
@@ -23805,7 +24087,7 @@
    "github": "https://github.com/DAGroup-PKU/G-STAR",
    "hf_url": "https://huggingface.co/papers/2611.13004",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13004.png",
-   "upvotes": 41
+   "upvotes": 44
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
@@ -24325,14 +24607,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2608.22237",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.22237.png",
-   "upvotes": 21
+   "upvotes": 22
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "14ab5ae0bf3b",
   "kind": "paper",
   "published": "2026-11-07T00:00:00Z",
-  "score": 52.8,
+  "score": 53.1,
   "source_id": "hf-papers",
   "summary": "Web-facing AI agents repeatedly access webpages, documents, repositories, and tool responses, yet reading interfaces often expose entire objects when only sparse evidence is needed. This over-reading increases token and latency costs and can dilute relevant evidence. We present SparseRead, a reusable reading control layer that governs content admission without modifying the agent model.",
   "tags": [
@@ -24361,14 +24643,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.10439",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.10439.png",
-   "upvotes": 5
+   "upvotes": 6
   },
   "fetched": "2026-11-14T06:39:54Z",
   "focus": "tech",
   "id": "0cf57875206a",
   "kind": "paper",
   "published": "2026-11-07T00:00:00Z",
-  "score": 41.5,
+  "score": 42.8,
   "source_id": "hf-papers",
   "summary": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM, and group-evolving agents go further by sharing these lessons across agents. Yet most such systems overlook that sharing across users and heterogeneous agents requires deciding who can benefit from each lesson and what information must remain private.",
   "tags": [
@@ -25236,14 +25518,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.10193",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.10193.png",
-   "upvotes": 15
+   "upvotes": 16
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "86a5ed94ec86",
   "kind": "paper",
   "published": "2026-11-06T00:00:00Z",
-  "score": 48.0,
+  "score": 48.5,
   "source_id": "hf-papers",
   "summary": "Large language models (LLMs) increasingly support Web-based services that must balance response quality and inference cost across heterogeneous requests. Conventional routing selects one model per prompt, while fixed ensembles cannot adapt their composition and cost to individual requests. We introduce PISA, a prompt-adaptive, cost-aware single-model router, and PISA-E, its extension to ensemble routing.",
   "tags": [
@@ -27108,14 +27390,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.08318",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08318.png",
-   "upvotes": 15
+   "upvotes": 18
   },
   "fetched": "2026-11-13T09:26:01Z",
   "focus": "tech",
   "id": "8c97a33ec8de",
   "kind": "paper",
   "published": "2026-11-05T00:00:00Z",
-  "score": 48.0,
+  "score": 49.5,
   "source_id": "hf-papers",
   "summary": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE).",
   "tags": [
@@ -27287,14 +27569,14 @@
    "github": "https://github.com/ZJU-REAL/Agent-R2",
    "hf_url": "https://huggingface.co/papers/2611.08219",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08219.png",
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "6aa2075d69c1",
   "kind": "paper",
   "published": "2026-11-05T00:00:00Z",
-  "score": 38.0,
+  "score": 39.9,
   "source_id": "hf-papers",
   "summary": "Large language models have made rapid progress in agentic reasoning and tool use, raising expectations for agents that can take over realistic productivity work from humans. However, current agents still struggle to finish such tasks, where success requires following long-horizon professional workflows, understanding heterogeneous file contexts, and producing usable deliverables under fine-grained requirements.",
   "tags": [
@@ -28763,14 +29045,14 @@
    "github": "https://github.com/aHapBean/SimpleHC",
    "hf_url": "https://huggingface.co/papers/2611.05984",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.05984.png",
-   "upvotes": 26
+   "upvotes": 27
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "9be320beeefa",
   "kind": "paper",
   "published": "2026-11-04T00:00:00Z",
-  "score": 52.5,
+  "score": 52.8,
   "source_id": "hf-papers",
   "summary": "Hyper-Connections (HC) architectures are increasingly adopted in frontier language models, yet their components remain insufficiently understood and introduce non-negligible training overhead. In this work, we systematically study the HC architecture to understand its components and identify simpler, more efficient designs.",
   "tags": [
