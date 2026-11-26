@@ -1,6 +1,280 @@
 [
  {
   "categories": [
+   "genai-llm",
+   "tools-launches"
+  ],
+  "category_scores": {
+   "ai-ml": 0.389,
+   "enterprise": 0.436,
+   "genai-llm": 0.898,
+   "mlops": 0.277,
+   "open-source": 0.45,
+   "research": 0.43,
+   "security": 0.26,
+   "tools-launches": 0.718
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Matthias Bastian"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/10/openai.png"
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "tech",
+  "id": "27f35f09a947",
+  "kind": "news",
+  "published": "2026-11-26T17:28:56Z",
+  "score": 21.0,
+  "source_id": "decoder",
+  "summary": "OpenAI says a billing bug gave GPT-6.2 users incorrect discounts. After the fix, Astra and Sol users hit their limits 40 and 25 percent faster than last week. As an apology, subscribers get an extra reset, and business users get free Fast Mode through year-end. OpenAI is also testing a Chat and Work mode merger.",
+  "tags": [],
+  "title": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
+  "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/"
+ },
+ {
+  "categories": [
+   "enterprise",
+   "tools-launches"
+  ],
+  "category_scores": {
+   "agents": 0.343,
+   "ai-ml": 0.363,
+   "computer-vision": 0.344,
+   "enterprise": 0.815,
+   "open-source": 0.308,
+   "research": 0.45,
+   "robotics": 0.418,
+   "security": 0.282,
+   "tools-launches": 0.727
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Amanda Silberling"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jason_and_Lucia_17.117_b11r13mg5.jpg?resize=1200,675"
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "tech",
+  "id": "ec74e9ba2187",
+  "kind": "news",
+  "published": "2026-11-26T16:00:00Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+  "tags": [
+   "Available now"
+  ],
+  "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+  "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/"
+ },
+ {
+  "categories": [
+   "tools-launches",
+   "open-source"
+  ],
+  "category_scores": {
+   "agents": 0.334,
+   "ai-ml": 0.915,
+   "enterprise": 0.358,
+   "genai-llm": 0.304,
+   "mlops": 0.252,
+   "open-source": 0.439,
+   "research": 0.403,
+   "security": 0.325,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Maximilian Schreiner"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/us_china.png"
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "tech",
+  "id": "5320f5d21a09",
+  "kind": "news",
+  "published": "2026-11-26T15:45:08Z",
+  "score": 17.0,
+  "source_id": "decoder",
+  "summary": "Chinese AI companies Z.AI and Moonshot AI have to delay their next flagship models and are looking for new sources of training data. The article After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead appeared first on The Decoder .",
+  "tags": [
+   "For developers"
+  ],
+  "title": "After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead",
+  "url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/"
+ },
+ {
+  "categories": [
+   "genai-llm"
+  ],
+  "category_scores": {
+   "agents": 0.334,
+   "ai-ml": 0.482,
+   "computer-vision": 0.275,
+   "enterprise": 0.327,
+   "genai-llm": 0.946,
+   "open-source": 0.3,
+   "research": 0.45,
+   "robotics": 0.263,
+   "security": 0.382,
+   "tools-launches": 0.311
+  },
+  "coverage": [],
+  "extra": {},
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "tech",
+  "id": "069f94445fa0",
+  "kind": "news",
+  "published": "2026-11-26T15:09:31Z",
+  "score": 14.0,
+  "source_id": "simon-willison",
+  "summary": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude.",
+  "tags": [],
+  "title": "Quoting Jack Despain Zhou",
+  "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/"
+ },
+ {
+  "categories": [
+   "open-source"
+  ],
+  "category_scores": {
+   "computer-vision": 0.266,
+   "genai-llm": 0.598,
+   "mlops": 0.58,
+   "open-source": 1.0,
+   "research": 0.531,
+   "tools-launches": 0.455
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/67289c93ff90038d9a6e5675/tbIvyMSISXCm64WYP3atl.png"
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "tech",
+  "id": "02a088434703",
+  "kind": "news",
+  "published": "2026-11-26T11:37:17Z",
+  "score": 38.0,
+  "source_id": "huggingface",
+  "summary": "The llama.cpp × AMD Benchmark dashboard is available on Hugging Face. It lets you track prompt processing and text generation performance across llama.cpp builds, models, and quantizations, so you can explore how local inference performs on AMD Ryzen and Radeon hardware.",
+  "tags": [
+   "Open source",
+   "Available now"
+  ],
+  "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+  "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
+ },
+ {
+  "categories": [
+   "security",
+   "enterprise",
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.685,
+   "ai-ml": 0.325,
+   "enterprise": 0.773,
+   "genai-llm": 0.254,
+   "open-source": 0.359,
+   "research": 0.265,
+   "security": 1.0,
+   "tools-launches": 0.289
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Maximilian Schreiner"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/10/microsoft_human_touch.png"
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "tech",
+  "id": "fa2f0df7cd76",
+  "kind": "news",
+  "published": "2026-11-26T11:30:06Z",
+  "score": 16.0,
+  "source_id": "decoder",
+  "summary": "Microsoft has published the technical architecture of ARTEX, an AI framework in wide use since July 2026 that runs cyberattacks with specialized agents and almost no human involvement. State-backed groups from China and North Korea, along with criminal organizations, are already using the system.",
+  "tags": [
+   "For developers"
+  ],
+  "title": "Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
+  "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "enterprise": 0.272,
+   "mlops": 0.45,
+   "open-source": 0.263,
+   "security": 0.351,
+   "tools-launches": 0.401
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Maximilian Schreiner"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_logo_glitch.png"
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "off",
+  "id": "19fd120ee363",
+  "kind": "news",
+  "published": "2026-11-26T11:21:16Z",
+  "score": 14.0,
+  "source_id": "decoder",
+  "summary": "Nvidia has told partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia.",
+  "tags": [],
+  "title": "Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls",
+  "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
+ },
+ {
+  "categories": [
+   "tools-launches",
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.865,
+   "ai-ml": 0.298,
+   "enterprise": 0.332,
+   "genai-llm": 0.36,
+   "mlops": 0.252,
+   "open-source": 0.419,
+   "research": 0.323,
+   "robotics": 0.264,
+   "security": 0.427,
+   "tools-launches": 1.0
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Isabella Ward"
+   ],
+   "image": "https://media.wired.com/photos/6b07201067745997b8ffd8ed/master/pass/Meta-Refused-to-Share-Muse-for-Testing-Business-2300550254.jpg"
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "off",
+  "id": "4ba826a45a61",
+  "kind": "news",
+  "published": "2026-11-26T10:51:27Z",
+  "score": 20.0,
+  "source_id": "wired",
+  "summary": "The FCA warned against “another force of attack” from agents after the company declined a request to work on joint testing ahead of rolling out its personal agent in the UK on Tuesday.",
+  "tags": [
+   "Available now"
+  ],
+  "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+  "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/"
+ },
+ {
+  "categories": [
    "mlops",
    "genai-llm",
    "nlp"
@@ -70,6 +344,32 @@
   ],
   "title": "Explore the PyTorch Day China 2026 Schedule",
   "url": "https://pytorch.org/blog/explore-the-pytorch-day-china-2026-schedule/"
+ },
+ {
+  "categories": [
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 1.0,
+   "genai-llm": 0.28,
+   "open-source": 0.337,
+   "security": 0.263
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://huggingface.co/blog/assets/training-swarms/thumbnail.png"
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "tech",
+  "id": "c01600d41603",
+  "kind": "news",
+  "published": "2026-11-26T00:00:00Z",
+  "score": 22.0,
+  "source_id": "huggingface",
+  "summary": "This is an aspirational blog series for aspirational readers. We (us, the community, you) want to build our own agent swarms because they're exciting, challenging, and increasingly capable. Furthermore, it would be extremely cool if we could train our own agents to work in a swarm.",
+  "tags": [],
+  "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+  "url": "https://huggingface.co/blog/training-swarms"
  },
  {
   "categories": [
@@ -483,14 +783,15 @@
     "Roy Or-El",
     "Jeong Joon Park",
     "Ira Kemelmacher-Shlizerman"
-   ]
+   ],
+   "upvotes": 1
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "a8d9bfef1c44",
   "kind": "paper",
   "published": "2026-11-25T18:59:45Z",
-  "score": 8.0,
+  "score": 14.0,
   "source_id": "arxiv",
   "summary": "We present MEMO (a Mesh for Every MOment), a method that reconstructs the geometry of complete dynamic scenes, captured by multiple synchronized cameras, and extracts a mesh at every frame.",
   "tags": [
@@ -2593,7 +2894,14 @@
    "security": 0.306,
    "tools-launches": 0.45
   },
-  "coverage": [],
+  "coverage": [
+   {
+    "published": "2026-11-26T13:41:07Z",
+    "source_id": "decoder",
+    "title": "FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040",
+    "url": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/"
+   }
+  ],
   "extra": {
    "authors": [
     "Emma Roth"
@@ -2605,7 +2913,7 @@
   "id": "1343f7f3b435",
   "kind": "news",
   "published": "2026-11-25T17:44:51Z",
-  "score": 20.0,
+  "score": 32.0,
   "source_id": "verge",
   "summary": "In an announcement on Wednesday , the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative .",
   "tags": [],
@@ -2773,14 +3081,15 @@
     "Yicheng Liu",
     "Zhen Huang",
     "Jiaqi Wang"
-   ]
+   ],
+   "upvotes": 2
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "73a6964afff4",
   "kind": "paper",
   "published": "2026-11-25T17:38:00Z",
-  "score": 10.0,
+  "score": 19.5,
   "source_id": "arxiv",
   "summary": "Group-based reinforcement learning with verifiable rewards often yields all-fail groups on long-horizon agent tasks: every sampled trajectory receives zero reward, leaving group-relative methods without a reward-based policy gradient. A common remedy supplies complete solutions from a stronger model, but full trajectories are expensive and expose the learner to long off-policy histories.",
   "tags": [
@@ -2844,7 +3153,14 @@
    "security": 0.45,
    "tools-launches": 0.443
   },
-  "coverage": [],
+  "coverage": [
+   {
+    "published": "2026-11-26T09:54:40Z",
+    "source_id": "verge",
+    "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+    "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats"
+   }
+  ],
   "extra": {
    "authors": [
     "Sarah Perez"
@@ -2856,7 +3172,7 @@
   "id": "92419877312e",
   "kind": "news",
   "published": "2026-11-25T17:35:58Z",
-  "score": 20.0,
+  "score": 32.0,
   "source_id": "techcrunch",
   "summary": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
   "tags": [],
@@ -3103,14 +3419,15 @@
     "Yicheng Liu",
     "Zhen Huang",
     "Shuai Dong"
-   ]
+   ],
+   "upvotes": 1
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "77ac846f9758",
   "kind": "paper",
   "published": "2026-11-25T17:27:31Z",
-  "score": 10.0,
+  "score": 16.0,
   "source_id": "arxiv",
   "summary": "Fully online on-policy distillation (OPD) is costly for long-horizon agents because each update depends on fresh environment rollouts. Prefix replay offers an efficient alternative by sampling current-student responses from stored histories, reducing idle time for long-tail rollouts and allowing each collected trajectory to support multiple updates.",
   "tags": [
@@ -5297,14 +5614,14 @@
    "github": "https://github.com/alimohammadiamirhossein/selective-image-analogy",
    "hf_url": "https://huggingface.co/papers/2611.33894",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.33894.png",
-   "upvotes": 1
+   "upvotes": 2
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "fe572a75e4bf",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 30.0,
+  "score": 33.5,
   "source_id": "hf-papers",
   "summary": "Image analogy transfers a demonstrated transformation from a before/after pair (A, A') to a new query image B. Existing methods assume all changes in (A, A') should be fully transferred, limiting flexibility when users want only a subset of the demonstrated edits.",
   "tags": [
@@ -5338,14 +5655,14 @@
    "github": "https://github.com/NVlabs/LongLive",
    "hf_url": "https://huggingface.co/papers/2611.34907",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34907.png",
-   "upvotes": 14
+   "upvotes": 17
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "fb70fae50c8d",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 47.4,
+  "score": 49.0,
   "source_id": "hf-papers",
   "summary": "Real-time autoregressive video generators stream minutes of video and accept new prompts on the fly, but struggle to keep people, objects, and places consistent over a long interactive story. Agent systems provide such memory for offline multi-shot generation, yet they read the whole script in advance, plan each shot before generating it, and regenerate failed shots, which a live stream does not allow.",
   "tags": [
@@ -5378,7 +5695,7 @@
    "github": "https://github.com/Kling-Keye/VibeVideoAgent",
    "hf_url": "https://huggingface.co/papers/2611.34237",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34237.png",
-   "upvotes": 48
+   "upvotes": 54
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
@@ -5421,14 +5738,14 @@
    "github": "https://github.com/aim-uofa/WorldReforge",
    "hf_url": "https://huggingface.co/papers/2611.33925",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.33925.png",
-   "upvotes": 10
+   "upvotes": 13
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "f320574d45af",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 46.8,
+  "score": 48.8,
   "source_id": "hf-papers",
   "summary": "Robot world models are increasingly used to evaluate and plan policies, yet robot training data are dominated by successful demonstrations. Off the happy path, when a grasp is misaligned or mistimed and the object is pushed, tilted, or slips, their predictions break down.",
   "tags": [
@@ -5509,6 +5826,126 @@
   ],
   "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
   "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+ },
+ {
+  "categories": [
+   "robotics",
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.308,
+   "computer-vision": 0.681,
+   "genai-llm": 0.607,
+   "open-source": 0.319,
+   "research": 0.307,
+   "robotics": 0.793
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Chendong Xiang",
+    "Chengwen Zhang",
+    "Ruowen Zhao",
+    "Zeyuan Wang",
+    "Shuhe Huang",
+    "Rongxu Cui"
+   ],
+   "hf_url": "https://huggingface.co/papers/2611.28732",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.28732.png",
+   "upvotes": 3
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "tech",
+  "id": "c1c847998ca5",
+  "kind": "paper",
+  "published": "2026-11-25T00:00:00Z",
+  "score": 38.0,
+  "source_id": "hf-papers",
+  "summary": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+  "url": "https://arxiv.org/abs/2611.28732"
+ },
+ {
+  "categories": [
+   "agents",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 1.0,
+   "ai-ml": 0.872,
+   "enterprise": 0.27,
+   "genai-llm": 0.447,
+   "mlops": 0.299,
+   "open-source": 0.354,
+   "research": 0.343,
+   "security": 0.314
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Shreshth Rai",
+    "Rishii Kumar Singh",
+    "Aksh Aggarwal"
+   ],
+   "github": "https://github.com/RishiiGamer2201/counterfactual-sql-rewards",
+   "hf_url": "https://huggingface.co/papers/2611.34363",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34363.png",
+   "upvotes": 2
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "tech",
+  "id": "c0939b57c855",
+  "kind": "paper",
+  "published": "2026-11-25T00:00:00Z",
+  "score": 33.5,
+  "source_id": "hf-papers",
+  "summary": "Reinforcement learning (RL) for text-to-SQL agents pays a query when its result matches the reference on one database. However, a wrong query can match by luck when the data lack the rows that expose its bug.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
+  "url": "https://arxiv.org/abs/2611.34363"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 1.0,
+   "genai-llm": 0.275
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Weilong Yan",
+    "Jingyu Hu",
+    "Hongli Xu",
+    "Yifan Zhan",
+    "Beibei Lin",
+    "Anbang Wang"
+   ],
+   "hf_url": "https://huggingface.co/papers/2611.34079",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34079.png",
+   "upvotes": 2
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "tech",
+  "id": "afdc3f17fa53",
+  "kind": "paper",
+  "published": "2026-11-25T00:00:00Z",
+  "score": 33.5,
+  "source_id": "hf-papers",
+  "summary": "Generating coherent and explorable 3D worlds from scattered images with little or no visual overlap is a fundamental and long-standing challenge in computer vision, which existing geometry-aware methods fail to address. Meanwhile, existing image- and video-based methods may generate unseen regions but produce inconsistent geometry across views.",
+  "tags": [
+   "Research"
+  ],
+  "title": "WorldBridge: Bridging Scattered Views for Coherent 3D World Generation",
+  "url": "https://arxiv.org/abs/2611.34079"
  },
  {
   "categories": [
@@ -5626,14 +6063,14 @@
    "github": "https://github.com/MeiGen-AI/LiveVAE",
    "hf_url": "https://huggingface.co/papers/2611.34912",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34912.png",
-   "upvotes": 1
+   "upvotes": 2
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "99844039cc06",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 30.0,
+  "score": 33.5,
   "source_id": "hf-papers",
   "summary": "While video diffusion models have grown faster and increasingly streamable, the video VAE remains a primary latency bottleneck across interactive generation and editing pipelines. Existing VAEs and their acceleration methods rely mainly on heavy convolutions or full frame attention, and most focus only on decoding, leaving encoding costly for streaming conditional generation and editing.",
   "tags": [
@@ -5666,14 +6103,14 @@
    "github": "https://github.com/HorizonWind2004/i2v-transfer",
    "hf_url": "https://huggingface.co/papers/2611.34941",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34941.png",
-   "upvotes": 28
+   "upvotes": 41
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "98e2fbd09630",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 53.1,
+  "score": 54.0,
   "source_id": "hf-papers",
   "summary": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos?",
   "tags": [
@@ -5784,14 +6221,14 @@
    "github": "https://github.com/vLAR-group/FoundSurface",
    "hf_url": "https://huggingface.co/papers/2611.34128",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34128.png",
-   "upvotes": 14
+   "upvotes": 17
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "6f950bb8f51e",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 47.4,
+  "score": 49.0,
   "source_id": "hf-papers",
   "summary": "Accurate 3D surface reconstruction from unposed images remains a fundamental challenge in computer vision. Recent feed-forward pointmap methods eliminate the need for camera poses but inherently produce discrete, sparse representations.",
   "tags": [
@@ -5827,14 +6264,14 @@
    "github": "https://github.com/White-YC/pixelmatte",
    "hf_url": "https://huggingface.co/papers/2611.34929",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34929.png",
-   "upvotes": 10
+   "upvotes": 17
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "6da70a697393",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 44.8,
+  "score": 49.0,
   "source_id": "hf-papers",
   "summary": "Diffusion models have shown strong potential for image matting by transferring generative priors learned from large-scale pretraining. However, existing approaches largely rely on latent diffusion models, whose compressed representations and VAE-based reconstruction introduce a mismatch with the high-frequency precision required for matting.",
   "tags": [
@@ -5870,14 +6307,14 @@
    "github": "https://github.com/YurunChen/EgoUseBench",
    "hf_url": "https://huggingface.co/papers/2611.34466",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34466.png",
-   "upvotes": 11
+   "upvotes": 19
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "653fb27d2ecd",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 47.5,
+  "score": 51.9,
   "source_id": "hf-papers",
   "summary": "AI wearables, such as smart glasses, extend the context available to agents beyond digital environments to users' physical surroundings. With these devices, computer tasks can originate from users' ongoing activities rather than solely from explicit instructions. Through first-person observations, agents can identify objects and activities relevant to user requests and ground digital tasks in the surrounding context.",
   "tags": [
@@ -5885,6 +6322,52 @@
   ],
   "title": "EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts",
   "url": "https://arxiv.org/abs/2611.34466"
+ },
+ {
+  "categories": [
+   "agents",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.975,
+   "ai-ml": 0.407,
+   "enterprise": 0.269,
+   "genai-llm": 0.413,
+   "nlp": 0.471,
+   "open-source": 0.45,
+   "research": 0.475,
+   "security": 0.314,
+   "tools-launches": 0.505
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Alessio Devoto",
+    "Avinash Vem",
+    "Tara Safavi",
+    "Sanjay Kariyappa",
+    "Yu-Hsuan Tseng",
+    "Paul Furgale"
+   ],
+   "github": "https://github.com/nvidia-nemo/labs-OO-Agents",
+   "hf_url": "https://huggingface.co/papers/2611.34147",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34147.png",
+   "upvotes": 6
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "tech",
+  "id": "5ddc80c89f83",
+  "kind": "paper",
+  "published": "2026-11-25T00:00:00Z",
+  "score": 42.8,
+  "source_id": "hf-papers",
+  "summary": "Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction that summarizes the history. We study the alternative, model-driven context management, in which the model itself decides when and what to compact through a context API.",
+  "tags": [
+   "API",
+   "Research"
+  ],
+  "title": "Letting Models Manage Their Own Context: Where We Stand",
+  "url": "https://arxiv.org/abs/2611.34147"
  },
  {
   "categories": [
@@ -5908,14 +6391,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.28010",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.28010.png",
-   "upvotes": 7
+   "upvotes": 10
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "5c49c2837d89",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 42.0,
+  "score": 44.8,
   "source_id": "hf-papers",
   "summary": "Generating PPTX presentations is a structured task that requires semantic planning, visual composition, precise layout, and editability, motivating collaboration among specialized agents. However, programmatic methods offer editability but often produce rigid designs, while image-based methods provide visual richness but flatten content into difficult-to-edit pixels.",
   "tags": [
@@ -5947,14 +6430,14 @@
    "github": "https://github.com/dslisleedh/HiGLR",
    "hf_url": "https://huggingface.co/papers/2611.33636",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.33636.png",
-   "upvotes": 11
+   "upvotes": 14
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "53b75ed3cc31",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 45.5,
+  "score": 47.4,
   "source_id": "hf-papers",
   "summary": "Multi-scale architectures are widely adopted in all-in-one image restoration (AIO-IR) to capture larger-scale context at low-resolution stages and refine details at high-resolution (HR) stages. However, processing spatially large feature maps at HR stages incurs substantial computational costs and memory traffic, making efficient HR processing challenging.",
   "tags": [
@@ -5987,14 +6470,14 @@
    "github": "https://github.com/kaiknower/RoboEvo2",
    "hf_url": "https://huggingface.co/papers/2611.34675",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34675.png",
-   "upvotes": 8
+   "upvotes": 9
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "397e5bf7d9f5",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 43.0,
+  "score": 43.9,
   "source_id": "hf-papers",
   "summary": "Robots should adapt to unfamiliar environments and acquire new skills through interaction, then execute those skills efficiently with practice.",
   "tags": [
@@ -6023,14 +6506,14 @@
    "github": "https://github.com/mossbee/DocSEAM",
    "hf_url": "https://huggingface.co/papers/2611.34420",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34420.png",
-   "upvotes": 17
+   "upvotes": 26
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "36c2735393fa",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 49.0,
+  "score": 52.5,
   "source_id": "hf-papers",
   "summary": "Multi-page document vision-language models encode each page independently, creating a feature-level discontinuity at page boundaries: visual tokens are formed without access to content on adjacent pages, and the language model must reason over these page representations formed in isolation.",
   "tags": [
@@ -6063,14 +6546,14 @@
    "github": "https://github.com/zju3dv/SPARC",
    "hf_url": "https://huggingface.co/papers/2611.34064",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34064.png",
-   "upvotes": 0
+   "upvotes": 1
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "2f222597d603",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 24.0,
+  "score": 30.0,
   "source_id": "hf-papers",
   "summary": "We present SPARC, a geometry-guided attention pruning framework that turns the native self-attention of pretrained video diffusion transformers into a unified mechanism for camera control and persistent scene memory. Our key insight is that attention connectivity can simultaneously serve as geometric conditioning for camera control and spatial addressing for historical memory retrieval.",
   "tags": [
@@ -6106,14 +6589,14 @@
    "github": "https://github.com/a1bhinav/puzzling-bench",
    "hf_url": "https://huggingface.co/papers/2611.34331",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34331.png",
-   "upvotes": 2
+   "upvotes": 4
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "2d0482c46ce2",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 35.5,
+  "score": 39.9,
   "source_id": "hf-papers",
   "summary": "We introduce Puzzling-Bench, a benchmark of 23,777 puzzles with community-verified answers drawn from the Puzzling Stack Exchange archive (2014-2026): riddles, ciphers, logic grids, lateral-thinking problems, wordplay and recreational mathematics, a third of them with images.",
   "tags": [
@@ -6190,14 +6673,14 @@
    "github": "https://github.com/iPPLab/HOG-WAM",
    "hf_url": "https://huggingface.co/papers/2611.34811",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34811.png",
-   "upvotes": 18
+   "upvotes": 22
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "1e213fee8e74",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 49.5,
+  "score": 51.1,
   "source_id": "hf-papers",
   "summary": "World-action models jointly predict future observations and actions, yet visual corruption can disrupt the resulting policies. We introduce HOG-WAM, which adds future Histograms of Oriented Gradients (HOG) as structural supervision derived directly from demonstration images.",
   "tags": [
@@ -6235,14 +6718,14 @@
    "github": "https://github.com/AIRIS-bench/AIRIS",
    "hf_url": "https://huggingface.co/papers/2611.34347",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34347.png",
-   "upvotes": 15
+   "upvotes": 17
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "1c6934231d39",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 48.0,
+  "score": 49.0,
   "source_id": "hf-papers",
   "summary": "Embodied agents operating around people must not only recognize social cues, but also decide when the available evidence is sufficient, whether to intervene, and how to respond without violating social norms. Existing benchmarks typically evaluate these abilities in isolation or with access to completed videos, obscuring where an online social decision fails.",
   "tags": [
@@ -6250,6 +6733,47 @@
   ],
   "title": "AIRIS: Benchmarking Social Embodied Intelligence in Egocentric Streaming Videos",
   "url": "https://arxiv.org/abs/2611.34347"
+ },
+ {
+  "categories": [
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "genai-llm": 0.34,
+   "mlops": 0.284,
+   "open-source": 0.359,
+   "research": 0.384,
+   "robotics": 1.0
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Wongyun Yu",
+    "Honggeun Kim",
+    "Donguk Lee",
+    "Minchan Kim",
+    "Kyoung Whan Choe",
+    "Minsu Cho"
+   ],
+   "github": "https://github.com/wongyun-yu/DexEngine",
+   "hf_url": "https://huggingface.co/papers/2611.33579",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.33579.png",
+   "upvotes": 3
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "tech",
+  "id": "0d16ad717e3a",
+  "kind": "paper",
+  "published": "2026-11-25T00:00:00Z",
+  "score": 36.0,
+  "source_id": "hf-papers",
+  "summary": "A growing body of recent work addresses the retargeting of human hand-object demonstrations to robotic hands. To train whole-robot policies, however, the retargeted motions must be kinematically feasible and physically executable, and be produced efficiently at scale. We present DexEngine, a simulation pipeline that turns human manipulation data into train-ready, physically executable arm-hand trajectories.",
+  "tags": [
+   "Research"
+  ],
+  "title": "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
+  "url": "https://arxiv.org/abs/2611.33579"
  },
  {
   "categories": [
@@ -6275,7 +6799,7 @@
    "github": "https://github.com/Sage-Med/Sage-Med-Preview",
    "hf_url": "https://huggingface.co/papers/2611.34575",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34575.png",
-   "upvotes": 41
+   "upvotes": 84
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
@@ -6357,14 +6881,14 @@
    "github": "https://github.com/Real2SimHub/Real2SimLab",
    "hf_url": "https://huggingface.co/papers/2611.34849",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34849.png",
-   "upvotes": 3
+   "upvotes": 101
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "07891f29af81",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 38.0,
+  "score": 56.0,
   "source_id": "hf-papers",
   "summary": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them. However, each individual benchmark defines its own inputs, deliverables, and scoring pipeline.",
   "tags": [
@@ -6400,7 +6924,7 @@
    "github": "https://github.com/hustvl/MoLT",
    "hf_url": "https://huggingface.co/papers/2611.34923",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34923.png",
-   "upvotes": 38
+   "upvotes": 57
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
@@ -7128,7 +7652,7 @@
     "Yintianrun Zhang",
     "Qiang Wang"
    ],
-   "upvotes": 39
+   "upvotes": 43
   },
   "fetched": "2026-11-25T13:13:17Z",
   "focus": "tech",
@@ -7169,14 +7693,14 @@
     "Taiqiang Wu",
     "Ji Zhao"
    ],
-   "upvotes": 10
+   "upvotes": 12
   },
   "fetched": "2026-11-25T13:13:17Z",
   "focus": "tech",
   "id": "ee36507834ca",
   "kind": "paper",
   "published": "2026-11-24T18:56:22Z",
-  "score": 28.8,
+  "score": 30.2,
   "source_id": "arxiv",
   "summary": "Embodied spatial intelligence requires agents to gather information through exploration and interaction, then use it to reason and act. Existing benchmarks insufficiently distinguish correct outcomes from completion of these task requirements. We introduce ROAM-Bench to evaluate these abilities under robot motion and collision constraints.",
   "tags": [
@@ -7900,14 +8424,15 @@
     "Jichen Feng",
     "Mengdi Wang",
     "Yifan Zhang"
-   ]
+   ],
+   "upvotes": 2
   },
   "fetched": "2026-11-25T13:13:17Z",
   "focus": "tech",
   "id": "2fb481c9fca1",
   "kind": "paper",
   "published": "2026-11-24T18:28:41Z",
-  "score": 10.0,
+  "score": 19.5,
   "source_id": "arxiv",
   "summary": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and still be wrong. AIChipBench asks what LLM coding agents need to build such hardware correctly.",
   "tags": [
@@ -10496,14 +11021,15 @@
     "Ayush Barik",
     "Fan Lai",
     "Francis Y. Yan"
-   ]
+   ],
+   "upvotes": 1
   },
   "fetched": "2026-11-25T13:13:17Z",
   "focus": "tech",
   "id": "599971afc9ad",
   "kind": "paper",
   "published": "2026-11-24T16:43:31Z",
-  "score": 8.0,
+  "score": 14.0,
   "source_id": "arxiv",
   "summary": "Efficient long-video understanding requires identifying relevant evidence while minimizing the tokens processed by vision-language models (VLMs). Existing video retrieval-augmented generation (RAG) methods rely on frame selection and token compression, but overlook how much each additional token is worth.",
   "tags": [
@@ -10769,7 +11295,14 @@
    "security": 0.323,
    "tools-launches": 1.0
   },
-  "coverage": [],
+  "coverage": [
+   {
+    "published": "2026-11-26T05:08:46Z",
+    "source_id": "simon-willison",
+    "title": "The New York Times warns photographers not to update Photoshop over AI features",
+    "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/"
+   }
+  ],
   "extra": {
    "authors": [
     "Emma Roth"
@@ -10781,7 +11314,7 @@
   "id": "19f2f984a80d",
   "kind": "news",
   "published": "2026-11-24T16:09:23Z",
-  "score": 20.0,
+  "score": 32.0,
   "source_id": "verge",
   "summary": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography leaders, Meaghan Looram and Josh [. ]",
   "tags": [],
@@ -11351,7 +11884,8 @@
     "Zhengzhong Liu",
     "Eric P. Xing",
     "Guangyi Liu"
-   ]
+   ],
+   "upvotes": 0
   },
   "fetched": "2026-11-25T13:13:17Z",
   "focus": "tech",
@@ -14202,14 +14736,14 @@
    "github": "https://github.com/Intellindust-AI-Lab/LoopDVR",
    "hf_url": "https://huggingface.co/papers/2611.32067",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32067.png",
-   "upvotes": 9
+   "upvotes": 10
   },
   "fetched": "2026-11-25T13:13:17Z",
   "focus": "tech",
   "id": "d48a6befd475",
   "kind": "paper",
   "published": "2026-11-24T00:00:00Z",
-  "score": 43.9,
+  "score": 44.8,
   "source_id": "hf-papers",
   "summary": "We propose LoopDVR, a framework for converting pretrained Transformer-based dense visual recognition models into parameter-efficient looped networks. Rather than reducing the network width or depth directly, LoopDVR reuses Transformer blocks across layers in both the ViT backbone and Transformer decoder, reducing the number of parameters while retaining the original computational structure.",
   "tags": [
@@ -14322,14 +14856,14 @@
    "github": "https://github.com/showlab/Play2Evolve",
    "hf_url": "https://huggingface.co/papers/2611.33457",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.33457.png",
-   "upvotes": 11
+   "upvotes": 18
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "cd99025d7275",
   "kind": "paper",
   "published": "2026-11-24T00:00:00Z",
-  "score": 45.5,
+  "score": 49.5,
   "source_id": "hf-papers",
   "summary": "Coding agents can generate runnable games from natural-language descriptions. However, a runnable game does not guarantee an excellent gameplay experience for players. In our view, a playful game should provide 1) reliable core functionality, 2) appealing visual design and assets, and 3) rich gameplay that supports exploration and progression. How agents can improve these aspects of playfulness remains underexplored.",
   "tags": [
@@ -14337,6 +14871,44 @@
   ],
   "title": "Playfulness as Feedback for Agentic Game Development",
   "url": "https://arxiv.org/abs/2611.33457"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 1.0,
+   "research": 0.269
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Weicong Zhang",
+    "Yuan Huang",
+    "Yu Zheng",
+    "Lin Chenxiao",
+    "Yingying Li",
+    "Lilong Fan"
+   ],
+   "github": "https://github.com/InSAI-Lab/GOLD-SLAM",
+   "hf_url": "https://huggingface.co/papers/2611.32335",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32335.png",
+   "upvotes": 0
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "tech",
+  "id": "c46701f36cda",
+  "kind": "paper",
+  "published": "2026-11-24T00:00:00Z",
+  "score": 24.0,
+  "source_id": "hf-papers",
+  "summary": "Panoramic cameras capture nearly the entire spherical field of view in a single frame. However, the mismatch between this panoramic coverage and the field of view of LiDAR poses a substantial challenge for panoramic Gaussian splatting SLAM that relies on LiDAR depth priors.",
+  "tags": [
+   "Research"
+  ],
+  "title": "GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM",
+  "url": "https://arxiv.org/abs/2611.32335"
  },
  {
   "categories": [
@@ -14366,14 +14938,14 @@
    "github": "https://github.com/Look-Anything/LookAnything",
    "hf_url": "https://huggingface.co/papers/2611.32351",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32351.png",
-   "upvotes": 1
+   "upvotes": 2
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "b2c5a83f428a",
   "kind": "paper",
   "published": "2026-11-24T00:00:00Z",
-  "score": 32.0,
+  "score": 35.5,
   "source_id": "hf-papers",
   "summary": "Human gaze provides a rich window into attention and intent, making its understanding essential for applications ranging from social signal analysis to human-robot interaction. Existing methods typically employ highly customized architectures relying on auxiliary inputs like head crops or depth maps, causing cascading errors and inference overhead.",
   "tags": [
@@ -14445,14 +15017,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.32199",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32199.png",
-   "upvotes": 7
+   "upvotes": 8
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "ad7f78b9d90d",
   "kind": "paper",
   "published": "2026-11-24T00:00:00Z",
-  "score": 44.0,
+  "score": 45.0,
   "source_id": "hf-papers",
   "summary": "Our goal is to build language models that are steerable by design. Today's language models are pretrained with next-token prediction, which relegates alignment and control to the final 1% of training tokens or inference-time interventions.",
   "tags": [
@@ -14488,7 +15060,7 @@
    "github": "https://github.com/yangcaoai/PartAgent_Agent_for_3D_Part_Seg",
    "hf_url": "https://huggingface.co/papers/2611.32554",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32554.png",
-   "upvotes": 34
+   "upvotes": 36
   },
   "fetched": "2026-11-25T13:13:17Z",
   "focus": "tech",
@@ -14645,14 +15217,14 @@
    "github": "https://github.com/ICLWorld/ICLWorld",
    "hf_url": "https://huggingface.co/papers/2611.32649",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32649.png",
-   "upvotes": 18
+   "upvotes": 19
   },
   "fetched": "2026-11-25T13:13:17Z",
   "focus": "tech",
   "id": "8fd5f0be76b9",
   "kind": "paper",
   "published": "2026-11-24T00:00:00Z",
-  "score": 51.5,
+  "score": 51.9,
   "source_id": "hf-papers",
   "summary": "In-context learning (ICL) lets agents acquire new rules from context and adapt to user-specific requirements at inference time. The same frontier agents now operate both computers and robots, yet their ICL remains insufficiently assessed: existing benchmarks are largely offline, rely on text or static images, and risk training-data contamination, while robot evaluations are limited to method-level ablations.",
   "tags": [
@@ -14836,14 +15408,14 @@
    "github": "https://github.com/GVCLab/Coding4Games",
    "hf_url": "https://huggingface.co/papers/2611.31974",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.31974.png",
-   "upvotes": 13
+   "upvotes": 14
   },
   "fetched": "2026-11-25T13:13:17Z",
   "focus": "tech",
   "id": "5ef0c0aa6faa",
   "kind": "paper",
   "published": "2026-11-24T00:00:00Z",
-  "score": 48.8,
+  "score": 49.4,
   "source_id": "hf-papers",
   "summary": "Games, especially modern AAA games, challenge language models to perceive complex scenes, control actions, and make decisions over long horizons. Existing game benchmarks primarily test language models as computer-use agents that query a language model throughout play, incurring repeated inference cost and, in real-time games, acting while the environment continues to evolve.",
   "tags": [
@@ -14885,6 +15457,47 @@
   ],
   "title": "Change the Base, Change the Game: Rethinking Pan-sharpening",
   "url": "https://arxiv.org/abs/2611.32002"
+ },
+ {
+  "categories": [
+   "nlp",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.356,
+   "genai-llm": 0.442,
+   "nlp": 1.0,
+   "open-source": 0.455,
+   "research": 0.403,
+   "security": 0.275
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Mingzhe Du",
+    "Thong Thanh Nguyen",
+    "Nguyen Tran Cong Duy",
+    "See-Kiong Ng",
+    "Luu Anh Tuan"
+   ],
+   "hf_url": "https://huggingface.co/papers/2611.33307",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.33307.png",
+   "upvotes": 3
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "tech",
+  "id": "4147f0e985f0",
+  "kind": "paper",
+  "published": "2026-11-24T00:00:00Z",
+  "score": 38.0,
+  "source_id": "hf-papers",
+  "summary": "Decision models are language models fine-tuned to return a probability for each option of a typed query, which routers and guardrails threshold directly. They are built on multilingual bases but ranked almost entirely in English. We evaluate 25 top-ranked open-weight decision models on 17 tasks in 14 languages, comparing each language with English on parallel items.",
+  "tags": [
+   "Open source",
+   "Research"
+  ],
+  "title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
+  "url": "https://arxiv.org/abs/2611.33307"
  },
  {
   "categories": [
@@ -14947,14 +15560,14 @@
    "github": "https://github.com/xiaofengShi/InstructReplay",
    "hf_url": "https://huggingface.co/papers/2611.32918",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32918.png",
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-25T13:13:17Z",
   "focus": "tech",
   "id": "31f1d742e908",
   "kind": "paper",
   "published": "2026-11-24T00:00:00Z",
-  "score": 36.0,
+  "score": 37.9,
   "source_id": "hf-papers",
   "summary": "Fine-tuning an instruction-tuned language model on new facts often erodes its general abilities. We find that standard fine-tuning lowers instruction-following, reasoning and coding benchmarks by 35 points on average, and that these losses track a collapse in answer length: fine-tuned models at least halve their responses, and the further a response drifts from the initial model's length, the more often it fails.",
   "tags": [
@@ -14985,14 +15598,14 @@
    "github": "https://github.com/TokenWave-AI/SpecEngineeringBench",
    "hf_url": "https://huggingface.co/papers/2611.32973",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32973.png",
-   "upvotes": 13
+   "upvotes": 15
   },
   "fetched": "2026-11-25T13:13:17Z",
   "focus": "tech",
   "id": "2e24b076ea5b",
   "kind": "paper",
   "published": "2026-11-24T00:00:00Z",
-  "score": 48.8,
+  "score": 50.0,
   "source_id": "hf-papers",
   "summary": "Autonomous specification engineering requires coding agents to translate functional requirements into executable tests and use the results to discover and validate defects.",
   "tags": [
@@ -17180,14 +17793,14 @@
     "Cheonbok Park",
     "Shinyoung Joo"
    ],
-   "upvotes": 10
+   "upvotes": 16
   },
   "fetched": "2026-11-24T16:09:50Z",
   "focus": "tech",
   "id": "e0099f885462",
   "kind": "paper",
   "published": "2026-11-23T18:59:32Z",
-  "score": 30.8,
+  "score": 34.5,
   "source_id": "arxiv",
   "summary": "Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging. Leveraging pretrained vision-language models offers a way to build on already learned multimodal knowledge, but making this knowledge effectively accessible to visual generation remains nontrivial.",
   "tags": [
@@ -17621,7 +18234,7 @@
     "Zhi Hou",
     "Xingang Pan"
    ],
-   "upvotes": 63
+   "upvotes": 64
   },
   "fetched": "2026-11-24T16:09:50Z",
   "focus": "tech",
@@ -20484,14 +21097,14 @@
     "Pengze Li",
     "Lintao Wang"
    ],
-   "upvotes": 11
+   "upvotes": 14
   },
   "fetched": "2026-11-24T16:09:50Z",
   "focus": "tech",
   "id": "fc0c58508aeb",
   "kind": "paper",
   "published": "2026-11-23T16:33:00Z",
-  "score": 29.5,
+  "score": 31.4,
   "source_id": "arxiv",
   "summary": "Large language models (LLMs) that continue improving after deployment (e.g., recursive self-improvement) offer a promising path toward general intelligence. Current test-time methods pursue this goal on unlabeled questions, primarily relying on self-consistency: they generate independent solutions and use majority voting to select an answer or construct training targets.",
   "tags": [
@@ -22835,7 +23448,7 @@
    "github": "https://github.com/OpenDCAI/GameFactory-3A",
    "hf_url": "https://huggingface.co/papers/2611.30013",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30013.png",
-   "upvotes": 61
+   "upvotes": 62
   },
   "fetched": "2026-11-24T16:09:50Z",
   "focus": "tech",
@@ -22915,14 +23528,14 @@
    "github": "https://github.com/OneBoxCream/DyLoMo-DiT",
    "hf_url": "https://huggingface.co/papers/2611.30844",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30844.png",
-   "upvotes": 21
+   "upvotes": 54
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "ce17b50be005",
   "kind": "paper",
   "published": "2026-11-23T00:00:00Z",
-  "score": 50.8,
+  "score": 54.0,
   "source_id": "hf-papers",
   "summary": "Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Experts (MoE) variants expand parameter capacity while keeping per-token computation roughly fixed, but still require substantial parameter storage.",
   "tags": [
@@ -23076,14 +23689,14 @@
    "github": "https://github.com/bhc6/speak-when-you-see-it",
    "hf_url": "https://huggingface.co/papers/2611.30895",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30895.png",
-   "upvotes": 1
+   "upvotes": 3
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "b50874c69963",
   "kind": "paper",
   "published": "2026-11-23T00:00:00Z",
-  "score": 30.0,
+  "score": 36.0,
   "source_id": "hf-papers",
   "summary": "Proactive assistants that guide people through physical tasks must decide, every few seconds, whether a step is complete and whether a mistake has occurred.",
   "tags": [
@@ -23363,7 +23976,7 @@
    "github": "https://github.com/AIGeeksGroup/MotionMamba2.0",
    "hf_url": "https://huggingface.co/papers/2611.29897",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.29897.png",
-   "upvotes": 217
+   "upvotes": 221
   },
   "fetched": "2026-11-24T16:09:50Z",
   "focus": "tech",
@@ -23641,7 +24254,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.30962",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30962.png",
-   "upvotes": 49
+   "upvotes": 51
   },
   "fetched": "2026-11-25T13:13:17Z",
   "focus": "tech",
@@ -23872,14 +24485,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.30581",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30581.png",
-   "upvotes": 9
+   "upvotes": 10
   },
   "fetched": "2026-11-24T16:09:50Z",
   "focus": "tech",
   "id": "5b970e073507",
   "kind": "paper",
   "published": "2026-11-23T00:00:00Z",
-  "score": 45.9,
+  "score": 46.8,
   "source_id": "hf-papers",
   "summary": "Depth-recurrent (Looped) models raise effective depth by applying a shared stack of blocks several times. Scaling them usually requires pipeline parallelism, but commonly used interleaved 1F1B is drawn for an acyclic stage graph in which each micro-batch enters each stage once.",
   "tags": [
@@ -23950,14 +24563,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.30017",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30017.png",
-   "upvotes": 1
+   "upvotes": 2
   },
   "fetched": "2026-11-25T23:41:40Z",
   "focus": "tech",
   "id": "4e66c4d6cab3",
   "kind": "paper",
   "published": "2026-11-23T00:00:00Z",
-  "score": 33.0,
+  "score": 36.5,
   "source_id": "hf-papers",
   "summary": "We present OWE-Bench (OpenWorldEngineer-Bench), a benchmark of 26 long-horizon engineering tasks written by domain experts in software engineering, physical engineering, machine learning, and scientific computing. Tasks range from optimizing kernels and designing an aircraft, to identifying the faults responsible for an earthquake.",
   "tags": [
@@ -24071,7 +24684,7 @@
    "github": "https://github.com/DravenALG/Embo-Harness",
    "hf_url": "https://huggingface.co/papers/2611.31201",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.31201.png",
-   "upvotes": 105
+   "upvotes": 106
   },
   "fetched": "2026-11-24T16:09:50Z",
   "focus": "tech",
@@ -24207,6 +24820,44 @@
   ],
   "title": "Lyris: Layout-Guided Long Video Generation with Persistent 3D Memory",
   "url": "https://arxiv.org/abs/2611.31239"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "nlp",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.285,
+   "genai-llm": 0.976,
+   "nlp": 0.725,
+   "research": 0.253
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Samy Haffoudhi",
+    "Fabian M Suchanek",
+    "Nils Holzenberger"
+   ],
+   "github": "https://github.com/samyhaff/ed-study",
+   "hf_url": "https://huggingface.co/papers/2611.30334",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30334.png",
+   "upvotes": 2
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "tech",
+  "id": "1363dc994e54",
+  "kind": "paper",
+  "published": "2026-11-23T00:00:00Z",
+  "score": 33.5,
+  "source_id": "hf-papers",
+  "summary": "Entity disambiguation (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in tasks such as knowledge graph construction, question answering, and information extraction. Recent work has applied LLMs to this problem, achieving stateof-the-art performance.",
+  "tags": [
+   "Research"
+  ],
+  "title": "When Does Reasoning Help Entity Disambiguation? Small LLMs In-Domain and Under Shift",
+  "url": "https://arxiv.org/abs/2611.30334"
  },
  {
   "categories": [
@@ -24360,14 +25011,14 @@
    "github": "https://github.com/tiankanghui/PixelOne",
    "hf_url": "https://huggingface.co/papers/2611.30235",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30235.png",
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-25T02:37:27Z",
   "focus": "tech",
   "id": "0647afc7a8cf",
   "kind": "paper",
   "published": "2026-11-23T00:00:00Z",
-  "score": 36.0,
+  "score": 37.9,
   "source_id": "hf-papers",
   "summary": "GUI grounding requires precise clicks at low latency. Recent models such as GUI-Decisions and GUI-Swift predict coordinates in one forward pass using fixed global bins with local refinement. However, screenshot downsampling removes detail needed to locate small controls, while fixed bins cover larger pixel ranges at higher resolutions.",
   "tags": [
@@ -24399,7 +25050,7 @@
    "github": "https://github.com/Caiyun-AI/LoomFormer",
    "hf_url": "https://huggingface.co/papers/2611.30634",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30634.png",
-   "upvotes": 90
+   "upvotes": 92
   },
   "fetched": "2026-11-25T13:13:17Z",
   "focus": "tech",
@@ -25279,6 +25930,49 @@
   ],
   "title": "ApexID: Hierarchical Learning for Multi-Species Animal Re-Identification",
   "url": "https://arxiv.org/abs/2611.29723"
+ },
+ {
+  "categories": [
+   "agents",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.725,
+   "ai-ml": 0.883,
+   "genai-llm": 0.389,
+   "open-source": 0.364,
+   "research": 0.291,
+   "robotics": 0.254,
+   "security": 0.254
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Jinwoo Kim",
+    "Toghrul Abbasov",
+    "Lucius E. J. Bynum",
+    "Aahlad Puli",
+    "Stephanie Milani",
+    "Hyunwoo Ryu"
+   ],
+   "github": "https://github.com/ToghrulAbbasov19/look-back",
+   "hf_url": "https://huggingface.co/papers/2611.29259",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.29259.png",
+   "upvotes": 0
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "tech",
+  "id": "e78be4c5fcbf",
+  "kind": "paper",
+  "published": "2026-11-22T00:00:00Z",
+  "score": 26.0,
+  "source_id": "hf-papers",
+  "summary": "Agents in complex, stochastic environments must contend with dynamics that can exceed their world models' predictive capacity and randomness that obscure the consequences of their actions. We hypothesize that, compared to imagining entirely new trajectories in such complex environments, it can be easier to transform observed trajectories with alternative actions.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Look Back: Reinforcement Learning with Counterfactual World Models",
+  "url": "https://arxiv.org/abs/2611.29259"
  },
  {
   "categories": [
@@ -26860,14 +27554,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.28719",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.28719.png",
-   "upvotes": 21
+   "upvotes": 22
   },
   "fetched": "2026-11-25T13:13:17Z",
   "focus": "tech",
   "id": "e2fcf3c27df3",
   "kind": "paper",
   "published": "2026-11-21T00:00:00Z",
-  "score": 50.8,
+  "score": 51.1,
   "source_id": "hf-papers",
   "summary": "We present KMed-31B, a medical large language model post-trained from an open-weight model for on-premises deployment with limited hardware. Post-training a model for diverse medical tasks remains difficult, because improving one kind of task can lower performance on another. We attribute this to differences between tasks in expected output and available feedback.",
   "tags": [
@@ -26903,7 +27597,7 @@
    "github": "https://github.com/SuJQ0722/NightWatch",
    "hf_url": "https://huggingface.co/papers/2611.28947",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.28947.png",
-   "upvotes": 99
+   "upvotes": 101
   },
   "fetched": "2026-11-25T13:13:17Z",
   "focus": "tech",
@@ -33731,14 +34425,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.27404",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27404.png",
-   "upvotes": 0
+   "upvotes": 1
   },
   "fetched": "2026-11-25T23:41:40Z",
   "focus": "tech",
   "id": "9fcec168353c",
   "kind": "paper",
   "published": "2026-11-20T00:00:00Z",
-  "score": 26.0,
+  "score": 32.0,
   "source_id": "hf-papers",
   "summary": "As the load grows, a language model makes more and more errors, but different processes stand behind this decline in quality. The model may lose the correspondence with the source text, it may keep its place in the text but execute a rule wrongly, or it may change a word that no rule concerns.",
   "tags": [
@@ -33899,6 +34593,49 @@
   ],
   "title": "VideoJSON: A Minimal Harness Beats Purpose-Built Memory for Ultra-Long Video Understanding",
   "url": "https://arxiv.org/abs/2611.28167"
+ },
+ {
+  "categories": [
+   "agents",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 1.0,
+   "ai-ml": 0.37,
+   "enterprise": 0.261,
+   "genai-llm": 0.263,
+   "open-source": 0.294,
+   "research": 0.443,
+   "robotics": 0.302,
+   "security": 0.274
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Kelvin Kiu-Wai Tam",
+    "Newt Hue-Nam K. Nguyen",
+    "Tianshi Zheng",
+    "Yunxiang Mo",
+    "Weihan Li",
+    "Zhongwei Xie"
+   ],
+   "hf_url": "https://huggingface.co/papers/2611.28244",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.28244.png",
+   "upvotes": 5
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "tech",
+  "id": "5c13a8ad0ebf",
+  "kind": "paper",
+  "published": "2026-11-20T00:00:00Z",
+  "score": 41.5,
+  "source_id": "hf-papers",
+  "summary": "Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research. However, existing agents rely on harnesses that combine multiple mechanisms, making it difficult to determine how individual components contribute to performance.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
+  "url": "https://arxiv.org/abs/2611.28244"
  },
  {
   "categories": [
@@ -43337,7 +44074,7 @@
    "github": "https://github.com/Kevin-thu/ViDecide",
    "hf_url": "https://huggingface.co/papers/2611.26389",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26389.png",
-   "upvotes": 41
+   "upvotes": 42
   },
   "fetched": "2026-11-24T16:09:50Z",
   "focus": "tech",
@@ -43459,14 +44196,14 @@
    "github": "https://github.com/inclusionAI/LingSante-MedGuard",
    "hf_url": "https://huggingface.co/papers/2611.25509",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25509.png",
-   "upvotes": 30
+   "upvotes": 31
   },
   "fetched": "2026-11-25T13:13:17Z",
   "focus": "tech",
   "id": "b1d1a0de2b43",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 53.7,
+  "score": 54.0,
   "source_id": "hf-papers",
   "summary": "As medical AI is increasingly used for patient consultation and clinical decision support, identifying harmful, non-compliant, or ethically problematic responses is essential for responsible deployment. Assessing these risks requires checking clinical claims against relevant evidence, verifying calculations, and applying medical requirements under their intended conditions.",
   "tags": [
@@ -43809,14 +44546,14 @@
    "github": "https://github.com/PKU-VaLuE-Lab/MomentMem",
    "hf_url": "https://huggingface.co/papers/2611.26745",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26745.png",
-   "upvotes": 6
+   "upvotes": 7
   },
   "fetched": "2026-11-24T16:09:50Z",
   "focus": "tech",
   "id": "939dd4e24efe",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 40.8,
+  "score": 42.0,
   "source_id": "hf-papers",
   "summary": "Robotic manipulation often requires remembering visual information that is no longer observable, such as the original location of an object. Existing approaches typically rely on full observation histories, which become redundant over long horizons, or text summaries, which may omit precise visual details. We study visual moment memory, the ability to retain such details from key moments for subsequent manipulation.",
   "tags": [
@@ -44095,7 +44832,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.25403",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25403.png",
-   "upvotes": 105
+   "upvotes": 106
   },
   "fetched": "2026-11-25T13:13:17Z",
   "focus": "tech",
@@ -73081,6 +73818,43 @@
  },
  {
   "categories": [
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.41,
+   "ai-ml": 0.266,
+   "genai-llm": 1.0,
+   "nlp": 0.28,
+   "research": 0.297,
+   "tools-launches": 0.265
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Daisuke Kikuta"
+   ],
+   "github": "https://github.com/ntt-dkiku/llm-edit-recommendation",
+   "hf_url": "https://huggingface.co/papers/2611.21155",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21155.png",
+   "upvotes": 2
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "tech",
+  "id": "7b2d31041830",
+  "kind": "paper",
+  "published": "2026-11-16T00:00:00Z",
+  "score": 33.5,
+  "source_id": "hf-papers",
+  "summary": "After a large language model (LLM) agent generates an artifact, users often send edit requests for it. This paper studies whether an LLM can anticipate these requests before they are sent. Such anticipation is useful in practice because it reduces the effort of user review and feedback.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?",
+  "url": "https://arxiv.org/abs/2611.21155"
+ },
+ {
+  "categories": [
    "agents",
    "nlp",
    "research"
@@ -73435,6 +74209,44 @@
   "tags": [],
   "title": "Split-and-Scale Latent 3D Representations",
   "url": "https://machinelearning.apple.com/research/split-scale-latent-3d"
+ },
+ {
+  "categories": [
+   "agents",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 1.0,
+   "genai-llm": 0.351,
+   "research": 0.305
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Zhe Ren",
+    "Guowei Rong",
+    "Yimeng Chen",
+    "Nanbo Li",
+    "Piotr Piękos",
+    "Mateusz Ostaszewski"
+   ],
+   "hf_url": "https://huggingface.co/papers/2611.21056",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21056.png",
+   "upvotes": 3
+  },
+  "fetched": "2026-11-26T19:09:48Z",
+  "focus": "tech",
+  "id": "24b3c47edf65",
+  "kind": "paper",
+  "published": "2026-11-16T00:00:00Z",
+  "score": 38.0,
+  "source_id": "hf-papers",
+  "summary": "Recent self-improving coding agents have achieved strong benchmark performance by iteratively modifying their own executable implementations. A common pattern uses downstream task-derived evidence to decide which candidates or lineages continue evolving, which we term evaluate-and-select.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Evaluation-Free Recursive Self-Improvement for Coding Agents",
+  "url": "https://arxiv.org/abs/2611.21056"
  },
  {
   "categories": [
@@ -89236,14 +90048,14 @@
     "Chaojie Wang",
     "Bo An"
    ],
-   "upvotes": 0
+   "upvotes": 1
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "452cb12b2107",
   "kind": "paper",
   "published": "2026-11-12T18:52:33Z",
-  "score": 8.0,
+  "score": 14.0,
   "source_id": "arxiv",
   "summary": "Reinforcement learning with verifiable rewards (RLVR) typically relies on a verifier that can reliably judge whether sampled solutions are correct. However, in many realistic settings, complete verification is generally unavailable, while cheap checks can only falsify failures.",
   "tags": [
@@ -110222,7 +111034,7 @@
    "github": "https://github.com/misraj-ai/locfix",
    "hf_url": "https://huggingface.co/papers/2611.12164",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12164.png",
-   "upvotes": 59
+   "upvotes": 60
   },
   "fetched": "2026-11-24T16:09:50Z",
   "focus": "tech",
