@@ -1,6 +1,100 @@
 [
  {
   "categories": [
+   "genai-llm"
+  ],
+  "category_scores": {
+   "ai-ml": 0.29,
+   "enterprise": 0.336,
+   "genai-llm": 0.802,
+   "open-source": 0.354,
+   "research": 0.3,
+   "security": 0.45,
+   "tools-launches": 0.385
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Matthias Bastian"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/openai_apple.png"
+  },
+  "fetched": "2026-11-28T01:30:38Z",
+  "focus": "off",
+  "id": "fbf41e8b3541",
+  "kind": "news",
+  "published": "2026-11-27T19:38:37Z",
+  "score": 14.0,
+  "source_id": "decoder",
+  "summary": "OpenAI is suing Apple in a California court, accusing it of trade secret theft and of coercing shared suppliers. The countersuit follows Apple's own lawsuit from the summer. Just two years ago, the two companies teamed up to bring ChatGPT to the iPhone.",
+  "tags": [],
+  "title": "OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers",
+  "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/"
+ },
+ {
+  "categories": [
+   "mlops"
+  ],
+  "category_scores": {
+   "ai-ml": 0.294,
+   "enterprise": 0.295,
+   "mlops": 0.988,
+   "open-source": 0.418,
+   "research": 0.406,
+   "security": 0.44,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Matthias Bastian"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/jensen_huang_china.png"
+  },
+  "fetched": "2026-11-28T01:30:38Z",
+  "focus": "tech",
+  "id": "51c822d383ea",
+  "kind": "news",
+  "published": "2026-11-27T18:27:02Z",
+  "score": 14.0,
+  "source_id": "decoder",
+  "summary": "Two Chinese companies installed Nvidia's powerful Blackwell chips at a Shanghai data center linked to Alice Huang, according to a Bloomberg investigation. A serial number led Bloomberg to Taiwanese manufacturer Gigabyte. Exporting these chips to China without a US license is illegal.",
+  "tags": [],
+  "title": "Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports",
+  "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/"
+ },
+ {
+  "categories": [
+   "genai-llm"
+  ],
+  "category_scores": {
+   "ai-ml": 0.394,
+   "genai-llm": 0.93,
+   "nlp": 0.481,
+   "open-source": 0.45,
+   "research": 0.371
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Maximilian Schreiner"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/lecun_wireframe.png"
+  },
+  "fetched": "2026-11-28T01:30:38Z",
+  "focus": "tech",
+  "id": "4d4018e508b6",
+  "kind": "news",
+  "published": "2026-11-27T16:58:56Z",
+  "score": 16.0,
+  "source_id": "decoder",
+  "summary": "Yann LeCun is pushing forward with his alternative to language models through his startup AMI Labs. The JEPA architecture aims to give machines an internal world model that captures cause and effect.",
+  "tags": [],
+  "title": "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models",
+  "url": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/"
+ },
+ {
+  "categories": [
    "mlops"
   ],
   "category_scores": {
@@ -3115,7 +3209,7 @@
     "Ran Ji",
     "Siyuan An"
    ],
-   "upvotes": 34
+   "upvotes": 59
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
@@ -6132,7 +6226,7 @@
    "github": "https://github.com/Kling-Keye/VibeVideoAgent",
    "hf_url": "https://huggingface.co/papers/2611.34237",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34237.png",
-   "upvotes": 57
+   "upvotes": 58
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
@@ -6266,6 +6360,44 @@
  },
  {
   "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 1.0,
+   "genai-llm": 0.331,
+   "open-source": 0.25
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Yankuan Chi",
+    "Xin Lin",
+    "Baihan Yang",
+    "Yuheng Liu",
+    "Jason Li",
+    "Truong Nguyen"
+   ],
+   "hf_url": "https://huggingface.co/papers/2611.33885",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.33885.png",
+   "upvotes": 0
+  },
+  "fetched": "2026-11-28T01:30:38Z",
+  "focus": "tech",
+  "id": "cc275aaa3b6b",
+  "kind": "paper",
+  "published": "2026-11-25T00:00:00Z",
+  "score": 24.0,
+  "source_id": "hf-papers",
+  "summary": "3D layout-controlled image editing gives users explicit control over object placement and camera viewpoint. In a sequence of edits, however, the latest image can lose the appearance of an object when it is occluded or leaves view. The target layout specifies where the object should reappear, while its appearance must be recovered from earlier observations.",
+  "tags": [
+   "Research"
+  ],
+  "title": "LayoutRecall: Preserving Appearance in Multi-Round 3D Layout-Controlled Image Editing",
+  "url": "https://arxiv.org/abs/2611.33885"
+ },
+ {
+  "categories": [
    "robotics",
    "computer-vision",
    "research"
@@ -6370,14 +6502,14 @@
    "github": "https://github.com/ghost233lism/StateWeaver",
    "hf_url": "https://huggingface.co/papers/2611.34290",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34290.png",
-   "upvotes": 24
+   "upvotes": 27
   },
   "fetched": "2026-11-27T03:40:41Z",
   "focus": "tech",
   "id": "b9a6b5b3831f",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 53.9,
+  "score": 54.8,
   "source_id": "hf-papers",
   "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference updates remain limited.",
   "tags": [
@@ -6697,7 +6829,7 @@
    "github": "https://github.com/OS-Copilot/OS-Omni",
    "hf_url": "https://huggingface.co/papers/2611.34232",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34232.png",
-   "upvotes": 99
+   "upvotes": 103
   },
   "fetched": "2026-11-27T03:40:41Z",
   "focus": "tech",
@@ -6901,14 +7033,14 @@
    "github": "https://github.com/YurunChen/EgoUseBench",
    "hf_url": "https://huggingface.co/papers/2611.34466",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34466.png",
-   "upvotes": 19
+   "upvotes": 20
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "653fb27d2ecd",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 51.9,
+  "score": 52.4,
   "source_id": "hf-papers",
   "summary": "AI wearables, such as smart glasses, extend the context available to agents beyond digital environments to users' physical surroundings. With these devices, computer tasks can originate from users' ongoing activities rather than solely from explicit instructions. Through first-person observations, agents can identify objects and activities relevant to user requests and ground digital tasks in the surrounding context.",
   "tags": [
@@ -6946,14 +7078,14 @@
    "github": "https://github.com/nvidia-nemo/labs-OO-Agents",
    "hf_url": "https://huggingface.co/papers/2611.34147",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34147.png",
-   "upvotes": 10
+   "upvotes": 11
   },
   "fetched": "2026-11-26T19:09:48Z",
   "focus": "tech",
   "id": "5ddc80c89f83",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 46.8,
+  "score": 47.5,
   "source_id": "hf-papers",
   "summary": "Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction that summarizes the history. We study the alternative, model-driven context management, in which the model itself decides when and what to compact through a context API.",
   "tags": [
@@ -7433,7 +7565,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.34051",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34051.png",
-   "upvotes": 124
+   "upvotes": 128
   },
   "fetched": "2026-11-27T03:40:41Z",
   "focus": "tech",
@@ -7640,7 +7772,7 @@
    "github": "https://github.com/hustvl/MoLT",
    "hf_url": "https://huggingface.co/papers/2611.34923",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34923.png",
-   "upvotes": 73
+   "upvotes": 74
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
@@ -9141,14 +9273,14 @@
     "Mengdi Wang",
     "Yifan Zhang"
    ],
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-25T13:13:17Z",
   "focus": "tech",
   "id": "2fb481c9fca1",
   "kind": "paper",
   "published": "2026-11-24T18:28:41Z",
-  "score": 22.0,
+  "score": 23.9,
   "source_id": "arxiv",
   "summary": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and still be wrong. AIChipBench asks what LLM coding agents need to build such hardware correctly.",
   "tags": [
@@ -15573,14 +15705,14 @@
    "github": "https://github.com/showlab/Play2Evolve",
    "hf_url": "https://huggingface.co/papers/2611.33457",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.33457.png",
-   "upvotes": 21
+   "upvotes": 22
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "cd99025d7275",
   "kind": "paper",
   "published": "2026-11-24T00:00:00Z",
-  "score": 50.8,
+  "score": 51.1,
   "source_id": "hf-papers",
   "summary": "Coding agents can generate runnable games from natural-language descriptions. However, a runnable game does not guarantee an excellent gameplay experience for players. In our view, a playful game should provide 1) reliable core functionality, 2) appealing visual design and assets, and 3) rich gameplay that supports exploration and progression. How agents can improve these aspects of playfulness remains underexplored.",
   "tags": [
@@ -16087,14 +16219,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.31895",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.31895.png",
-   "upvotes": 8
+   "upvotes": 9
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "65d3675b8d1b",
   "kind": "paper",
   "published": "2026-11-24T00:00:00Z",
-  "score": 45.0,
+  "score": 45.9,
   "source_id": "hf-papers",
   "summary": "Knowledge-intensive video generation remains challenging because prompts often omit the facts, appearances, and temporal relationships required for accurate generation. While search-based workflows can retrieve missing evidence, manually designed strategies limit adaptive planning, and conventional training suffers from costly video-level feedback and coarse trajectory-level credit assignment.",
   "tags": [
@@ -16239,14 +16371,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.33307",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.33307.png",
-   "upvotes": 4
+   "upvotes": 5
   },
   "fetched": "2026-11-26T19:09:48Z",
   "focus": "tech",
   "id": "4147f0e985f0",
   "kind": "paper",
   "published": "2026-11-24T00:00:00Z",
-  "score": 39.9,
+  "score": 41.5,
   "source_id": "hf-papers",
   "summary": "Decision models are language models fine-tuned to return a probability for each option of a typed query, which routers and guardrails threshold directly. They are built on multilingual bases but ranked almost entirely in English. We evaluate 25 top-ranked open-weight decision models on 17 tasks in 14 languages, comparing each language with English on parallel items.",
   "tags": [
@@ -23914,14 +24046,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.30472",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30472.png",
-   "upvotes": 16
+   "upvotes": 17
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "fce74ec0d45a",
   "kind": "paper",
   "published": "2026-11-23T00:00:00Z",
-  "score": 48.5,
+  "score": 49.0,
   "source_id": "hf-papers",
   "summary": "Part-aware 3D generation requires not only globally plausible objects but also complete, well-separated semantic parts, yet high-quality part decompositions remain too scarce to support large-scale supervised fine-tuning. We study whether preference fine-tuning based on Direct Preference Optimization (DPO) can adapt a pretrained part-aware generator from limited part-annotated data without architectural changes.",
   "tags": [
@@ -24215,6 +24347,40 @@
  },
  {
   "categories": [
+   "nlp",
+   "research"
+  ],
+  "category_scores": {
+   "genai-llm": 0.446,
+   "nlp": 1.0
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Y. Lu",
+    "L. Wang",
+    "S. Okada"
+   ],
+   "hf_url": "https://huggingface.co/papers/2611.30723",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30723.png",
+   "upvotes": 1
+  },
+  "fetched": "2026-11-28T01:30:38Z",
+  "focus": "tech",
+  "id": "de491d6b62e4",
+  "kind": "paper",
+  "published": "2026-11-23T00:00:00Z",
+  "score": 32.0,
+  "source_id": "hf-papers",
+  "summary": "Speech language models (LMs) generate speech as sequences of discrete tokens. Their tokenizer must therefore preserve both acoustic detail and linguistic content at a low bitrate. Semantic-enhanced tokenizers may lose acoustic detail, whereas acoustic-oriented tokenizers retain acoustic variation that makes language modeling harder.",
+  "tags": [
+   "Research"
+  ],
+  "title": "BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models",
+  "url": "https://arxiv.org/abs/2611.30723"
+ },
+ {
+  "categories": [
    "agents",
    "computer-vision",
    "research"
@@ -24281,7 +24447,7 @@
    "github": "https://github.com/therealram18/vernier",
    "hf_url": "https://huggingface.co/papers/2611.31619",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.31619.png",
-   "upvotes": 55
+   "upvotes": 57
   },
   "fetched": "2026-11-27T16:50:27Z",
   "focus": "tech",
@@ -24361,7 +24527,7 @@
    "github": "https://github.com/OneBoxCream/DyLoMo-DiT",
    "hf_url": "https://huggingface.co/papers/2611.30844",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30844.png",
-   "upvotes": 57
+   "upvotes": 71
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
@@ -24913,6 +25079,48 @@
  },
  {
   "categories": [
+   "research",
+   "enterprise"
+  ],
+  "category_scores": {
+   "agents": 0.286,
+   "ai-ml": 0.855,
+   "computer-vision": 0.414,
+   "enterprise": 0.586,
+   "genai-llm": 0.45,
+   "mlops": 0.263,
+   "nlp": 0.298,
+   "open-source": 0.395,
+   "research": 0.851,
+   "robotics": 0.304
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Byunggu Yu",
+    "Justin Kim"
+   ],
+   "github": "https://github.com/yumakemore/DAWIN",
+   "hf_url": "https://huggingface.co/papers/2611.30025",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30025.png",
+   "upvotes": 1
+  },
+  "fetched": "2026-11-28T01:30:38Z",
+  "focus": "tech",
+  "id": "9617e78a043e",
+  "kind": "paper",
+  "published": "2026-11-23T00:00:00Z",
+  "score": 30.0,
+  "source_id": "hf-papers",
+  "summary": "Conventional artificial neurons separate spatial feature aggregation from continuous physical time, limiting their ability to model irregular observations. We introduce the Damped Atomic Wave Integration Neuron (DAWIN), a continuous-time primitive for replacing standard neural layers in MLPs, Transformers, and graph neural networks.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning",
+  "url": "https://arxiv.org/abs/2611.30025"
+ },
+ {
+  "categories": [
    "robotics",
    "research"
   ],
@@ -25237,14 +25445,14 @@
    "github": "https://github.com/costa-nus/LCEBench",
    "hf_url": "https://huggingface.co/papers/2611.30494",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30494.png",
-   "upvotes": 2
+   "upvotes": 4
   },
   "fetched": "2026-11-27T16:50:27Z",
   "focus": "tech",
   "id": "6533ae596c96",
   "kind": "paper",
   "published": "2026-11-23T00:00:00Z",
-  "score": 33.5,
+  "score": 37.9,
   "source_id": "hf-papers",
   "summary": "As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method to efficiently steer LLMs by constructing instruction prompts or metadata without intensive training.",
   "tags": [
@@ -35436,14 +35644,14 @@
    "github": "https://github.com/moorcheh-ai/memanto-benchmark",
    "hf_url": "https://huggingface.co/papers/2611.28231",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.28231.png",
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-27T03:40:41Z",
   "focus": "tech",
   "id": "cbc23097936f",
   "kind": "paper",
   "published": "2026-11-20T00:00:00Z",
-  "score": 38.0,
+  "score": 39.9,
   "source_id": "hf-papers",
   "summary": "Memory benchmarks built on question answering tell an agent which fact to recall. Workplace requests often leave that need implicit: to post an update in the team's channel, an agent must work out which channel from earlier interactions and use it in a tool call.",
   "tags": [
