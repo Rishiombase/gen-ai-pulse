@@ -4,6 +4,106 @@
    "genai-llm"
   ],
   "category_scores": {
+   "agents": 0.26,
+   "ai-ml": 0.8,
+   "genai-llm": 0.885,
+   "open-source": 0.427,
+   "research": 0.45,
+   "security": 0.37
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Matthias Bastian"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/neural_network_coffee.png"
+  },
+  "fetched": "2026-11-28T12:00:22Z",
+  "focus": "tech",
+  "id": "2d66b9a2f223",
+  "kind": "news",
+  "published": "2026-11-28T11:12:30Z",
+  "score": 16.0,
+  "source_id": "decoder",
+  "summary": "Google Deepmind tests the reliability of 18 AI models with \"Humanity's First Exam.\" Top models solve nearly every task family at least once, but even leaders like OpenAI's GPT-6.2 Astra stumble when asked for 16 straight correct answers.",
+  "tags": [],
+  "title": "Google Deepmind's \"Humanity's First Exam\" shows top AI models still fail simple everyday tasks under repeated runs",
+  "url": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/"
+ },
+ {
+  "categories": [
+   "robotics"
+  ],
+  "category_scores": {
+   "ai-ml": 0.451,
+   "enterprise": 0.302,
+   "genai-llm": 0.306,
+   "mlops": 0.315,
+   "open-source": 0.45,
+   "research": 0.522,
+   "robotics": 0.916,
+   "security": 0.312,
+   "tools-launches": 0.386
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Matthias Bastian"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/embo_logo.png"
+  },
+  "fetched": "2026-11-28T12:00:22Z",
+  "focus": "off",
+  "id": "964c87b5f052",
+  "kind": "news",
+  "published": "2026-11-28T10:48:18Z",
+  "score": 16.0,
+  "source_id": "decoder",
+  "summary": "Embo raised $110 million in seed funding to build a universal robot brain with world models. Its AI learns how the physical world works from internet video and practices motor skills in simulation. Google Deepmind, Meta, and MIT researchers are behind the startup as the race for general-purpose robotics AI accelerates.",
+  "tags": [],
+  "title": "Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots",
+  "url": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/"
+ },
+ {
+  "categories": [
+   "open-source",
+   "tools-launches"
+  ],
+  "category_scores": {
+   "enterprise": 0.325,
+   "genai-llm": 0.501,
+   "open-source": 1.0,
+   "research": 0.311,
+   "security": 0.26,
+   "tools-launches": 0.629
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Asif Razzaq"
+   ],
+   "image": "https://www.marktechpost.com/wp-content/uploads/2026/11/image.jpeg"
+  },
+  "fetched": "2026-11-28T12:00:22Z",
+  "focus": "tech",
+  "id": "ae4039eff496",
+  "kind": "news",
+  "published": "2026-11-28T09:45:33Z",
+  "score": 26.0,
+  "source_id": "marktechpost",
+  "summary": "Ant Group has open-sourced LingSante , a family of medical and health AI models behind health app Afu. The flagship, LingSante-3.1-flash , is an open-weight medical AI model with 560B total parameters and 25B active per token. It ships under the MIT license with a 1M-token context window.",
+  "tags": [
+   "Open source",
+   "Available now"
+  ],
+  "title": "Ant Group Releases LingSante-3.1-flash: An Open-Weight MoE Model with 560B Total Parameters and 25B Activations per Token",
+  "url": "https://www.marktechpost.com/2026/11/28/ant-group-lingsante-3-1-flash-open-source-medical-ai/"
+ },
+ {
+  "categories": [
+   "genai-llm"
+  ],
+  "category_scores": {
    "ai-ml": 0.29,
    "enterprise": 0.336,
    "genai-llm": 0.802,
@@ -2451,14 +2551,14 @@
     "Chao Deng",
     "Jie Liu"
    ],
-   "upvotes": 17
+   "upvotes": 18
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "38d96de02cd0",
   "kind": "paper",
   "published": "2026-11-25T18:25:30Z",
-  "score": 38.0,
+  "score": 38.5,
   "source_id": "arxiv",
   "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores them.",
   "tags": [
@@ -3209,7 +3309,7 @@
     "Ran Ji",
     "Siyuan An"
    ],
-   "upvotes": 59
+   "upvotes": 61
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
@@ -6186,14 +6286,14 @@
    "github": "https://github.com/NVlabs/LongLive",
    "hf_url": "https://huggingface.co/papers/2611.34907",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34907.png",
-   "upvotes": 19
+   "upvotes": 25
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "fb70fae50c8d",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 49.9,
+  "score": 52.2,
   "source_id": "hf-papers",
   "summary": "Real-time autoregressive video generators stream minutes of video and accept new prompts on the fly, but struggle to keep people, objects, and places consistent over a long interactive story. Agent systems provide such memory for offline multi-shot generation, yet they read the whole script in advance, plan each shot before generating it, and regenerate failed shots, which a live stream does not allow.",
   "tags": [
@@ -6380,14 +6480,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.33885",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.33885.png",
-   "upvotes": 0
+   "upvotes": 4
   },
   "fetched": "2026-11-28T01:30:38Z",
   "focus": "tech",
   "id": "cc275aaa3b6b",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 24.0,
+  "score": 37.9,
   "source_id": "hf-papers",
   "summary": "3D layout-controlled image editing gives users explicit control over object placement and camera viewpoint. In a sequence of edits, however, the latest image can lose the appearance of an object when it is occluded or leaves view. The target layout specifies where the object should reappear, while its appearance must be recovered from earlier observations.",
   "tags": [
@@ -6711,7 +6811,7 @@
    "github": "https://github.com/HorizonWind2004/i2v-transfer",
    "hf_url": "https://huggingface.co/papers/2611.34941",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34941.png",
-   "upvotes": 46
+   "upvotes": 47
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
@@ -6829,7 +6929,7 @@
    "github": "https://github.com/OS-Copilot/OS-Omni",
    "hf_url": "https://huggingface.co/papers/2611.34232",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34232.png",
-   "upvotes": 103
+   "upvotes": 110
   },
   "fetched": "2026-11-27T03:40:41Z",
   "focus": "tech",
@@ -6947,14 +7047,14 @@
    "github": "https://github.com/vLAR-group/FoundSurface",
    "hf_url": "https://huggingface.co/papers/2611.34128",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34128.png",
-   "upvotes": 17
+   "upvotes": 18
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "6f950bb8f51e",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 49.0,
+  "score": 49.5,
   "source_id": "hf-papers",
   "summary": "Accurate 3D surface reconstruction from unposed images remains a fundamental challenge in computer vision. Recent feed-forward pointmap methods eliminate the need for camera poses but inherently produce discrete, sparse representations.",
   "tags": [
@@ -6990,14 +7090,14 @@
    "github": "https://github.com/White-YC/pixelmatte",
    "hf_url": "https://huggingface.co/papers/2611.34929",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34929.png",
-   "upvotes": 20
+   "upvotes": 21
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "6da70a697393",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 50.4,
+  "score": 50.8,
   "source_id": "hf-papers",
   "summary": "Diffusion models have shown strong potential for image matting by transferring generative priors learned from large-scale pretraining. However, existing approaches largely rely on latent diffusion models, whose compressed representations and VAE-based reconstruction introduce a mismatch with the high-frequency precision required for matting.",
   "tags": [
@@ -7078,14 +7178,14 @@
    "github": "https://github.com/nvidia-nemo/labs-OO-Agents",
    "hf_url": "https://huggingface.co/papers/2611.34147",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34147.png",
-   "upvotes": 11
+   "upvotes": 12
   },
   "fetched": "2026-11-26T19:09:48Z",
   "focus": "tech",
   "id": "5ddc80c89f83",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 47.5,
+  "score": 48.2,
   "source_id": "hf-papers",
   "summary": "Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction that summarizes the history. We study the alternative, model-driven context management, in which the model itself decides when and what to compact through a context API.",
   "tags": [
@@ -7439,14 +7539,14 @@
    "github": "https://github.com/iPPLab/HOG-WAM",
    "hf_url": "https://huggingface.co/papers/2611.34811",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34811.png",
-   "upvotes": 22
+   "upvotes": 23
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
   "id": "1e213fee8e74",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 51.1,
+  "score": 51.5,
   "source_id": "hf-papers",
   "summary": "World-action models jointly predict future observations and actions, yet visual corruption can disrupt the resulting policies. We introduce HOG-WAM, which adds future Histograms of Oriented Gradients (HOG) as structural supervision derived directly from demonstration images.",
   "tags": [
@@ -7524,14 +7624,14 @@
    "github": "https://github.com/showlab/ShowNow",
    "hf_url": "https://huggingface.co/papers/2611.34693",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34693.png",
-   "upvotes": 19
+   "upvotes": 22
   },
   "fetched": "2026-11-27T03:40:41Z",
   "focus": "tech",
   "id": "18120ed8a3ce",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 51.9,
+  "score": 53.1,
   "source_id": "hf-papers",
   "summary": "Interactive world models must generate video continuously while responding promptly to user actions. Real-time throughput alone leaves input latency unresolved: coarse generation blocks delay action updates, and generation after input adds work to the response path.",
   "tags": [
@@ -7565,7 +7665,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.34051",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34051.png",
-   "upvotes": 128
+   "upvotes": 133
   },
   "fetched": "2026-11-27T03:40:41Z",
   "focus": "tech",
@@ -7607,14 +7707,14 @@
    "github": "https://github.com/wongyun-yu/DexEngine",
    "hf_url": "https://huggingface.co/papers/2611.33579",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.33579.png",
-   "upvotes": 4
+   "upvotes": 5
   },
   "fetched": "2026-11-26T19:09:48Z",
   "focus": "tech",
   "id": "0d16ad717e3a",
   "kind": "paper",
   "published": "2026-11-25T00:00:00Z",
-  "score": 37.9,
+  "score": 39.5,
   "source_id": "hf-papers",
   "summary": "A growing body of recent work addresses the retargeting of human hand-object demonstrations to robotic hands. To train whole-robot policies, however, the retargeted motions must be kinematically feasible and physically executable, and be produced efficiently at scale. We present DexEngine, a simulation pipeline that turns human manipulation data into train-ready, physically executable arm-hand trajectories.",
   "tags": [
@@ -7772,7 +7872,7 @@
    "github": "https://github.com/hustvl/MoLT",
    "hf_url": "https://huggingface.co/papers/2611.34923",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34923.png",
-   "upvotes": 74
+   "upvotes": 76
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
@@ -8541,14 +8641,14 @@
     "Taiqiang Wu",
     "Ji Zhao"
    ],
-   "upvotes": 15
+   "upvotes": 16
   },
   "fetched": "2026-11-25T13:13:17Z",
   "focus": "tech",
   "id": "ee36507834ca",
   "kind": "paper",
   "published": "2026-11-24T18:56:22Z",
-  "score": 32.0,
+  "score": 32.5,
   "source_id": "arxiv",
   "summary": "Embodied spatial intelligence requires agents to gather information through exploration and interaction, then use it to reason and act. Existing benchmarks insufficiently distinguish correct outcomes from completion of these task requirements. We introduce ROAM-Bench to evaluate these abilities under robot motion and collision constraints.",
   "tags": [
@@ -24447,7 +24547,7 @@
    "github": "https://github.com/therealram18/vernier",
    "hf_url": "https://huggingface.co/papers/2611.31619",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.31619.png",
-   "upvotes": 57
+   "upvotes": 58
   },
   "fetched": "2026-11-27T16:50:27Z",
   "focus": "tech",
@@ -24527,7 +24627,7 @@
    "github": "https://github.com/OneBoxCream/DyLoMo-DiT",
    "hf_url": "https://huggingface.co/papers/2611.30844",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30844.png",
-   "upvotes": 71
+   "upvotes": 73
   },
   "fetched": "2026-11-26T08:38:09Z",
   "focus": "tech",
@@ -25445,14 +25545,14 @@
    "github": "https://github.com/costa-nus/LCEBench",
    "hf_url": "https://huggingface.co/papers/2611.30494",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30494.png",
-   "upvotes": 4
+   "upvotes": 5
   },
   "fetched": "2026-11-27T16:50:27Z",
   "focus": "tech",
   "id": "6533ae596c96",
   "kind": "paper",
   "published": "2026-11-23T00:00:00Z",
-  "score": 37.9,
+  "score": 39.5,
   "source_id": "hf-papers",
   "summary": "As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method to efficiently steer LLMs by constructing instruction prompts or metadata without intensive training.",
   "tags": [
@@ -75632,14 +75732,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.21056",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21056.png",
-   "upvotes": 4
+   "upvotes": 5
   },
   "fetched": "2026-11-26T19:09:48Z",
   "focus": "tech",
   "id": "24b3c47edf65",
   "kind": "paper",
   "published": "2026-11-16T00:00:00Z",
-  "score": 39.9,
+  "score": 41.5,
   "source_id": "hf-papers",
   "summary": "Recent self-improving coding agents have achieved strong benchmark performance by iteratively modifying their own executable implementations. A common pattern uses downstream task-derived evidence to decide which candidates or lineages continue evolving, which we term evaluate-and-select.",
   "tags": [
